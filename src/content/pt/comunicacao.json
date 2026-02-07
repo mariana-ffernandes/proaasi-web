@@ -1,0 +1,81 @@
+{
+    "title": "Estratégias de Comunicação",
+    "subtitle": "Escolha abaixo o seu perfil.",
+    "back": "Voltar",
+    "usuario": {
+        "title": "Usuário do aparelho",
+        "description": "Dicas para melhorar sua comunicação no dia a dia.",
+        "subtitle": "Escolha um tema abaixo.",
+        "contents": {
+            "ambientes": {
+                "title": "Ambientes para comunicação",
+                "description": "Ambientes para se comunicar",
+                "paragraph1": "Há ambientes que fazem eco como cozinhas, banheiros, salas com azulejos, igrejas, que dificultam a compreensão. Locais com muitas pessoas, com muito barulho e até mesmo lugares com pouca iluminação acabam dificultando a atenção e a compreensão do que está sendo dito, prejudicando o entendimento e a conversa.",
+                "paragraph2": "Procure conversar em ambientes iluminados e silenciosos sempre que possível. Caso não seja, tente manter a atenção ao que está sendo dito e sempre pergunte quando não compreender bem."
+            },
+            "desconforto": {
+                "title": "E se houver desconforto?",
+                "description": "Nos primeiros dias de uso, podem acontecer situações em que você precise retirar o aparelho ou iniciar o uso com um tempo menor durante o dia para ir se acostumando ao aparelho e aos novos sons com mais facilidade. Usar o aparelho é como usar um óculos.",
+                "paragraph1": "a dificuldade existe e a adaptação é difícil. Mas com o uso, torna-se melhor para, para o dia ser melhor aproveitado."
+            },
+            "duvidas": {
+                "title": "Ainda estou com dúvidas",
+                "description": "Procure o fonoaudiólogo sempre que houver dúvidas ou problemas. Sempre que surgirem dúvidas ou problemas no aparelho ou no processo adaptativo do idoso, procure o fonoaudiólogo para que ele possa ajudar."
+            },
+            "entender": {
+                "title": "Não consegui entender, e agora?",
+                "description": "A atenção é extremamente importante no processo de comunicação. Se estivermos conversando com alguém mas pensando no que preciso fazer mais tarde, ir ao mercado, arrumar a casa, não vou conseguir entender.",
+                "paragraph1": "Não porque não escutei, mas porque minha atenção estava em outro lugar. E se prestei atenção e não entendi? É importante pedir que repitam as informações que você não entender, pois nem sempre elas vão ter a certeza de que você entendeu ou não.",
+                "paragraph2": " Você pode perguntar ou dar dicas que mostrem que você não entendeu. Que tal falar: “Não entendi, por favor, fale mais devagar” ou “Poderia repetir, por favor, um pouco mais alto!” “Hummm quê? Por favor, fale olhando para mim!”"
+            },
+            "uso": {
+                "title": "Uso do aparelho auditivo",
+                "description": "É necessário utilizar o aparelho de amplificação sonora individual, durante o maior tempo possível. Utilizar os aparelhos auditivos deve ser como utilizar óculos de grau. Ao longo de todo o seu dia, para diminuir uma dificuldade. No caso dos aparelhos, a audição."
+            }
+        }
+    },
+    "parceiro": {
+        "title": "Parceiro de comunicação",
+        "description": "Dicas para familiares e amigos.",
+        "subtitle": "Escolha um tema abaixo.",
+        "contents": {
+            "atencao": {
+                "title": "Garanta a atenção e a compreensão",
+                "description": "Além do uso dos aparelhos auditivos, é interessante garantir que o idoso esteja engajado e prestando atenção na conversa em que ele está. Você pode: explicar o que está sendo conversado, avisar sempre quando mudar o assunto na conversa, incentivar que ele ou ela pergunte quando não entender o que foi dito.",
+                "paragraph1": "Sempre de maneira calma e tranquila. Sempre incentive que ele ou ela participe da conversa. Assim, você garante que o idoso está inserido na conversa, compreendendo o que está acontecendo e podendo incluir suas opiniões quando ele ou ela desejar.",
+                "paragraph2": "O que favorece, não só a audição, mas a cognição e a sensação de pertencimento."
+            },
+            "ambientes-para": {
+                "title": "Ambientes para comunicação",
+                "description": "Ambientes para se comunicar",
+                "paragraph1": "Há ambientes que fazem eco como cozinhas, banheiros, salas com azulejos, igrejas, que dificultam a compreensão. Locais com muitas pessoas, com muito barulho e até mesmo lugares com pouca iluminação acabam dificultando a atenção e a compreensão do que está sendo dito, prejudicando o entendimento e a conversa.",
+                "paragraph2": "Procure conversar em ambientes iluminados e silenciosos sempre que possível. Caso não seja, tente manter a atenção ao que está sendo dito e sempre pergunte quando não compreender bem."
+            },
+            "como-comunicar-parc": {
+                "title": "Estratégias de Comunicação com o interlocutor",
+                "description": "Ambientes para se comunicar",
+                "paragraph1": "A comunicação é uma via de mão dupla. É necessário se conectar com quem você está falando e abrir espaço para que ele também fale. Portanto, ao se comunicar, é importante olhar diretamente para o rosto da pessoa com quem estiver conversando.",
+                "paragraph2": "Quando você fala olhando para a pessoa, consegue dar mais pistas para que ela compreenda o que você está falando e sentindo. Principalmente quando você conversa com deficientes auditivos, que muitas vezes fazem a leitura labial. Imagine que você está vendo um filme em um idioma que você não é fluente, fica muito mais fácil com as legendas. O mesmo acontece com o deficiente auditivo, só que seu rosto é a legenda da comunicação dele."
+            },
+            "uso-aparelho": {
+                "title": "Uso do aparelho auditivo",
+                "description": "É necessário utilizar o aparelho de amplificação sonora individual, durante o maior tempo possível. Mas nos primeiros dias de uso, podem acontecer situações em que ele ou ela precise retirar o aparelho.",
+                "paragraph1": "Ou iniciar o uso com um tempo menor durante o dia para ir se acostumando ao aparelho e aos novos sons com mais facilidade. Usar o aparelho é como usar um óculos: a dificuldade existe e a adaptação é difícil. Mas com o uso, torna-se melhor, para o dia ser melhor aproveitado! Por isso é essencial que as pessoas que convivem com os idosos incentivem e os lembrem de usar o aparelho e criem situações que facilitem a escuta e compreensão deles."
+            },
+            "ainda-duvidas": {
+                "title": "Ainda estou com dúvidas",
+                "description": "Procure o fonoaudiólogo sempre que houver dúvidas ou problemas. Sempre que surgirem dúvidas ou problemas no aparelho ou no processo adaptativo do idoso, procure o fonoaudiólogo para que ele possa ajudar."
+            },
+            "parceiro": {
+                "title": "Importânccia dos parceiros de comunicação",
+                "description": "Os parceiros de comunicação, isto é, as pessoas que convivem e conversam com os idosos são fundamentais no dia a dia e no processo de reabilitação. Muitas vezes são eles quem percebem as dificuldades auditivas, procuram o atendimento médico e fonoaudiológico. E são as pessoas que convivem com o idoso e que conversam com ele.",
+                "paragraph1": "E na maioria das vezes ajudam no uso e manuseio do aparelho.",
+                "paragraph2": "Por isso, para que haja um uso efetivo e uma melhora na comunicação, além do idoso usar o aparelho, é necessário que o parceiro comunicativo utilize estratégias que facilitem a comunicação."
+            },
+            "incentivo": {
+                "title": "Incentivo ao uso do aparelho auditivo",
+                "description": "O processo de adaptação não é fácil. E os idosos, por muitas vezes, esquecerão de colocar os aparelhos ou acharão que não precisam do mesmo. Por isso é necessário paciência. Mas aqui vai uma dica: Espalhe lembretes pela casa."
+            }
+        }
+    }
+}

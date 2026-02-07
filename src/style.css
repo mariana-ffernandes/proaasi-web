@@ -1,0 +1,99 @@
+/* =========================
+   Reset e base
+========================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* =========================
+   Escala de fonte (A+ / A-)
+========================= */
+
+:root {
+  --font-scale: 1;
+}
+
+html {
+  font-size: var(--base-font-size, 20px);
+}
+
+/* =========================
+   TEMA PADRÃO (azul claro)
+========================= */
+
+:root {
+  /* Cores base */
+  --color-bg-main: #f3f4f6;
+  --color-bg-card: #ffffff;
+  --color-bg-header: #6b8fd6;
+
+  --color-text-main: #1f2937;
+  --color-text-light: #ffffff;
+
+  /* Botões */
+  --color-btn-bg: #ffffff;
+  --color-btn-text: #1f3a8a;
+  --color-btn-hover: #e5edff;
+
+  /* Destaques */
+  --color-accent: #1f3a8a;
+}
+
+/* =========================
+   TEMA ALTO CONTRASTE
+   (azul escuro, não preto)
+========================= */
+
+.theme-contrast {
+  --color-bg-main: #0b1f3a;
+  --color-bg-card: #102a4d;
+  --color-bg-header: #081a30;
+
+  --color-text-main: #ffffff;
+  --color-text-light: #ffffff;
+
+  --color-btn-bg: #facc15;
+  --color-btn-text: #000000;
+  --color-btn-hover: #fbbf24;
+
+  --color-accent: #facc15;
+}
+
+/* =========================
+   Aplicação global
+========================= */
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+}
+
+/* Cards (uso geral) */
+.card {
+  background-color: var(--color-bg-card);
+  border-radius: 12px;
+}
+
+/* Links */
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  opacity: 0.85;
+}

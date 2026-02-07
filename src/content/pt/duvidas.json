@@ -1,0 +1,94 @@
+{
+  "title": "Perguntas Mais Frequentes",
+  "subtitle": "Respostas rápidas para suas principais dúvidas.",
+  "back": "Voltar",
+  "items": [
+    {
+      "question": "A perda auditiva pode ser corrigida totalmente com aparelhos auditivos?",
+      "answer": "Os aparelhos auditivos oferecem melhorias significativas na capacidade auditiva, mas não garantem uma restauração completa. A eficácia varia individualmente, sendo importante discutir expectativas realistas durante os atendimentos."
+    },
+    {
+      "question": "Os aparelhos auditivos podem ser usados em diferentes ambientes, incluindo locais barulhentos?",
+      "answer": "Sim, muitos aparelhos auditivos possuem recursos para lidar com ambientes ruidosos, melhorando a compreensão da fala. O fonoaudiólogo pode ajustar as configurações conforme o necessário."
+    },
+    {
+      "question": "Posso participar de atividades físicas e usar aparelhos auditivos ao mesmo tempo?",
+      "answer": "Sim, muitos aparelhos auditivos são projetados para serem resistentes à umidade e ao suor. Se você pratica atividades físicas, informe seu fonoaudiólogo para garantir que os aparelhos atendam às suas necessidades específicas."
+    },
+    {
+      "question": "Como faço para manter e cuidar dos meus aparelhos auditivos?",
+      "answer": "A manutenção inclui a limpeza regular, troca de pilhas ou recarga (dependendo do modelo), e seguir as instruções do fabricante. Consulte o fonoaudiólogo para orientações específicas."
+    },
+    {
+      "question": "Como saber se você tem perda auditiva e precisa de um aparelho?",
+      "answer": "Se você enfrenta dificuldades para ouvir conversas, sons cotidianos ou percebe a necessidade de aumentar constantemente o volume de dispositivos de áudio, é recomendável procurar um fonoaudiólogo para realizar uma avaliação audiológica e, assim, determinar se há uma perda auditiva e se ela requer aparelho."
+    },
+    {
+      "question": "Como é o processo de adaptação aos aparelhos auditivos?",
+      "answer": "O período de adaptação varia, mas é essencial usar os aparelhos regularmente para que seu cérebro se acostume aos novos sons. Paciência e comunicação aberta com o profissional são fundamentais durante esse processo."
+    }
+  ],
+  "module": {
+    "title": "Dúvidas Frequentes",
+    "subtitle": "Escolha um tema abaixo para aprender com vídeo e explicação.",
+    "back": "Voltar ao início",
+    "topics": {
+      "correcao": {
+        "title": "A perda auditiva pode ser corrigida totalmente com aparelhos auditivos?",
+        "description": "Saiba o tempo médio de adaptação ao aparelho."
+      },
+      "ambiente": {
+        "title": "Os aparelhos auditivos podem ser usados em diferentes ambientes, incluindo locais barulhentos?",
+        "description": "Entenda os cuidados com água e umidade."
+      },
+      "atividades": {
+        "title": "Posso participar de atividades físicas e usar aparelhos auditivos ao mesmo tempo?",
+        "description": "Entenda os cuidados com água e umidade."
+      },
+      "cuidado": {
+        "title": "Como faço para manter e cuidar dos meus aparelhos auditivos?",
+        "description": "Entenda os cuidados com água e umidade."
+      },
+      "precisa-aparelho": {
+        "title": "Como saber se você tem perda auditiva e precisa de um aparelho?",
+        "description": "Entenda os cuidados com água e umidade."
+      },
+      "processo-adaptacao": {
+        "title": "Como é o processo de adaptação aos aparelhos auditivos?",
+        "description": "Entenda os cuidados com água e umidade."
+      }
+    },
+    "contents": {
+      "correcao": {
+        "title": "Quanto tempo leva a correção da perda auditiva?",
+        "paragraph1": "Os aparelhos auditivos oferecem melhorias significativas na capacidade auditiva, mas não garantem uma restauração completa.",
+        "paragraph2": "A eficácia varia individualmente, sendo importante discutir expectativas realistas durante os atendimentos."
+      },
+      "ambiente": {
+        "title": "Posso usar o aparelho durante o banho?",
+        "paragraph1": "Sim, muitos aparelhos auditivos possuem recursos para lidar com ambientes ruidosos, melhorando a compreensão da fala.",
+        "paragraph2": "O fonoaudiólogo pode ajustar as configurações conforme o necessário."
+      },
+      "atividades": {
+        "title": "Posso praticar esportes com o aparelho auditivo?",
+        "paragraph1": "Sim, muitos aparelhos auditivos são projetados para serem resistentes à umidade e ao suor.",
+        "paragraph2": "Se você pratica atividades físicas, informe seu fonoaudiólogo para garantir que os aparelhos atendam às suas necessidades específicas."
+      },
+      "cuidado": {
+        "title": "Como cuidar do meu aparelho auditivo?",
+        "paragraph1": "A manutenção inclui a limpeza regular, troca de pilhas ou recarga (dependendo do modelo), e seguir as instruções do fabricante.",
+        "paragraph2": "Consulte o fonoaudiólogo para orientações específicas."
+      },
+      "precisa-aparelho": {
+        "title": "Como saber se preciso de um aparelho auditivo?",
+        "paragraph1": "Se você enfrenta dificuldades para ouvir conversas, sons cotidianos ou percebe a necessidade de aumentar constantemente o volume de dispositivos de áudio, é recomendável procurar um fonoaudiólogo para realizar uma avaliação audiológica.",
+        "paragraph2": "Assim, será possível determinar se há uma perda auditiva e se ela requer aparelho."
+      },
+      "processo-adaptacao": {
+        "title": "Como é o processo de adaptação ao aparelho auditivo?",
+        "paragraph1": "O período de adaptação varia, mas é essencial usar os aparelhos regularmente para que seu cérebro se acostume aos novos sons.",
+        "paragraph2": "Paciência e comunicação aberta com o profissional são fundamentais durante esse processo."
+      }
+    }
+  }
+}

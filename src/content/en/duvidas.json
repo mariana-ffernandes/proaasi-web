@@ -1,0 +1,94 @@
+{
+  "title": "Frequently Asked Questions",
+  "subtitle": "Quick answers to your main questions.",
+  "back": "Back",
+  "items": [
+    {
+      "question": "Can hearing loss be fully corrected with hearing aids?",
+      "answer": "Hearing aids provide significant improvements in hearing ability, but they do not guarantee complete restoration. Effectiveness varies from person to person, and it is important to discuss realistic expectations during appointments."
+    },
+    {
+      "question": "Can hearing aids be used in different environments, including noisy places?",
+      "answer": "Yes, many hearing aids have features designed to handle noisy environments, improving speech understanding. The audiologist can adjust the settings as needed."
+    },
+    {
+      "question": "Can I take part in physical activities while using hearing aids?",
+      "answer": "Yes, many hearing aids are designed to be resistant to moisture and sweat. If you practice physical activities, inform your audiologist to ensure the devices meet your specific needs."
+    },
+    {
+      "question": "How should I maintain and care for my hearing aids?",
+      "answer": "Maintenance includes regular cleaning, battery replacement or recharging (depending on the model), and following the manufacturer’s instructions. Consult your audiologist for specific guidance."
+    },
+    {
+      "question": "How can I tell if I have hearing loss and need a hearing aid?",
+      "answer": "If you have difficulty hearing conversations or everyday sounds, or if you often need to increase the volume of audio devices, it is recommended to see an audiologist for a hearing evaluation to determine whether you have hearing loss and if a hearing aid is needed."
+    },
+    {
+      "question": "What is the adaptation process like for hearing aids?",
+      "answer": "The adaptation period varies, but it is essential to use the hearing aids regularly so your brain can adjust to the new sounds. Patience and open communication with the professional are key during this process."
+    }
+  ],
+  "module": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Choose a topic below to learn through video and explanation.",
+    "back": "Back to home",
+    "topics": {
+      "correcao": {
+        "title": "Can hearing loss be fully corrected with hearing aids?",
+        "description": "Learn about the average adaptation time for hearing aids."
+      },
+      "ambiente": {
+        "title": "Can hearing aids be used in different environments, including noisy places?",
+        "description": "Understand care related to water and moisture."
+      },
+      "atividades": {
+        "title": "Can I take part in physical activities while using hearing aids?",
+        "description": "Understand care related to water and moisture."
+      },
+      "cuidado": {
+        "title": "How should I maintain and care for my hearing aids?",
+        "description": "Understand care related to water and moisture."
+      },
+      "precisa-aparelho": {
+        "title": "How can I tell if I need a hearing aid?",
+        "description": "Understand care related to water and moisture."
+      },
+      "processo-adaptacao": {
+        "title": "What is the hearing aid adaptation process like?",
+        "description": "Understand care related to water and moisture."
+      }
+    },
+    "contents": {
+      "correcao": {
+        "title": "How long does hearing loss correction take?",
+        "paragraph1": "Hearing aids provide significant improvements in hearing ability, but they do not guarantee complete restoration.",
+        "paragraph2": "Effectiveness varies from person to person, making it important to discuss realistic expectations during appointments."
+      },
+      "ambiente": {
+        "title": "Can I use my hearing aid while showering?",
+        "paragraph1": "Yes, many hearing aids have features designed to handle noisy environments, improving speech understanding.",
+        "paragraph2": "The audiologist can adjust the settings as needed."
+      },
+      "atividades": {
+        "title": "Can I practice sports while wearing a hearing aid?",
+        "paragraph1": "Yes, many hearing aids are designed to be resistant to moisture and sweat.",
+        "paragraph2": "If you practice physical activities, inform your audiologist to ensure the devices meet your specific needs."
+      },
+      "cuidado": {
+        "title": "How should I take care of my hearing aid?",
+        "paragraph1": "Maintenance includes regular cleaning, battery replacement or recharging (depending on the model), and following the manufacturer’s instructions.",
+        "paragraph2": "Consult your audiologist for specific guidance."
+      },
+      "precisa-aparelho": {
+        "title": "How can I tell if I need a hearing aid?",
+        "paragraph1": "If you have difficulty hearing conversations or everyday sounds, or if you often need to increase the volume of audio devices, it is recommended to see an audiologist for a hearing evaluation.",
+        "paragraph2": "This will help determine whether you have hearing loss and if a hearing aid is required."
+      },
+      "processo-adaptacao": {
+        "title": "What is the hearing aid adaptation process like?",
+        "paragraph1": "The adaptation period varies, but it is essential to use the hearing aids regularly so your brain can adjust to the new sounds.",
+        "paragraph2": "Patience and open communication with the professional are essential during this process."
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Como usar o ProAASI",
+  "subtitle": "Este site foi feito para ser simples, acessível e fácil de usar.",
+
+  "steps": [
+    {
+      "title": "Escolha um módulo",
+      "text": "Selecione um dos módulos para aprender sobre audição, aparelhos auditivos e comunicação."
+    },
+    {
+      "title": "Assista ao vídeo",
+      "text": "Cada módulo possui um vídeo explicativo com linguagem simples e legendas."
+    },
+    {
+      "title": "Leia no seu ritmo",
+      "text": "Abaixo do vídeo, você encontrará textos curtos que ajudam a reforçar o conteúdo."
+    },
+    {
+      "title": "Ajuste o site para você",
+      "text": "Você pode aumentar o tamanho do texto, mudar o idioma e navegar com calma."
+    }
+  ],
+
+  "calm": "Não se preocupe. Você pode navegar com calma. Não é possível errar ou estragar o site. Sempre que quiser, use o botão Voltar ou o menu no topo da página.",
+
+  "button": "Ir para os módulos"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Introduction",
+  "subtitle": "Choose one of the topics below to get started.",
+
+  "cards": [
+    {
+      "title": "Understanding hearing",
+      "description": "Learn how human hearing works and why it can be affected.",
+      "button": "Access content"
+    },
+    {
+      "title": "Benefits of hearing aids",
+      "description": "Discover how hearing aids improve quality of life.",
+      "button": "Access content"
+    }
+  ],
+
+"audicao": {
+    "title": "Understanding hearing",
+    "paragraph1": "Hearing is one of the most important senses for communication and social interaction.",
+    "paragraph2": "It allows us to identify sounds, understand speech and perceive our surroundings.",
+    "paragraph3": "Over time, hearing can be affected by factors such as age, noise exposure, infections or genetic conditions."
+  },
+
+ "beneficios": {
+      "title": "Benefits of hearing aids",
+      "paragraph1": "Using a hearing aid significantly improves daily communication, allowing better speech understanding.",
+      "paragraph2": "With proper sound amplification, users can participate more actively in conversations and social activities.",
+      "paragraph3": "In addition, continuous use of hearing aids contributes to autonomy, quality of life, and emotional well-being."
+    },
+
+  "back": "Back"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "How to use ProAASI",
+  "subtitle": "This website was designed to be simple, accessible, and easy to use.",
+
+  "steps": [
+    {
+      "title": "Choose a module",
+      "text": "Select one of the modules to learn about hearing, hearing aids, and communication."
+    },
+    {
+      "title": "Watch the video",
+      "text": "Each module includes an explanatory video with simple language and captions."
+    },
+    {
+      "title": "Read at your own pace",
+      "text": "Below the video, you will find short texts that reinforce the content."
+    },
+    {
+      "title": "Adjust the site for you",
+      "text": "You can increase text size, change the language, and navigate calmly."
+    }
+  ],
+
+  "calm": "Don’t worry. You can explore calmly. There is no way to break or damage the site. Whenever you want, use the Back button or the top menu.",
+
+  "button": "Go to modules"
+}

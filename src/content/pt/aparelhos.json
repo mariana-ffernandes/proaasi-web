@@ -1,0 +1,290 @@
+{
+  "title": "Uso e manuseio do aparelho",
+  "subtitle": "Escolha abaixo o tipo de aparelho auditivo que você utiliza.",
+  "back": "Voltar",
+  "cards": [
+    {
+      "id": "intra",
+      "title": "Aparelho intra-aural",
+      "description": "Modelo colocado dentro do ouvido.",
+      "button": "Acessar"
+    },
+    {
+      "id": "tubo-fino",
+      "title": "Miniretroauricular com tubo fino",
+      "description": "Aparelho discreto com tubo transparente.",
+      "button": "Acessar"
+    },
+    {
+      "id": "receptor",
+      "title": "Miniretroauricular com receptor no canal",
+      "description": "Receptor posicionado dentro do ouvido.",
+      "button": "Acessar"
+    },
+    {
+      "id": "molde",
+      "title": "Miniretroauricular com molde",
+      "description": "Modelo com molde personalizado.",
+      "button": "Acessar"
+    }
+  ],
+  "intra": {
+    "title": "Aparelho intra-aural",
+    "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho intra-aural.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Desligar e ligar o aparelho",
+        "description": "Aprenda como desligar e ligar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Para desligar o aparelho intra-aural, abra o compartimento da pilha.",
+        "paragraph2": "Para ligar novamente, feche completamente o compartimento da pilha.",
+        "paragraph3": "Sempre desligue o aparelho quando não estiver em uso para economizar a pilha."
+      },
+      "limpeza": {
+        "title": "Limpar o aparelho",
+        "description": "Como fazer a limpeza correta do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "A limpeza regular ajuda a manter o bom funcionamento do aparelho.",
+        "paragraph2": "Utilize apenas pano seco ou as ferramentas recomendadas pelo fonoaudiólogo.",
+        "paragraph3": "Nunca utilize água ou produtos químicos diretamente no aparelho."
+      },
+      "retirar-colocar-pilha": {
+        "title": "Retirar e colocar pilhas",
+        "description": "Quando e como trocar a pilha do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
+        "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha"
+      },
+      "onde-guardar": {
+        "title": "Onde guardar o aparelho",
+        "description": "Dicas para armazenar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Guarde o aparelho em local seco e protegido.",
+        "paragraph2": "Evite exposição ao calor excessivo e à umidade.",
+        "paragraph3": "Utilizar uma caixa própria ajuda a prolongar a vida útil do aparelho."
+      },
+      "tamanho-pilha": {
+        "title": "Pilha: tamanho e onde comprar",
+        "description": "Onde comprar as pilhas e qual o tamanho correto.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O tamanho da pilha do seu aparelho é (número da pilha de cada tipo de aparelho). As pilhas são vendidas em lojas de aparelhos auditivos, seu fonoaudiólogo pode dar o endereço de um desses locais.",
+        "paragraph2": "Você também pode comprar as pilhas pela internet.",
+        "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
+      },
+      "trocar-filtro": {
+        "title": "Trocar o filtro de cera",
+        "description": "Aprenda quando e como trocar o filtro de cera.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O filtro de cera evita que sujeiras entrem no aparelho.",
+        "paragraph2": "Ele deve ser trocado sempre que estiver obstruído.",
+        "paragraph3": "Caso tenha dúvidas, procure orientação profissional."
+      },
+      "colocar-retirar": {
+        "title": "Como colocar e retirar o aparelho",
+        "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Como inserir: antes de inserir o aparelho na orelha, certifique-se que a pilha está corretamente inserida e a tampa fechada corretamente. Para inserir seu aparelho auditivo, segure a haste usada para inserção e remoção com o seu polegar e dedo indicador. Insira o aparelho no seu canal até o ponto em que você sinta resistência.",
+        "paragraph2": "Largue a haste usada para inserção e remoção e empurre suavemente o aparelho até que ele esteja confortavelmente dentro da orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o aparelho.",
+        "paragraph3": "Como retirar: para remover o aparelho, puxe a haste suavemente e cuidadosamente."
+      },
+      "orelha": {
+        "title": "Identificar qual aparelho é de cada orelha",
+        "description": "Como identificar o aparelho correto para cada orelha.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul. ",
+        "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
+      }
+    }
+  },
+  "tubo-fino": {
+    "title": "Miniretroauricular com tubo fino",
+    "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho com tubo fino.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Desligar e ligar o aparelho",
+        "description": "Aprenda como desligar e ligar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Para ligar o aparelho feche o compartimento de pilha e para desligar o aparelho abra o compartimento de pilha. "
+      },
+      "limpeza-oliva": {
+        "title": "Limpar a oliva",
+        "description": "Como realizar a limpeza correta da oliva do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Com um pano úmido limpe a oliva cuidadosamente. Verifique se não há cera ou qualquer outro tipo de obstrução na oliva. "
+      },
+      "limpeza-aparelho": {
+        "title": "Limpar o aparelho",
+        "description": "Como fazer a limpeza correta do corpo do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "A limpeza do aparelho ajuda a manter o bom funcionamento e a durabilidade.",
+        "paragraph2": "Utilize apenas pano seco ou as ferramentas recomendadas pelo fonoaudiólogo.",
+        "paragraph3": "Evite o contato do aparelho com água ou umidade excessiva."
+      },
+      "limpeza-tubo-fino": {
+        "title": "Limpar o tubo fino",
+        "description": "Como limpar corretamente o tubo fino do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "A limpeza do tubo deve ser realizada com um fio de limpeza. Primeiro, retire o tubo fino do aparelho auditivo.",
+        "paragraph2": "Em seguida, empurre o fio de limpeza através de todo o tubo fino. Após verificar que o tubo fino não tem nenhuma obstrução, encaixar novamente o tubo fino no aparelho auditivo."
+      },
+      "retirar-pilhas": {
+        "title": "Retirar e colocar pilhas",
+        "description": "Quando e como trocar a pilha do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
+        "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha."
+      },
+      "tamanho-pilha": {
+        "title": "Pilha: tamanho e onde comprar",
+        "description": "Onde comprar as pilhas e qual o tamanho correto.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O tamanho da pilha do seu aparelho é (número da pilha de cada tipo de aparelho). As pilhas são vendidas em lojas de aparelhos auditivos, seu fonoaudiólogo pode dar o endereço de um desses locais.",
+        "paragraph2": "Você também pode comprar as pilhas pela internet.",
+        "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
+      },
+      "colocar-retirar": {
+        "title": "Como colocar e retirar o aparelho",
+        "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Como inserir: antes de inserir o aparelho na orelha, certifique-se que a pilha está corretamente inserida e a tampa fechada corretamente. Para inserir, segure o tubo fino e oliva com seu polegar e dedo indicador.",
+        "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o tubo fino levemente.",
+        "paragraph3": "Como retirar: Para remover, tire o aparelho de trás da sua orelha e puxe suavemente o tubo fino, segurando o mais próximo a parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o tubo fino quando removido."
+      }
+    }
+  },
+  "receptor": {
+    "title": "Miniretroauricular com receptor no canal",
+    "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho com receptor no canal.",
+    "contents": {
+      "ligar-desligar": {
+        "title": "Desligar e ligar o aparelho",
+        "description": "Aprenda como desligar e ligar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Para ligar o aparelho feche o compartimento de pilha e para desligar o aparelho abra o compartimento de pilha."
+      },
+      "limpeza-oliva": {
+        "title": "Limpar a oliva",
+        "description": "Como realizar a limpeza correta da oliva do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Com um pano úmido limpe a oliva cuidadosamente. Verifique se não há cera ou qualquer outro tipo de obstrução na oliva."
+      },
+      "limpeza-aparelho": {
+        "title": "Limpar o aparelho",
+        "description": "Como fazer a limpeza correta do corpo do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Limpe seu aparelho pelo menos uma vez a cada 2 dias. Limpe o aparelho com um pano seco. Use uma escovinha/removedor de cera e/ou pano macio e seco para remover qualquer cera ou sujeira acumulada ao redor do canal e do compartimento da bateria.",
+        "paragraph2": "Em nenhuma hipótese deve-se molhar o aparelho auditivo. Não pode utilizar álcool comum, óleos e materiais de limpeza."
+      },
+      "retirar-pilhas": {
+        "title": "Retirar e colocar pilhas",
+        "description": "Quando e como trocar a pilha do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
+        "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha."
+      },
+      "tamanho-pilha": {
+        "title": "Pilha: tamanho e onde comprar",
+        "description": "Onde comprar as pilhas e qual o tamanho correto.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O tamanho da pilha do seu aparelho é (número da pilha de cada tipo de aparelho). As pilhas são vendidas em lojas de aparelhos auditivos, seu fonoaudiólogo pode dar o endereço de um desses locais.",
+        "paragraph2": "Você também pode comprar as pilhas pela internet.",
+        "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
+      },
+      "orelha": {
+        "title": "Identificar qual aparelho é de cada orelha",
+        "description": "Como identificar o aparelho correto para cada orelha.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul.",
+        "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
+      },
+      "guardar": {
+        "title": "Onde guardar o aparelho",
+        "description": "Dicas para armazenar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando não estiver usando, é importante guardar dentro da caixa do aparelho com o compartimento de pilha aberto.",
+        "paragraph2": "Manter o local sempre limpo e livre de qualquer umidade, você também pode utilizar um desumidificador ou sílica.",
+        "paragraph3": "Importante manter sempre longe do alcance de crianças pequenas e animais, nunca molhar o aparelho e nem dormir com ele."
+      },
+      "colocar-retirar": {
+        "title": "Como colocar e retirar o aparelho",
+        "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Como colocar: antes de inserir o aparelho na orelha, certifique-se que a pilha está corretamente inserida e a tampa fechada corretamente. Para inserir, segure o receptor e oliva com seu polegar e dedo indicador.",
+        "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o receptor levemente.",
+        "paragraph3": "Como retirar: para remover, tire o aparelho de trás da sua orelha e puxe suavemente o receptor, segurando o mais próximo à parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o receptor quando removido."
+      }
+    }
+  },
+  "molde": {
+    "title": "Miniretroauricular com molde",
+    "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho com molde.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Desligar e ligar o aparelho",
+        "description": "Aprenda como desligar e ligar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Para ligar o aparelho feche o compartimento de pilha e para desligar o aparelho abra o compartimento de pilha."
+      },
+      "limpeza": {
+        "title": "Limpar o molde",
+        "description": "Como realizar a limpeza correta do molde do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O molde deve ser separado do aparelho. Desencaixe o molde do gancho do aparelho, lave o molde com escova de dentes, água e sabonete líquido ou detergente neutro.",
+        "paragraph2": "Após lavar seque com um pano seco e por final utilize a bombinha de ar ou “aspirador nasal” para tirar a água do tubo do molde.",
+        "paragraph3": "Importante: Não se deve colocar o aparelho na orelha após lavar pois a umidade pode causar otite, fungos e outras complicações. Por isso, a limpeza deve ser feita diariamente antes de dormir. "
+      },
+      "limpeza-aparelho": {
+        "title": "Limpar o aparelho",
+        "description": "Como fazer a limpeza correta do corpo do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Limpe seu aparelho pelo menos uma vez a cada 2 dias. Limpe o aparelho com um pano seco. Use uma escovinha/removedor de cera e/ou pano macio e seco para remover qualquer cera ou sujeira acumulada ao redor do canal e do compartimento da bateria",
+        "paragraph2": "Em nenhuma hipótese deve-se molhar o aparelho auditivo. Não pode utilizar álcool comum, óleos e materiais de limpeza."
+      },
+      "retirar-pilha": {
+        "title": "Retirar e colocar pilhas",
+        "description": "Quando e como trocar a pilha do aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
+        "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha"
+      },
+      "tamanho-pilha": {
+        "title": "Pilha: tamanho e onde comprar",
+        "description": "Onde comprar as pilhas e qual o tamanho correto.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O tamanho da pilha do seu aparelho é (número da pilha de cada tipo de aparelho). As pilhas são vendidas em lojas de aparelhos auditivos, seu fonoaudiólogo pode dar o endereço de um desses locais.",
+        "paragraph2": "Você também pode comprar as pilhas pela internet.",
+        "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
+      },
+      "orelha": {
+        "title": "Identificar qual aparelho é de cada orelha",
+        "description": "Como identificar o aparelho correto para cada orelha.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul.",
+        "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
+      },
+      "guardar": {
+        "title": "Onde guardar o aparelho",
+        "description": "Dicas para armazenar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando não estiver usando, é importante guardar dentro da caixa do aparelho com o compartimento de pilha aberto.",
+        "paragraph2": "Manter o local sempre limpo e livre de qualquer umidade, você também pode utilizar um desumidificador ou sílica.",
+        "paragraph3": "Importante manter sempre longe do alcance de crianças pequenas e animais, nunca molhar o aparelho e nem dormir com ele."
+      },
+      "colocar-retirar": {
+        "title": "Como colocar e retirar o aparelho",
+        "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Como colocar: primeiramente certifique-se se o molde e aparelho estão de acordo com as orelhas (direita e esquerda), depois segure o aparelho sem girar na sua mão, posicionando o aparelho e o molde no mesmo sentido, coloque o molde na orelha e encaixe-o, posteriormente coloque o aparelho atrás da orelha, caso o molde não encaixe ele pode estar trocado com o da outra orelha.",
+        "paragraph2": "Como retirar: retire o aparelho da parte de trás da orelha, desencaixe o molde da orelha retirando a parte superior primeiramente e girando sempre para frente até que o molde esteja removido por completo da orelha. Evite puxar o tubo plástico para retirar o molde da orelha, senão ele pode desencaixar."
+      },
+        "trocar-tubo": {
+        "title": "Trocar o tubo do molde",
+        "description": "Como colocar e retirar corretamente o tubo do molde.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Com uma pinça ou alicate, remova o tubo de silicone do molde. Após isso, faça um corte na diagonal em uma das pontas do tubo. Após isso, encaixe a menor extremidade do tubo no molde.",
+        "paragraph2": "Utilize a pinça ou alicate para ajudar a puxar o tubo. Puxe até ajustar com o ângulo do tubo.",
+        "paragraph3": "Corte o excesso de tubo com a tesoura. Utilize o tubo anterior para nivelar a altura do tubo novo. Encaixe o tubo no gancho do aparelho."
+      }
+    }
+  }
+}

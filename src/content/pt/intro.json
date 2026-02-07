@@ -1,0 +1,33 @@
+{
+  "title": "Introdução",
+  "subtitle": "Entenda os conceitos básicos sobre audição e aparelhos auditivos",
+
+  "cards": [
+    {
+      "title": "Entendendo a audição",
+      "description": "Aprenda como funciona a audição humana e por que ela pode ser afetada.",
+      "button": "Acessar conteúdo"
+    },
+    {
+      "title": "Benefícios do aparelho auditivo",
+      "description": "Descubra como o aparelho auditivo melhora a qualidade de vida.",
+      "button": "Acessar conteúdo"
+    }
+  ],
+
+"audicao": {
+    "title": "Entendendo a audição",
+    "paragraph1": "A Orelha é o órgão responsável pela audição: a capacidade do ser humano de perceber sons. A Orelha é dividida em três partes: orelha externa, orelha média e orelha interna. A Perda Auditiva ocorre quando há uma lesão em algum órgão da orelha, diminuindo nossa capacidade de ouvir os sons. Há três tipos de perda auditiva:",
+    "paragraph2": "A perda auditiva condutiva ocorre quando a orelha média é afetada. A perda auditiva sensorioneural ocorre quando a orelha interna é afetada. A perda auditiva condutiva e mista ocorre quando tanto a orelha média (condução), quanto a interna (sensação), são afetadas. E como saber se eu estou com perda auditiva?",
+    "paragraph3": "Os comportamentos mais comuns em quem tem perda auditiva são: pedir repetição do que foi dito; Reclamar que as pessoas falam rápido ou baixo; Ter dificuldade em compreender a fala quando há muito barulho; Achar difícil entender o que estão falando quando várias pessoas falam ao mesmo tempo; Não responder corretamente às perguntas ou simplesmente não responder. É importante que você, seus familiares e cuidadores adquiram conhecimentos sobre os cuidados básicos associados ao aparelho auditivo, permitindo que, com o tempo, você alcance maior independência e retome suas atividades diárias."
+  },
+
+      "beneficios": {
+      "title": "Benefícios do aparelho auditivo",
+      "paragraph1": "O uso do aparelho auditivo melhora significativamente a comunicação no dia a dia, permitindo maior compreensão da fala.",
+      "paragraph2": "Com a amplificação adequada dos sons, o usuário passa a participar mais ativamente de conversas e atividades sociais.",
+      "paragraph3": "Além disso, o uso contínuo do aparelho contribui para a autonomia, qualidade de vida e bem-estar emocional do usuário."
+    },
+
+  "back": "Voltar"
+}

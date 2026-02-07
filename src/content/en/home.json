@@ -1,0 +1,85 @@
+{
+  "about": {
+    "title": "About ProAASI",
+    "subtitle": "A project designed for accessibility, autonomy, and inclusion.",
+    "paragraph1": "ProAASI is a platform developed with a focus on people with hearing impairment, offering clear, accessible, and easy-to-navigate content.",
+    "paragraph2": "Our goal is to help users and their families better understand hearing, the use of hearing aids, and strategies to improve everyday communication.",
+    "paragraph3": "The entire website was designed with accessibility principles in mind, such as clear text, simple language, adjustable font sizes, and intuitive navigation."
+  },
+
+  "footer": {
+    "description": "Accessible content to help you understand and use your hearing aid in daily life.",
+    "quickLinks": "Quick Links",
+    "links": {
+      "home": "Home",
+      "modules": "Modules",
+      "about": "About",
+      "howItWorks": "How It Works"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "captions": "Videos with captions",
+      "textSize": "Adjustable text size",
+      "languages": "Available in 2 languages"
+    },
+    "rights": "All rights reserved."
+  },
+
+  "hero": {
+    "badge": "Welcome to ProAASI",
+    "title": "Your accessible platform to support your hearing journey",
+    "subtitle": "Accessible content to help you understand and use your hearing aid in daily life.",
+    "button": "Explore Modules"
+  },
+
+  "servicesTitle": "Educational Modules",
+  "servicesSubtitle": "Choose a module below to start learning about your hearing aid.",
+
+  "services": [
+    {
+      "title": "Introduction to Hearing",
+      "description": "Understand hearing loss and the benefits of using hearing aids.",
+      "button": "Access"
+    },
+    {
+      "title": "Hearing Aid Use and Care",
+      "description": "Learn how to use, care for, and maintain your hearing aid properly.",
+      "button": "Access"
+    },
+    {
+      "title": "Communication Strategies",
+      "description": "Practical tips to improve communication for hearing aid users.",
+      "button": "Access"
+    },
+    {
+      "title": "Frequently Asked Questions",
+      "description": "Find answers to the most common questions about hearing aid use.",
+      "button": "Access"
+    }
+  ],
+
+  "tutorial": {
+    "title": "How to Use ProAASI",
+    "subtitle": "This website was created to be simple, accessible, and easy to use.",
+    "steps": [
+      {
+        "title": "Choose a module",
+        "text": "Select one of the modules to learn about hearing, hearing aids, and communication."
+      },
+      {
+        "title": "Watch the video",
+        "text": "Each module includes an explanatory video with simple language and captions."
+      },
+      {
+        "title": "Read at your own pace",
+        "text": "Below the video, you will find short texts that reinforce the content."
+      },
+      {
+        "title": "Customize the website for you",
+        "text": "You can increase text size, change the language, and navigate calmly."
+      }
+    ],
+    "calm": "Don’t worry — you can browse calmly. It’s not possible to make mistakes or break the website. Whenever you want, use the Back button or the top menu.",
+    "button": "Go to modules"
+  }
+}

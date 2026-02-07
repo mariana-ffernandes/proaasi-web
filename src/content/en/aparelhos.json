@@ -1,0 +1,30 @@
+{
+  "title": "Uso e manuseio do aparelho",
+  "subtitle": "Escolha abaixo o tipo de aparelho auditivo que você utiliza.",
+  "cards": [
+    {
+      "id": "intra",
+      "title": "Aparelho intra-aural",
+      "description": "Modelo colocado dentro do ouvido.",
+      "button": "Acessar"
+    },
+    {
+      "id": "tubo-fino",
+      "title": "Miniretroauricular com tubo fino",
+      "description": "Aparelho discreto com tubo transparente.",
+      "button": "Acessar"
+    },
+    {
+      "id": "receptor",
+      "title": "Miniretroauricular com receptor no canal",
+      "description": "Receptor posicionado dentro do ouvido.",
+      "button": "Acessar"
+    },
+    {
+      "id": "molde",
+      "title": "Miniretroauricular com molde",
+      "description": "Modelo com molde personalizado.",
+      "button": "Acessar"
+    }
+  ]
+}
