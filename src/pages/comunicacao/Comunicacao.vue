@@ -27,30 +27,31 @@ function go(route) {
     <!-- HERO -->
     <header class="hero">
       <div class="hero-inner">
-                <button class="back-btn" @click="router.push('/modulos')">
+        <button class="back-btn" @click="router.push('/modulos')">
           ← {{ t('comunicacao.back') }}
         </button>
 
-        <h1 class="hero-title">
-          {{ t('comunicacao.title') }}
-        </h1>
+        <div class="hero-header">
+          <img src="/images/balao-comunicacao.png" alt="" class="hero-icon" />
 
-        <p class="hero-subtitle">
-          {{ t('comunicacao.subtitle') }}
-        </p>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              {{ t('comunicacao.title') }}
+            </h1>
+
+            <p class="hero-subtitle">
+              {{ t('comunicacao.subtitle') }}
+            </p>
+          </div>
+        </div>
       </div>
     </header>
+
 
     <!-- LISTA -->
     <div class="content">
       <div class="list">
-        <button
-          v-for="item in items"
-          :key="item.key"
-          class="list-item"
-          type="button"
-          @click="go(item.route)"
-        >
+        <button v-for="item in items" :key="item.key" class="list-item" type="button" @click="go(item.route)">
           <div class="item-left">
             <h2 class="item-title">{{ t(`comunicacao.${item.key}.title`) }}</h2>
             <p class="item-desc">{{ t(`comunicacao.${item.key}.description`) }}</p>
@@ -72,21 +73,49 @@ function go(route) {
 
 /* ====== HERO (igual Introdução) ====== */
 .hero {
-  background: linear-gradient(135deg, #14b8a6, #0d7377);
-  color: #fff;
+  background: linear-gradient(180deg, #14b8a6, #0d7377);
+  color: white;
 }
 
 .hero-inner {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 72px 32px 64px;
-  position: relative;
+  padding: 56px 32px 64px;
 }
 
-.back {
-  position: absolute;
-  top: 24px;
-  left: 32px;
+.hero-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+/* ícone */
+.hero-icon {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
+}
+
+/* texto */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  max-width: 520px;
+  line-height: 1.6;
+  opacity: 0.95;
+  margin: 0;
 }
 
 .back-btn {
@@ -95,22 +124,8 @@ function go(route) {
   color: white;
   font-size: 1rem;
   cursor: pointer;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
   opacity: 0.9;
-}
-
-.hero-title {
-  font-size: clamp(2.4rem, 4vw, 3.2rem);
-  font-weight: 800;
-  margin: 0 0 12px;
-}
-
-.hero-subtitle {
-  font-size: 1.2rem;
-  opacity: 0.95;
-  max-width: 760px;
-  line-height: 1.6;
-  margin: 0;
 }
 
 /* ====== CONTENT ====== */

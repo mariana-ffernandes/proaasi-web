@@ -114,7 +114,7 @@ function go(slug) {
   padding: 26px;
   border: 1px solid rgba(15, 23, 42, 0.08);
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.06);
-
+  text-align: left;
   display: flex;
   align-items: center;
   justify-content: space-between;

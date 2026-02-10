@@ -9,12 +9,27 @@ const router = useRouter()
 
 /* cards de módulos */
 const services = [
-  { icon: '📘', route: '/intro', color: 'intro' },
-  { icon: '🦻', route: '/aparelhos', color: 'device' },
-  { icon: '💬', route: '/comunicacao', color: 'communication' },
-  { icon: '❓', route: '/duvidas', color: 'help' }
+  {
+    iconSrc: '/images/lampada-intro.png',
+    route: '/intro',
+    color: 'intro'
+  },
+  {
+    iconSrc: '/images/aparelho-aasi.png',
+    route: '/aparelhos',
+    color: 'device'
+  },
+  {
+    iconSrc: '/images/balao-comunicacao.png',
+    route: '/comunicacao',
+    color: 'communication'
+  },
+  {
+    iconSrc: '/images/ponto-interrogacao.png',
+    route: '/duvidas',
+    color: 'help'
+  }
 ]
-
 /* FAQ vindo do duvidas.json */
 const faqItems = computed(() => {
   return tm('duvidas.items') || []
@@ -63,7 +78,7 @@ const faqItems = computed(() => {
 
       <div class="services-grid">
         <div v-for="(service, index) in services" :key="service.route" class="service-card-wrapper">
-          <ServiceCard :icon="service.icon" :title="t(`home.services.${index}.title`)"
+          <ServiceCard :icon-src="service.iconSrc" :title="t(`home.services.${index}.title`)"
             :description="t(`home.services.${index}.description`)" :button-text="t(`home.services.${index}.button`)"
             :variant="service.color" :onClick="() => router.push(service.route)" />
         </div>

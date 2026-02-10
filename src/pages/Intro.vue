@@ -29,6 +29,7 @@ const items = [
         </button>
 
         <div class="intro-title-row">
+          <img src="/images/lampada-intro.png" alt="" class="hero-icon" />
 
           <div>
             <h1>{{ t('intro.title') }}</h1>
@@ -40,15 +41,8 @@ const items = [
 
     <!-- LISTA -->
     <main class="intro-content">
-      <div
-        v-for="item in items"
-        :key="item.route"
-        class="intro-item"
-        role="button"
-        tabindex="0"
-        @click="router.push(item.route)"
-        @keyup.enter="router.push(item.route)"
-      >
+      <div v-for="item in items" :key="item.route" class="intro-item" role="button" tabindex="0"
+        @click="router.push(item.route)" @keyup.enter="router.push(item.route)">
         <div>
           <h2>{{ item.title }}</h2>
           <p>{{ item.description }}</p>
@@ -74,6 +68,13 @@ const items = [
   max-width: 1200px;
   margin: 0 auto;
   padding: 48px 32px 64px;
+}
+
+.hero-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+  filter: brightness(0) invert(1);
 }
 
 .back-btn {
@@ -132,14 +133,14 @@ const items = [
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .intro-item:hover,
 .intro-item:focus {
   transform: translateY(-2px);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
 }
 
 .intro-item h2 {

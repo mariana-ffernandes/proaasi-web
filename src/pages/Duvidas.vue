@@ -26,7 +26,7 @@ function goToTopic(slug) {
         </button>
 
         <div class="hero-row">
-          <span class="hero-icon">❓</span>
+          <img src="/images/ponto-interrogacao.png" alt="" class="hero-icon" />
 
           <div>
             <h1>{{ t('duvidas.module.title') }}</h1>
@@ -38,15 +38,8 @@ function goToTopic(slug) {
 
     <!-- LISTA -->
     <main class="duvidas-content">
-      <div
-        v-for="topic in topics"
-        :key="topic.slug"
-        class="duvidas-item"
-        role="button"
-        tabindex="0"
-        @click="goToTopic(topic.slug)"
-        @keyup.enter="goToTopic(topic.slug)"
-      >
+      <div v-for="topic in topics" :key="topic.slug" class="duvidas-item" role="button" tabindex="0"
+        @click="goToTopic(topic.slug)" @keyup.enter="goToTopic(topic.slug)">
         <div class="text">
           <h2>{{ topic.title }}</h2>
           <p>{{ topic.description }}</p>
@@ -79,7 +72,10 @@ function goToTopic(slug) {
   margin-bottom: 24px;
   opacity: 0.9;
 }
-.back-btn:hover { text-decoration: underline; }
+
+.back-btn:hover {
+  text-decoration: underline;
+}
 
 .hero-row {
   display: flex;
@@ -88,7 +84,10 @@ function goToTopic(slug) {
 }
 
 .hero-icon {
-  font-size: 3rem;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+  filter: brightness(0) invert(1);
 }
 
 .duvidas-hero h1 {
@@ -119,14 +118,14 @@ function goToTopic(slug) {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: transform .2s ease, box-shadow .2s ease;
 }
 
 .duvidas-item:hover,
 .duvidas-item:focus {
   transform: translateY(-2px);
-  box-shadow: 0 10px 26px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
 }
 
 .duvidas-item h2 {
@@ -146,8 +145,16 @@ function goToTopic(slug) {
 }
 
 @media (max-width: 640px) {
-  .duvidas-hero h1 { font-size: 2rem; }
-  .duvidas-item { padding: 22px; }
-  .duvidas-item p { font-size: 0.95rem; }
+  .duvidas-hero h1 {
+    font-size: 2rem;
+  }
+
+  .duvidas-item {
+    padding: 22px;
+  }
+
+  .duvidas-item p {
+    font-size: 0.95rem;
+  }
 }
 </style>

@@ -7,10 +7,26 @@ const { t } = useI18n()
 const router = useRouter()
 
 const modules = [
-  { icon: '📚', route: '/intro', variant: 'intro' },
-  { icon: '🔧', route: '/aparelhos', variant: 'device' },
-  { icon: '💬', route: '/comunicacao', variant: 'communication' },
-  { icon: '❓', route: '/duvidas', variant: 'help' }
+  {
+    iconSrc: '/images/lampada-intro.png',
+    route: '/intro',
+    variant: 'intro'
+  },
+  {
+    iconSrc: '/images/aparelho-aasi.png',
+    route: '/aparelhos',
+    variant: 'device'
+  },
+  {
+    iconSrc: '/images/balao-comunicacao.png',
+    route: '/comunicacao',
+    variant: 'communication'
+  },
+  {
+    iconSrc: '/images/ponto-interrogacao.png',
+    route: '/duvidas',
+    variant: 'help'
+  }
 ]
 </script>
 
@@ -27,16 +43,11 @@ const modules = [
       </p>
 
       <div class="modules-grid">
-        <ServiceCard
-          v-for="(module, index) in modules"
-          :key="module.route"
-          :icon="module.icon"
-          :title="t(`home.services.${index}.title`)"
-          :description="t(`home.services.${index}.description`)"
-          :button-text="t(`home.services.${index}.button`)"
-          :onClick="() => router.push(module.route)"
-          :variant="module.variant"
-        />
+        <ServiceCard v-for="(module, index) in modules" :key="module.route" :icon-src="module.iconSrc"
+          :title="t(`home.services.${index}.title`)" :description="t(`home.services.${index}.description`)"
+          :button-text="t(`home.services.${index}.button`)" :onClick="() => router.push(module.route)"
+          :variant="module.variant" />
+
       </div>
 
     </div>

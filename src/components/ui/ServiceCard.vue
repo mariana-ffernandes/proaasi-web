@@ -1,6 +1,7 @@
 <script setup>
 defineProps({
-  icon: String,
+  icon: String,       // mantém compatibilidade (emoji)
+  iconSrc: String,    // novo: imagem
   title: String,
   description: String,
   buttonText: {
@@ -13,6 +14,7 @@ defineProps({
   },
   onClick: Function
 })
+
 </script>
 
 <template>
@@ -20,7 +22,10 @@ defineProps({
     @keyup.enter="onClick">
     <!-- Ícone -->
     <div class="service-icon">
-      {{ icon }}
+      <img v-if="iconSrc" :src="iconSrc" alt="" class="service-icon-img" />
+      <span v-else>
+        {{ iconSrc || icon }}
+      </span>
     </div>
 
     <!-- Conteúdo -->
@@ -78,6 +83,21 @@ defineProps({
   justify-content: center;
   margin-bottom: 12px;
 }
+
+.service-icon-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* deixa o ícone branco em cards escuros */
+.variant-intro .service-icon-img,
+.variant-device .service-icon-img,
+.variant-communication .service-icon-img,
+.variant-help .service-icon-img {
+  filter: brightness(0) invert(1);
+}
+
 
 /* =========================
    Título
