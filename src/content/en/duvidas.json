@@ -60,34 +60,34 @@
     },
     "contents": {
       "correcao": {
-        "title": "How long does hearing loss correction take?",
-        "paragraph1": "Hearing aids provide significant improvements in hearing ability, but they do not guarantee complete restoration.",
-        "paragraph2": "Effectiveness varies from person to person, making it important to discuss realistic expectations during appointments."
+        "title": "Can hearing loss be corrected completely with hearing aids?",
+        "paragraph1": "Hearing aids offer significant improvements in hearing ability but do not guarantee a complete restoration.",
+        "paragraph2": "Effectiveness varies individually, and discussing realistic expectations during consultations is important."
       },
       "ambiente": {
-        "title": "Can I use my hearing aid while showering?",
-        "paragraph1": "Yes, many hearing aids have features designed to handle noisy environments, improving speech understanding.",
-        "paragraph2": "The audiologist can adjust the settings as needed."
+        "title": "Can hearing aids be used in different environments, including noisy places?",
+        "paragraph1": "Yes, many hearing aids have features to handle noisy environments, improving speech understanding.",
+        "paragraph2": "The hearing care professional can adjust the settings as needed."
       },
       "atividades": {
-        "title": "Can I practice sports while wearing a hearing aid?",
-        "paragraph1": "Yes, many hearing aids are designed to be resistant to moisture and sweat.",
-        "paragraph2": "If you practice physical activities, inform your audiologist to ensure the devices meet your specific needs."
+        "title": "Can I participate in physical activities and wear hearing aids at the same time?",
+        "paragraph1": "Yes, many hearing aids are designed to resist moisture and sweat.",
+        "paragraph2": "If you practice physical activity, inform your hearing care professional to ensure the devices meet your specific needs.."
       },
       "cuidado": {
-        "title": "How should I take care of my hearing aid?",
-        "paragraph1": "Maintenance includes regular cleaning, battery replacement or recharging (depending on the model), and following the manufacturer’s instructions.",
-        "paragraph2": "Consult your audiologist for specific guidance."
+        "title": "How do I maintain and care for my hearing aids?",
+        "paragraph1": "Maintenance includes regular cleaning, changing batteries or recharging (depending on the model), and following the manufacturer's instructions.",
+        "paragraph2": "Consult your hearing care professional for specific orientations."
       },
       "precisa-aparelho": {
-        "title": "How can I tell if I need a hearing aid?",
-        "paragraph1": "If you have difficulty hearing conversations or everyday sounds, or if you often need to increase the volume of audio devices, it is recommended to see an audiologist for a hearing evaluation.",
-        "paragraph2": "This will help determine whether you have hearing loss and if a hearing aid is required."
+        "title": "How to know if you have hearing loss and need a hearing aid?",
+        "paragraph1": "If you find it difficult to hear conversations or everyday sounds or notice the need to constantly turn up the volume on audio devices.",
+        "paragraph2": "It is advisable to go to a hearing care professional for an audiological assessment to determine whether there is a hearing loss and if it requires hearing aids."
       },
       "processo-adaptacao": {
-        "title": "What is the hearing aid adaptation process like?",
-        "paragraph1": "The adaptation period varies, but it is essential to use the hearing aids regularly so your brain can adjust to the new sounds.",
-        "paragraph2": "Patience and open communication with the professional are essential during this process."
+        "title": "What is the process of adapting to hearing aids like?",
+        "paragraph1": "The adaptation period varies, but it is essential to use the devices regularly so that your brain gets used to the new sounds.",
+        "paragraph2": "Patience and open communication with the professional are fundamental during this process."
       }
     }
   }

@@ -17,16 +17,16 @@
 
 "audicao": {
     "title": "Understanding hearing",
-    "paragraph1": "Hearing is one of the most important senses for communication and social interaction.",
-    "paragraph2": "It allows us to identify sounds, understand speech and perceive our surroundings.",
-    "paragraph3": "Over time, hearing can be affected by factors such as age, noise exposure, infections or genetic conditions."
+    "paragraph1": "The Ear is the organ responsible for hearing: the human being's ability to perceive sounds. The Ear is divided into three parts: the outer ear, the middle ear, and the inner ear.",
+    "paragraph2": "Hearing Loss occurs when there is an injury to an organ of the ear, reducing our ability to hear sounds. There are three types of hearing loss: Conductive hearing loss occurs when the outer and/or middle ear is affected, Sensorineural hearing loss occurs when the inner ear is affected, Mixed hearing loss occurs when both the outer and/or middle ear (conduction) and the inner ear (sensation) are affected.  ",
+    "paragraph3": "And how do I know if I have hearing loss? The most common behaviors in those with hearing loss are: Asking for repetition of what was said; Complaining that people speak fast or quietly; Having difficulty understanding speech when there is a lot of noise; Finding it difficult to understand what they are talking about when several people are talking at the same time; Not answering questions correctly or not answering at all. It is important that you, your family members, and caregivers acquire knowledge about the basic care associated with hearing aids, allowing you, over time, to achieve greater independence and resume your daily activities."
   },
 
  "beneficios": {
       "title": "Benefits of hearing aids",
-      "paragraph1": "Using a hearing aid significantly improves daily communication, allowing better speech understanding.",
-      "paragraph2": "With proper sound amplification, users can participate more actively in conversations and social activities.",
-      "paragraph3": "In addition, continuous use of hearing aids contributes to autonomy, quality of life, and emotional well-being."
+      "paragraph1": "A hearing aid, also known as an individual sound amplification device (ISAD), is a miniaturized electronic device whose function is to amplify and magnify sounds. Hearing aids help people to hear better by enhancing the sounds in the environment according to the patient's needs.",
+      "paragraph2": "Benefits of ISAD: Significant improvement in sound perception and communication; Personalized adjustments, the device meets individual hearing needs, adapting to the user's preferences and lifestyle; Increased Quality of Life by restoring hearing; Reduced Listening Effort, providing clarity in hearing and reducing fatigue associated with prolonged concentration.",
+      "paragraph3": "In order to choose the right hearing aid for the patient, several criteria are assessed, such as audiological diagnosis, quality of life, and the patient's preferences. It is important that you, your family, and your caregivers learn about the basic care associated with hearing aids so that over time you can achieve greater independence and resume your daily activities."
     },
 
   "back": "Back"

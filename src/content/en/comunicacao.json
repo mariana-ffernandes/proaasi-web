@@ -8,29 +8,30 @@
     "subtitle": "Choose a topic below.",
     "contents": {
       "ambientes": {
-        "title": "Communication Environments",
+        "title": "Environments for communication",
         "description": "Environments for communication",
         "paragraph1": "Some environments create echo, such as kitchens, bathrooms, tiled rooms, and churches, which can make understanding difficult. Places with many people, excessive noise, or even poor lighting can reduce attention and comprehension, making conversation harder.",
         "paragraph2": "Whenever possible, try to communicate in well-lit and quiet environments. If that is not possible, focus on what is being said and always ask when you do not fully understand."
       },
       "desconforto": {
-        "title": "What if there is discomfort?",
-        "description": "In the first days of use, there may be situations where you need to remove the hearing aid or start using it for shorter periods during the day to gradually get used to the device and new sounds. Using a hearing aid is like wearing glasses.",
-        "paragraph1": "The difficulty exists and adaptation can be challenging. But with continued use, it becomes easier, allowing your day to be better enjoyed."
+        "title": "What if it's uncomfortable?",
+        "description": "In the first few days of use, there may be situations where you need to remove the device or start using it with a shorter time during the day to get used to the device and the new sounds more easily. Wearing the device is like wearing glasses...",
+        "paragraph1": "The difficulty exists and the adaptation is difficult. But with use, it becomes better for, so the day is better enjoyed!"
       },
       "duvidas": {
-        "title": "I still have questions",
+        "title": "I still have doubts, what should I do?",
         "description": "Always consult the audiologist whenever questions or problems arise. If there are any doubts or issues with the hearing aid or the adaptation process, seek professional help so proper guidance can be provided."
       },
       "entender": {
-        "title": "I couldn’t understand, what now?",
+        "title": "I couldn't understand it",
         "description": "Attention is extremely important in the communication process. If we are talking to someone but thinking about other tasks, such as errands or chores, we may not understand what is being said.",
-        "paragraph1": "Not because we didn’t hear, but because our attention was elsewhere. And if you paid attention and still didn’t understand? It is important to ask for repetition, as the other person may not realize you didn’t understand.",
-        "paragraph2": "You can ask questions or give cues that show you did not understand. For example: “I didn’t understand, could you please speak more slowly?” or “Could you repeat that a bit louder?” or “Please speak while looking at me.”"
+        "paragraph1": "Attention is extremely important in the communication process. If we're talking to someone but thinking about what I need to do later, go to the market, tidy up the house, I won't be able to understand. Not because I didn't listen, but because my attention was elsewhere.",
+        "paragraph2": "You can ask questions or give cues that show you did not understand. For example:  What if I paid attention and didn't understand? It is important to ask them to repeat the information you do not understand, as they will not always be sure whether you understood or not. You can ask or give hints that show you don't understand. How about saying: “I don't understand, please speak more slowly” or “Could you repeat, please, a little louder!” or “Hmmmm, what? Please look at me!”"
       },
       "uso": {
-        "title": "Use of the Hearing Aid",
-        "description": "It is important to use the hearing aid for as long as possible throughout the day. Using hearing aids should be like wearing prescription glasses: all day long, to reduce a difficulty — in this case, hearing."
+        "title": "Hearing aid use",
+        "description": "It is important to use the hearing aid for as long as possible throughout the day. Using hearing aids should be like wearing prescription glasses: all day long, to reduce a difficulty — in this case, hearing.",
+        "paragraph1": "It is necessary to use the individual sound amplification device for as long as possible. Wearing hearing aids should be like wearing glasses. Throughout your day, to reduce a difficulty. In the case of hearing aids, hearing."
       }
     }
   },
@@ -40,41 +41,48 @@
     "subtitle": "Choose a topic below.",
     "contents": {
       "atencao": {
-        "title": "Ensure Attention and Understanding",
+        "title": "Ensure attention and comprehension",
         "description": "In addition to hearing aid use, it is important to ensure the older adult is engaged and attentive during conversations. You can: explain what is being discussed, notify when the topic changes, and encourage questions when something is not understood.",
-        "paragraph1": "Always communicate calmly and patiently. Encourage participation so the older adult feels included, understands what is happening, and can share opinions when desired.",
-        "paragraph2": "This supports not only hearing, but also cognition and a sense of belonging."
+        "paragraph1": "In addition to using hearing aids, it is interesting to ensure that the elderly person is involved and paying attention to the conversation. You can: explain what is being said, warn them whenever you change the subject, encourage them to ask questions when they don't understand what has been said. Always in a calm and reassuring way.",
+        "paragraph2": "Always encourage them to take part in the conversation. This ensures that the elderly person is part of the conversation, understands what is going on and can give their opinion whenever they want. This encourages not only listening, but also cognition and a sense of belonging."
       },
       "ambientes-para": {
-        "title": "Communication Environments",
+        "title": "Environments for communication",
         "description": "Environments for communication",
-        "paragraph1": "Some environments create echo, such as kitchens, bathrooms, tiled rooms, and churches, which can make understanding difficult. Places with many people, excessive noise, or even poor lighting can reduce attention and comprehension.",
-        "paragraph2": "Whenever possible, communicate in well-lit and quiet environments. If that is not possible, focus on what is being said and ask questions when understanding is difficult."
+        "paragraph1": "here are environments that echo, such as kitchens, bathrooms, rooms with tiles, and churches, which make it difficult to understand. Places with many people, with a lot of noise, and even places with poor lighting end up making it difficult to pay attention and understand what is being said, impairing understanding and conversation.",
+        "paragraph2": "Try to talk in bright and quiet environments whenever possible. If it is not, try to keep your attention on what is being said and always ask when you do not understand it well."
       },
       "como-comunicar-parc": {
-        "title": "Communication Strategies with the Interlocutor",
+        "title": "How to communicate",
         "description": "Ways to improve communication",
-        "paragraph1": "Communication is a two-way process. It is necessary to connect with the person you are talking to and create space for them to speak as well. When communicating, look directly at the person’s face.",
-        "paragraph2": "Speaking while looking at the person provides visual cues that help them understand what you are saying and feeling. This is especially important for people with hearing loss who may rely on lip reading. Just like subtitles help when watching a movie in another language, your face becomes the subtitle in communication."
+        "paragraph1": "Communication is a two-way street. It is necessary to connect with the person you are talking to and make room for them to speak as well. Therefore, when communicating, it is important to look directly at the face of the person you are talking to. When you speak, looking at the person, you can give more clues so that they understand what you are saying and feeling. Especially when you talk to the hearing impaired, who often lip-read.",
+        "paragraph2": "Imagine you're watching a movie in a language you don't speak, it's much easier with subtitles. It's the same for a hearing-impaired person, only your face is the subtitle for their communication."
       },
       "uso-aparelho": {
-        "title": "Use of the Hearing Aid",
+        "title": "Hearing aid use",
         "description": "It is important to use the hearing aid as much as possible throughout the day. However, in the first days of use, there may be moments when the device needs to be removed.",
-        "paragraph1": "Or the use may begin with shorter periods during the day to gradually adapt to the device and new sounds. Using a hearing aid is like wearing glasses: adaptation can be difficult, but with use it becomes easier and improves daily life. For this reason, family members should encourage and remind older adults to use their hearing aids and help create listening-friendly environments."
+        "paragraph1": "It is necessary to use the individual sound amplifier for as long as possible. But in the first few days of use, there may be situations where he or she needs to remove the device. Or start using it with a shorter time during the day to get used to the device and the new sounds more easily. Wearing the device is like wearing glasses: the difficulty exists and the adaptation is difficult. But with use, it becomes better, so the day is better enjoyed! That is why it is essential that people who live with the elderly encourage and remind them to use the device and create situations that facilitate listening and understanding of them."
       },
       "ainda-duvidas": {
         "title": "Still have questions?",
         "description": "Always consult the audiologist whenever questions or problems arise. If there are any concerns about the hearing aid or the adaptation process, seek professional guidance."
       },
       "parceiro": {
-        "title": "Importance of Communication Partners",
+        "title": "Importance of communication partners",
         "description": "Communication partners — the people who live with and talk to older adults — play a fundamental role in daily life and in the rehabilitation process. They are often the ones who notice hearing difficulties and seek medical and audiological care.",
-        "paragraph1": "In many cases, they also help with the use and handling of the hearing aid.",
-        "paragraph2": "Therefore, for effective use and improved communication, it is essential that communication partners also use strategies that facilitate understanding."
+        "paragraph1": "Communication partners, that is, people who live and talk to the elderly, are fundamental in the day-to-day life and in the rehabilitation process. They are often the ones who notice hearing difficulties, seek medical and speech therapy. And they are the people who live with the elderly and talk to them.",
+        "paragraph2": "And most of the time they help in the use and handling of the device. Therefore, in order for there to be effective use and improvement in communication, In addition to the elderly person using the device, it is necessary for the communicative partner to use strategies that facilitate communication."
       },
       "incentivo": {
-        "title": "Encouraging Hearing Aid Use",
-        "description": "The adaptation process is not easy. Older adults may forget to wear their hearing aids or feel they do not need them. Patience is essential. One helpful tip is to place reminders around the house."
+        "title": "Encouraging the use of the device",
+        "description": "The adaptation process is not easy. Older adults may forget to wear their hearing aids or feel they do not need them. Patience is essential. One helpful tip is to place reminders around the house.",
+        "paragraph1": "The adaptation process is not easy. And the elderly, many times, will forget to put on the devices or think they don't need it. That is why patience is needed. But here's a tip: Spread reminders around the house."
+      },
+      "estrategias-interlocutor": {
+        "title": "Communication Strategies for Interlocutors",
+        "description": "Strategies that help communication partners support the hearing-impaired person.",
+        "paragraph1": "To make it easier to understand what is being said, we have some strategies. They are: Not screaming, Shouting or raising the voice distorts the sounds of speech, impairing the understanding of the hearing impaired. Do not exaggerate or reduce mouth movements when speaking, this impairs lip reading. ",
+        "paragraph2": "Always try to speak slower than normal, with an adequate voice and volumes. Avoid covering your face with gestures, sunglasses, a full beard, talking while eating or smoking. Especially in poorly lit areas, as this can also impair lip-reading. Speak as close to the person as possible as you can, the farther away, the more difficult the conversation. Explain better when you notice that the user of hearing aids they don't understand, using shorter sentences and/or replacing more complicated words with simpler words."
       }
     }
   }
