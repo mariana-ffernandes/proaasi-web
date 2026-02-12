@@ -1,11 +1,12 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import { computed } from 'vue'
 
 const { t } = useI18n()
 const router = useRouter()
 
-const items = [
+const items = computed(() => [
   {
     title: t('intro.cards.0.title'),
     description: t('intro.cards.0.description'),
@@ -16,7 +17,7 @@ const items = [
     description: t('intro.cards.1.description'),
     route: '/intro/beneficios'
   }
-]
+])
 </script>
 
 <template>

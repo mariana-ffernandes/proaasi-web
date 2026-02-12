@@ -1,6 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import { computed } from 'vue'
 import UsoCard from '@/components/ui/UsoCard.vue'
 
 const { t, tm } = useI18n()
@@ -32,6 +33,9 @@ const devices = [
     route: '/aparelhos/molde'
   }
 ]
+
+/* 🔥 Torna os cards reativos ao idioma */
+const cards = computed(() => tm('aparelhos.cards'))
 </script>
 
 <template>
@@ -40,7 +44,7 @@ const devices = [
     <header class="aparelhos-hero">
       <div class="aparelhos-hero-inner">
         <button class="back-btn" @click="router.push('/')">
-          ← Voltar ao início
+          ← {{ t('aparelhos.back') }}
         </button>
 
         <div class="hero-header">
@@ -62,7 +66,7 @@ const devices = [
     <main class="aparelhos-content">
       <div class="devices-grid">
         <UsoCard
-          v-for="(card, index) in tm('aparelhos.cards')"
+          v-for="(card, index) in cards"
           :key="devices[index].id"
           :image="devices[index].image"
           :color="devices[index].color"

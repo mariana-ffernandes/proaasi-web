@@ -21,12 +21,12 @@ const paragraphs = computed(() => [
 
 <template>
   <ContentVideoPage
-    :title="t('intro.beneficios.title')"
+    :title="t('intro.audicao.title')"
     :video-src="videoSrc"
     :paragraphs="paragraphs"
     back-route="/intro"
-    back-label="Voltar ao módulo"
+    :back-label="t('common.common.backToModule')"
     cta-route="/intro"
-    cta-label="← Ver outros conteúdos"
+    :cta-label="`← ${t('common.common.seeOtherContents')}`"
   />
 </template>

@@ -3,7 +3,8 @@
     "title": "Serviços de Acessibilidade",
     "subtitle": "Clique em uma das opções abaixo para acessar os conteúdos disponíveis."
   },
-  "common": {
-    "back": "Voltar"
-  }
+"common": {
+  "backToModule": "Voltar ao módulo",
+  "seeOtherContents": "Ver outros conteúdos"
+}
 }

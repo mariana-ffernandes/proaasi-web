@@ -3,7 +3,8 @@
     "title": "Accessibility Services",
     "subtitle": "Click one of the options below to access the available content."
   },
-    "common": {
-    "back": "Back"
-  }
+"common": {
+  "backToModule": "Back to module",
+  "seeOtherContents": "See other contents"
+}
 }

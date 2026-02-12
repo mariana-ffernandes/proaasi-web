@@ -1,30 +1,290 @@
 {
-  "title": "Uso e manuseio do aparelho",
-  "subtitle": "Escolha abaixo o tipo de aparelho auditivo que você utiliza.",
+  "title": "Use and handling of the hearing aid",
+  "subtitle": "Choose below the type of hearing aid you use.",
+  "back": "Back",
   "cards": [
     {
       "id": "intra",
-      "title": "Aparelho intra-aural",
-      "description": "Modelo colocado dentro do ouvido.",
-      "button": "Acessar"
+      "title": "In-the-ear hearing aid",
+      "description": "Model placed inside the ear.",
+      "button": "Access"
     },
     {
       "id": "tubo-fino",
-      "title": "Miniretroauricular com tubo fino",
-      "description": "Aparelho discreto com tubo transparente.",
-      "button": "Acessar"
+      "title": "Mini behind-the-ear with thin tube",
+      "description": "Discreet hearing aid with transparent tube.",
+      "button": "Access"
     },
     {
       "id": "receptor",
-      "title": "Miniretroauricular com receptor no canal",
-      "description": "Receptor posicionado dentro do ouvido.",
-      "button": "Acessar"
+      "title": "Mini behind-the-ear with receiver in canal",
+      "description": "Receiver positioned inside the ear.",
+      "button": "Access"
     },
     {
       "id": "molde",
-      "title": "Miniretroauricular com molde",
-      "description": "Modelo com molde personalizado.",
-      "button": "Acessar"
+      "title": "Mini behind-the-ear with earmold",
+      "description": "Model with custom earmold.",
+      "button": "Access"
     }
-  ]
+  ],
+  "intra": {
+    "title": "In-the-ear hearing aid",
+    "subtitle": "Choose below what you would like to learn about using the in-the-ear hearing aid.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Turn the hearing aid on and off",
+        "description": "Learn how to properly turn the hearing aid on and off.",
+        "button": "View content",
+        "paragraph1": "To turn off the in-the-ear hearing aid, open the battery compartment.",
+        "paragraph2": "To turn it on again, fully close the battery compartment.",
+        "paragraph3": "Always turn off the hearing aid when not in use to save the battery."
+      },
+      "limpeza": {
+        "title": "Clean the hearing aid",
+        "description": "How to properly clean the hearing aid.",
+        "button": "View content",
+        "paragraph1": "Regular cleaning helps maintain the proper functioning of the hearing aid.",
+        "paragraph2": "Use only a dry cloth or tools recommended by your audiologist.",
+        "paragraph3": "Never use water or chemical products directly on the hearing aid."
+      },
+      "retirar-colocar-pilha": {
+        "title": "Remove and insert batteries",
+        "description": "When and how to change the hearing aid battery.",
+        "button": "View content",
+        "paragraph1": "Remove the battery tab and wait one minute, open the battery compartment by placing your fingernail under the edge of the movable cover and carefully pull it outward.",
+        "paragraph2": "Insert the battery into the compartment, remember that the side with the + symbol (smooth side) of the battery must face up, or toward the more open side of the battery compartment, then close the battery compartment."
+      },
+      "onde-guardar": {
+        "title": "Where to store the hearing aid",
+        "description": "Tips for properly storing the hearing aid.",
+        "button": "View content",
+        "paragraph1": "Store the hearing aid in a dry and protected place.",
+        "paragraph2": "Avoid exposure to excessive heat and humidity.",
+        "paragraph3": "Using a proper case helps extend the lifespan of the hearing aid."
+      },
+      "tamanho-pilha": {
+        "title": "Battery: size and where to buy",
+        "description": "Where to buy the batteries and what the correct size is.",
+        "button": "View content",
+        "paragraph1": "The battery size for your hearing aid is (battery number for each type of hearing aid). Batteries are sold in hearing aid stores; your audiologist can provide the address of one of these places.",
+        "paragraph2": "You can also buy the batteries online.",
+        "paragraph3": "When possible, you may collect them at a public health center, as in some cities they are provided free of charge. Check whether this service is available in your city."
+      },
+      "trocar-filtro": {
+        "title": "Change the wax filter",
+        "description": "Learn when and how to replace the wax filter.",
+        "button": "View content",
+        "paragraph1": "The wax filter prevents dirt from entering the hearing aid.",
+        "paragraph2": "It should be replaced whenever it becomes blocked.",
+        "paragraph3": "If you have any doubts, seek professional guidance."
+      },
+      "colocar-retirar": {
+        "title": "How to insert and remove the hearing aid",
+        "description": "How to properly insert and remove the hearing aid from the ear.",
+        "button": "View content",
+        "paragraph1": "How to insert: before inserting the hearing aid into the ear, make sure the battery is correctly inserted and the compartment is properly closed. To insert your hearing aid, hold the insertion and removal string with your thumb and index finger. Insert the hearing aid into your ear canal until you feel resistance.",
+        "paragraph2": "Release the insertion and removal string and gently push the hearing aid until it sits comfortably inside the ear. To make insertion easier, you can use your other hand to pull the pinna (opening the ear) while gently pushing the hearing aid.",
+        "paragraph3": "How to remove: to remove the hearing aid, gently and carefully pull the insertion string."
+      },
+      "orelha": {
+        "title": "Identify which hearing aid belongs to each ear",
+        "description": "How to identify the correct hearing aid for each ear.",
+        "button": "View content",
+        "paragraph1": "The right ear hearing aid has a red mark. The left ear hearing aid has a blue mark.",
+        "paragraph2": "If it is difficult to see, ask your audiologist to make a larger marking."
+      }
+    }
+  },
+  "tubo-fino": {
+    "title": "Mini behind-the-ear with thin tube",
+    "subtitle": "Choose below what you would like to learn about using the hearing aid with thin tube.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Turn the hearing aid on and off",
+        "description": "Learn how to properly turn the hearing aid on and off.",
+        "button": "View content",
+        "paragraph1": "To turn the hearing aid on, close the battery compartment and to turn it off, open the battery compartment."
+      },
+      "limpeza-oliva": {
+        "title": "Clean the dome",
+        "description": "How to properly clean the hearing aid dome.",
+        "button": "View content",
+        "paragraph1": "With a damp cloth, carefully clean the dome. Check for earwax or any other obstruction."
+      },
+      "limpeza-aparelho": {
+        "title": "Clean the hearing aid",
+        "description": "How to properly clean the body of the hearing aid.",
+        "button": "View content",
+        "paragraph1": "Cleaning helps maintain proper functioning and durability.",
+        "paragraph2": "Use only a dry cloth or tools recommended by your audiologist.",
+        "paragraph3": "Avoid contact with water or excessive moisture."
+      },
+      "limpeza-tubo-fino": {
+        "title": "Clean the thin tube",
+        "description": "How to properly clean the thin tube of the hearing aid.",
+        "button": "View content",
+        "paragraph1": "The tube should be cleaned with a cleaning wire. First, remove the thin tube from the hearing aid.",
+        "paragraph2": "Then push the cleaning wire through the entire thin tube. After checking that there is no obstruction, reconnect the thin tube to the hearing aid."
+      },
+      "retirar-pilhas": {
+        "title": "Remove and insert batteries",
+        "description": "When and how to change the hearing aid battery.",
+        "button": "View content",
+        "paragraph1": "Remove the battery tab and wait one minute, open the battery compartment by placing your fingernail under the edge of the movable cover and carefully pull it outward.",
+        "paragraph2": "Insert the battery into the compartment, remembering that the side with the + symbol (smooth side) must face up, then close the battery compartment."
+      },
+      "tamanho-pilha": {
+        "title": "Battery: size and where to buy",
+        "description": "Where to buy batteries and what the correct size is.",
+        "button": "View content",
+        "paragraph1": "The battery size for your hearing aid is (battery number for each type of hearing aid). Batteries are sold at hearing aid stores.",
+        "paragraph2": "You can also buy batteries online.",
+        "paragraph3": "In some cities they are provided free of charge at public health centers."
+      },
+      "colocar-retirar": {
+        "title": "How to insert and remove the hearing aid",
+        "description": "How to properly insert and remove the hearing aid from the ear.",
+        "button": "View content",
+        "paragraph1": "Before inserting, make sure the battery is properly placed and the compartment is closed. Hold the thin tube and dome with your thumb and index finger.",
+        "paragraph2": "Insert carefully into the ear canal. Then gently press with your fingertip. Place the hearing aid behind your ear.",
+        "paragraph3": "To remove, take the hearing aid from behind your ear and gently pull the thin tube, holding it near the rigid part."
+      }
+    }
+  },
+  "receptor": {
+    "title": "Mini behind-the-ear with receiver in canal",
+    "subtitle": "Choose below what you would like to learn about using the hearing aid with receiver in canal.",
+    "contents": {
+      "ligar-desligar": {
+        "title": "Turn the hearing aid on and off",
+        "description": "Learn how to properly turn the hearing aid on and off.",
+        "button": "View content",
+        "paragraph1": "To turn the hearing aid on, close the battery compartment and to turn it off, open the battery compartment."
+      },
+      "limpeza-oliva": {
+        "title": "Clean the dome",
+        "description": "How to properly clean the hearing aid dome.",
+        "button": "View content",
+        "paragraph1": "With a damp cloth, carefully clean the dome. Check for earwax or any other type of obstruction."
+      },
+      "limpeza-aparelho": {
+        "title": "Clean the hearing aid",
+        "description": "How to properly clean the body of the hearing aid.",
+        "button": "View content",
+        "paragraph1": "Clean your hearing aid at least once every 2 days. Clean it with a dry cloth. Use a small brush/wax remover and/or soft dry cloth to remove any accumulated wax or dirt around the canal and battery compartment.",
+        "paragraph2": "Under no circumstances should the hearing aid be exposed to water. Do not use regular alcohol, oils, or cleaning materials."
+      },
+      "retirar-pilhas": {
+        "title": "Remove and insert batteries",
+        "description": "When and how to change the hearing aid battery.",
+        "button": "View content",
+        "paragraph1": "Remove the battery tab and wait one minute, open the battery compartment by placing your fingernail under the edge of the movable cover and carefully pull it outward.",
+        "paragraph2": "Insert the battery into the compartment, remembering that the side with the + symbol (smooth side) must face up, then close the battery compartment."
+      },
+      "tamanho-pilha": {
+        "title": "Battery: size and where to buy",
+        "description": "Where to buy batteries and what the correct size is.",
+        "button": "View content",
+        "paragraph1": "The battery size for your hearing aid is (battery number for each type of hearing aid). Batteries are sold at hearing aid stores; your audiologist can provide the address of one of these places.",
+        "paragraph2": "You can also buy batteries online.",
+        "paragraph3": "When possible, you may collect them at a public health center, as in some cities they are provided free of charge. Check whether this service is available in your city."
+      },
+      "orelha": {
+        "title": "Identify which hearing aid belongs to each ear",
+        "description": "How to identify the correct hearing aid for each ear.",
+        "button": "View content",
+        "paragraph1": "The right ear hearing aid has a red mark. The left ear hearing aid has a blue mark.",
+        "paragraph2": "If it is difficult to see, ask your audiologist to make a larger marking."
+      },
+      "guardar": {
+        "title": "Where to store the hearing aid",
+        "description": "Tips for properly storing the hearing aid.",
+        "button": "View content",
+        "paragraph1": "When not in use, it is important to store it inside the hearing aid case with the battery compartment open.",
+        "paragraph2": "Keep the place clean and free from any moisture; you can also use a dehumidifier or silica.",
+        "paragraph3": "Always keep it out of reach of small children and pets, never get the hearing aid wet and do not sleep while wearing it."
+      },
+      "colocar-retirar": {
+        "title": "How to insert and remove the hearing aid",
+        "description": "How to properly insert and remove the hearing aid from the ear.",
+        "button": "View content",
+        "paragraph1": "How to insert: before inserting the hearing aid into the ear, make sure the battery is properly inserted and the compartment is properly closed. To insert, hold the receiver and dome with your thumb and index finger.",
+        "paragraph2": "Insert carefully into the ear canal. Then gently press with your fingertip. Carefully place the hearing aid behind your ear. To make insertion easier, you can use your other hand to pull the pinna (opening the ear) while gently pushing the receiver.",
+        "paragraph3": "How to remove: to remove, take the hearing aid from behind your ear and gently pull the receiver, holding it near the rigid part. Pull up the pinna to open the canal, helping to release the receiver when removing."
+      }
+    }
+  },
+  "molde": {
+    "title": "Mini behind-the-ear with earmold",
+    "subtitle": "Choose below what you would like to learn about using the hearing aid with earmold.",
+    "contents": {
+      "desligar-ligar": {
+        "title": "Turn the hearing aid on and off",
+        "description": "Learn how to properly turn the hearing aid on and off.",
+        "button": "View content",
+        "paragraph1": "To turn the hearing aid on, close the battery compartment and to turn it off, open the battery compartment."
+      },
+      "limpeza": {
+        "title": "Clean the earmold",
+        "description": "How to properly clean the earmold of the hearing aid.",
+        "button": "View content",
+        "paragraph1": "The earmold must be separated from the hearing aid. Disconnect the earmold from the hook of the hearing aid, wash the earmold with a toothbrush, water, and liquid soap or mild detergent.",
+        "paragraph2": "After washing, dry it with a dry cloth and finally use an air blower or nasal aspirator to remove water from the earmold tube.",
+        "paragraph3": "Important: Do not place the hearing aid in your ear after washing, as moisture may cause otitis, fungi, and other complications. Therefore, cleaning should be done daily before going to sleep."
+      },
+      "limpeza-aparelho": {
+        "title": "Clean the hearing aid",
+        "description": "How to properly clean the body of the hearing aid.",
+        "button": "View content",
+        "paragraph1": "Clean your hearing aid at least once every 2 days. Clean it with a dry cloth. Use a small brush/wax remover and/or soft dry cloth to remove any accumulated wax or dirt around the canal and battery compartment.",
+        "paragraph2": "Under no circumstances should the hearing aid be exposed to water. Do not use regular alcohol, oils, or cleaning materials."
+      },
+      "retirar-pilha": {
+        "title": "Remove and insert batteries",
+        "description": "When and how to change the hearing aid battery.",
+        "button": "View content",
+        "paragraph1": "Remove the battery tab and wait one minute, open the battery compartment by placing your fingernail under the edge of the movable cover and carefully pull it outward.",
+        "paragraph2": "Insert the battery into the compartment, remembering that the side with the + symbol (smooth side) must face up, then close the battery compartment."
+      },
+      "tamanho-pilha": {
+        "title": "Battery: size and where to buy",
+        "description": "Where to buy batteries and what the correct size is.",
+        "button": "View content",
+        "paragraph1": "The battery size for your hearing aid is (battery number for each type of hearing aid). Batteries are sold at hearing aid stores; your audiologist can provide the address of one of these places.",
+        "paragraph2": "You can also buy batteries online.",
+        "paragraph3": "When possible, you may collect them at a public health center, as in some cities they are provided free of charge. Check whether this service is available in your city."
+      },
+      "orelha": {
+        "title": "Identify which hearing aid belongs to each ear",
+        "description": "How to identify the correct hearing aid for each ear.",
+        "button": "View content",
+        "paragraph1": "The right ear hearing aid has a red mark. The left ear hearing aid has a blue mark.",
+        "paragraph2": "If it is difficult to see, ask your audiologist to make a larger marking."
+      },
+      "guardar": {
+        "title": "Where to store the hearing aid",
+        "description": "Tips for properly storing the hearing aid.",
+        "button": "View content",
+        "paragraph1": "When not in use, it is important to store it inside the hearing aid case with the battery compartment open.",
+        "paragraph2": "Keep the place clean and free from any moisture; you can also use a dehumidifier or silica.",
+        "paragraph3": "Always keep it out of reach of small children and pets, never get the hearing aid wet and do not sleep while wearing it."
+      },
+      "colocar-retirar": {
+        "title": "How to insert and remove the hearing aid",
+        "description": "How to properly insert and remove the hearing aid from the ear.",
+        "button": "View content",
+        "paragraph1": "How to insert: first make sure the earmold and hearing aid correspond to the correct ears (right and left), then hold the hearing aid without twisting it in your hand, positioning the hearing aid and earmold in the same direction, place the earmold into the ear and fit it properly, then place the hearing aid behind the ear. If the earmold does not fit, it may be switched with the other ear.",
+        "paragraph2": "How to remove: remove the hearing aid from behind the ear, detach the earmold from the ear by removing the upper part first and always rotating forward until the earmold is completely removed. Avoid pulling the plastic tube to remove the earmold, as it may detach."
+      },
+      "trocar-tubo": {
+        "title": "Replace the earmold tube",
+        "description": "How to properly replace the earmold tube.",
+        "button": "View content",
+        "paragraph1": "Using tweezers or pliers, remove the silicone tube from the earmold. Then cut one end of the tube diagonally. After that, insert the smaller end of the tube into the earmold.",
+        "paragraph2": "Use tweezers or pliers to help pull the tube. Pull until it aligns with the angle of the tube.",
+        "paragraph3": "Cut the excess tube with scissors. Use the previous tube to level the height of the new tube. Attach the tube to the hearing aid hook."
+      }
+    }
+  }
 }

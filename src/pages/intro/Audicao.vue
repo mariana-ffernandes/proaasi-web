@@ -25,8 +25,8 @@ const paragraphs = computed(() => [
     :video-src="videoSrc"
     :paragraphs="paragraphs"
     back-route="/intro"
-    back-label="Voltar ao módulo"
+    :back-label="t('common.common.backToModule')"
     cta-route="/intro"
-    cta-label="← Ver outros conteúdos"
+    :cta-label="`← ${t('common.common.seeOtherContents')}`"
   />
 </template>
