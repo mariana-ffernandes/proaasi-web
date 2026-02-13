@@ -51,7 +51,9 @@ const router = useRouter()
       <div class="calm-box">
         <p>{{ t('comoFunciona.calm') }}</p>
       </div>
-      <BackButton></BackButton>
+      <div class="back-btn" to="/modulos">
+        <BackButton :to="'/modulos'" :label="t('common.common.seeOtherContents')" />
+      </div>
     </div>
   </section>
 </template>

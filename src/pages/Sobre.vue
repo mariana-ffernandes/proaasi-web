@@ -22,9 +22,9 @@ const { t } = useI18n()
       <div class="about-card">
         <p>{{ t('home.about.paragraph1') }}</p>
       </div>
-       <!-- Voltar -->
+       <!-- Voltar inicio -->
         <div class="back-btn" to="/modulos">
-      <BackButton />
+        <BackButton :to="'/modulos'" :label="t('common.common.seeOtherContents')" />
       </div>
     </div>
   </section>
