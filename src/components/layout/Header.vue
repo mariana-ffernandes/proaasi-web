@@ -10,7 +10,7 @@ const { locale } = useI18n()
 ========================= */
 const navItems = computed(() => [
   { label: locale.value === 'pt' ? 'Início' : 'Home', to: '/' },
-  { label: locale.value === 'pt' ? 'Módulos' : 'Modules', to: '/#modules' },
+  { label: locale.value === 'pt' ? 'Módulos' : 'Modules', to: '/modulos' },
   { label: locale.value === 'pt' ? 'Sobre' : 'About', to: '/sobre' }
 ])
 

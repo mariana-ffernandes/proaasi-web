@@ -8,7 +8,7 @@ const props = defineProps({
   },
   label: {
     type: String,
-    default: 'Ver outros conteúdos'
+    default: 'Voltar para o início'
   }
 })
 
@@ -32,7 +32,7 @@ const router = useRouter()
   align-items: center;
   gap: 10px;
 
-  background-color: #2563eb; /* azul forte */
+  background-color: #1e3a8a; /* azul forte */
   color: #ffffff;
 
   border: none;

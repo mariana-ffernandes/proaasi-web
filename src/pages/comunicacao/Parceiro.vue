@@ -37,12 +37,7 @@ function go(slug) {
     <!-- LISTA -->
     <div class="content">
       <div class="list">
-        <button
-          v-for="item in itens"
-          :key="item.slug"
-          class="list-item"
-          @click="go(item.slug)"
-        >
+        <button v-for="item in itens" :key="item.slug" class="list-item" @click="go(item.slug)">
           <div class="item-text">
             <h2>{{ item.title }}</h2>
             <p>{{ item.description }}</p>
@@ -51,8 +46,6 @@ function go(slug) {
           <span class="arrow">›</span>
         </button>
       </div>
-
-      <BackButton />
     </div>
   </section>
 </template>

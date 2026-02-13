@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../pages/Home.vue'
 import Modulos from '../pages/Modulos.vue'
+
 const routes = [
   /* ================= HOME ================= */
 
@@ -55,7 +56,6 @@ const routes = [
     component: () => import('../pages/Aparelhos.vue')
   },
 
-  /* LISTAS (nível 2) */
   {
     path: '/aparelhos/intra',
     name: 'aparelhos-intra',
@@ -77,14 +77,13 @@ const routes = [
     component: () => import('../pages/aparelhos/Molde.vue')
   },
 
-  /* CONTEÚDO (nível 3 – vídeo + texto) */
   {
     path: '/aparelhos/:tipo/:slug',
     name: 'aparelhos-conteudo',
     component: () => import('../pages/aparelhos/Conteudo.vue')
   },
 
-  /* ================= OUTROS ================= */
+  /* ================= COMUNICAÇÃO ================= */
 
   {
     path: '/comunicacao',
@@ -109,6 +108,9 @@ const routes = [
     name: 'comunicacao-conteudo',
     component: () => import('../pages/comunicacao/Conteudo.vue')
   },
+
+  /* ================= DÚVIDAS ================= */
+
   {
     path: '/duvidas',
     name: 'duvidas',
@@ -123,7 +125,18 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+
+  // 🔥 AQUI ESTÁ A CORREÇÃO DO SCROLL
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+      // se quiser suave:
+      // return { top: 0, behavior: 'smooth' }
+    }
+  }
 })
 
 export default router

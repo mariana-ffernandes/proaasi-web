@@ -77,7 +77,7 @@ O projeto utiliza **vue-i18n** para gerenciamento de idiomas.
 
 Para textos simples:
 
-```js
+js
 t('caminho.da.chave')
 Para listas estruturadas (arrays no JSON):
 
@@ -85,7 +85,10 @@ tm('caminho.da.lista')
 Para garantir reatividade ao trocar idioma:
 
 const lista = computed(() => tm('caminho.da.lista'))
-▶️ Como Rodar Localmente
+
+---
+
+## ▶️ Como Rodar Localmente
 1️⃣ Instalar dependências
 npm install
 2️⃣ Rodar ambiente de desenvolvimento
@@ -93,7 +96,10 @@ npm run dev
 A aplicação estará disponível em:
 
 http://localhost:5173
-🏗️ Build de Produção
+
+---
+
+## 🏗️ Build de Produção
 Gerar arquivos otimizados:
 
 npm run build
@@ -111,7 +117,9 @@ Build command: npm run build
 
 Publish directory: dist
 
-⚠️ Atenção
+---
+
+## ⚠️ Atenção
 Se forem adicionados novos vídeos:
 
 Verificar tamanho total da pasta public/videos
@@ -120,7 +128,9 @@ Conferir limite do plano Netlify
 
 Garantir que exista versão PT e EN dos vídeos
 
-♿ Diretrizes de Acessibilidade
+---
+
+## ♿ Diretrizes de Acessibilidade
 O projeto foi desenvolvido considerando:
 
 Contraste adequado de cores
@@ -137,7 +147,9 @@ Interações acessíveis via teclado quando aplicável
 
 Linguagem clara e objetiva
 
-📹 Arquivos de Vídeo
+---
+
+## 📹 Arquivos de Vídeo
 Os vídeos estão armazenados em:
 
 public/videos/
@@ -147,7 +159,10 @@ videos/
 ├── audicao/
 │   ├── audicao-pt.mp4
 │   └── audicao-en.mp4
-🧩 Fluxo para Adição de Novo Conteúdo
+
+---
+
+## 🧩 Fluxo para Adição de Novo Conteúdo
 Criar as chaves no JSON em pt
 
 Replicar exatamente a mesma estrutura no en
@@ -160,7 +175,7 @@ Testar troca de idioma
 
 Testar responsividade (mobile, tablet e desktop)
 
-🛠️ Boas Práticas de Manutenção
+## 🛠️ Boas Práticas de Manutenção
 Evitar lógica complexa diretamente nas páginas
 
 Priorizar componentização
@@ -173,13 +188,13 @@ Manter commits descritivos
 
 Validar navegação após alterações no router
 
-📚 Contexto Acadêmico
+## 📚 Contexto Acadêmico
 Projeto desenvolvido no âmbito do:
 
 Programa de Pós-Graduação em Fonoaudiologia
 Faculdade de Odontologia de Bauru – Universidade de São Paulo (USP)
 
-📄 Licença
+## 📄 Licença
 Projeto acadêmico institucional.
 Uso restrito para fins educacionais e científicos.
 

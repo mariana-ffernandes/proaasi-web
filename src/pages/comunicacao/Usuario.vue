@@ -46,7 +46,6 @@ function go(slug) {
           <span class="arrow">›</span>
         </button>
       </div>
-      <BackButton />
     </div>
   </section>
 </template>

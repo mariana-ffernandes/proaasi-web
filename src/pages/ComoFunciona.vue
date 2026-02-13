@@ -51,9 +51,7 @@ const router = useRouter()
       <div class="calm-box">
         <p>{{ t('comoFunciona.calm') }}</p>
       </div>
-
-      <!-- Voltar -->
-      <BackButton />
+      <BackButton></BackButton>
     </div>
   </section>
 </template>

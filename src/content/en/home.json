@@ -2,11 +2,8 @@
   "about": {
     "title": "About ProAASI",
     "subtitle": "A project designed for accessibility, autonomy, and inclusion.",
-    "paragraph1": "ProAASI is a platform developed with a focus on people with hearing impairment, offering clear, accessible, and easy-to-navigate content.",
-    "paragraph2": "Our goal is to help users and their families better understand hearing, the use of hearing aids, and strategies to improve everyday communication.",
-    "paragraph3": "The entire website was designed with accessibility principles in mind, such as clear text, simple language, adjustable font sizes, and intuitive navigation."
+    "paragraph1": "ProAASI is a platform developed with a focus on people with hearing impairment, offering clear, accessible, and easy-to-navigate content."
   },
-
   "footer": {
     "description": "Accessible content to help you understand and use your hearing aid in daily life.",
     "quickLinks": "Quick Links",
