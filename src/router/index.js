@@ -127,13 +127,12 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
 
-  // 🔥 AQUI ESTÁ A CORREÇÃO DO SCROLL
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition
     } else {
       return { top: 0 }
-      // se quiser suave:
+      // suave:
       // return { top: 0, behavior: 'smooth' }
     }
   }
