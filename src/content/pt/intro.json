@@ -1,33 +1,62 @@
 {
   "title": "Introdução",
   "subtitle": "Entenda os conceitos básicos sobre audição e aparelhos auditivos",
-
-  "cards": [
-    {
-      "title": "Entendendo a audição",
-      "description": "Aprenda como funciona a audição humana e por que ela pode ser afetada.",
-      "button": "Acessar conteúdo"
+  "modules": {
+    "modulo1": {
+      "title": "Módulo 1",
+      "description": "Audição, perda auditiva e obtenção de suporte.",
+      "contents": {
+        "introducao": {
+          "title": "Introdução à audição",
+          "description": "Entenda os conceitos básicos sobre audição e perda auditiva.",
+          "paragraph1": "Nesse módulo você irá aprender: O que é audição? Como nós escutamos os sons? O que é perda auditiva? Quais os tipos de perdas auditivas? Quais os comportamentos mais comuns que a pessoa com perda auditiva possui?",
+          "paragraph2": "Audição é a capacidade que o ser humano possui de perceber os sons. E a orelha é o órgão responsável por essa capacidade. Sendo ela dividida em três partes: orelha externa, orelha média e orelha interna. As ondas sonoras são captadas pela orelha externa que é constituída pelo pavilhão auricular e pelo meato acústico externo, um tubo que leva essas ondas sonoras até a membrana timpânica.",
+          "paragraph3": "A orelha média tem início na membrana timpânica e envolve uma cavidade onde há pequenos ossos (ossículos) que ajudam na transmissão do som. A orelha interna é constituída pela cóclea, cuja função é “reconhecer” o som, e pelo nervo auditivo, que levará essa informação ao cérebro para processá-la."
+        },
+        "perda-auditiva": {
+          "title": "Perda auditiva",
+          "description": "Entenda o que é perda auditiva, seus tipos e comportamentos comuns.",
+          "paragraph1": "A perda auditiva ocorre quando há uma lesão em algum órgão da orelha, diminuindo nossa capacidade de perceber, ou seja, ouvir os sons. Há três tipos de perdas auditivas e elas são categorizadas de acordo com a área afetada da orelha.",
+          "paragraph2": "A perda auditiva condutiva ocorre quando a orelha externa e/ou média é afetada. Como vimos, essa parte da orelha é responsável pela condução de ondas sonoras. Ela ocorre em decorrência de algo bloqueando a passagem de som, como rolhas de cera ou otites. Como resultado, o som fica mais “baixo”. A perda auditiva sensorioneural ocorre quando a orelha interna é afetada. Além do som ficar mais baixo, fica mais difícil entender o que está sendo dito.",
+          "paragraph3": "Já a perda auditiva mista ocorre quando, tanto a orelha externa e/ou média (condução) quanto a interna (sensação), são afetadas. O som fica ainda mais baixo, já que há mais bloqueios dentro da orelha, prejudicando ainda mais na compreensão do que está sendo dito.",
+          "paragraph4": "E como saber se eu estou com perda auditiva? Os comportamentos mais comuns em quem tem perda auditiva são: Pedir repetição do que foi dito; Reclamar que as pessoas falam rápido ou/e baixo; Ter dificuldade em compreender a fala quando há muito barulho; Achar difícil entender o que estão falando quando várias pessoas falam ao mesmo tempo; Não responder corretamente às perguntas ou simplesmente não responder."
+        },
+        "suporte": {
+          "title": "Atenção: obtendo suporte",
+          "description": "Saiba a importância de buscar avaliação profissional e acompanhamento adequado.",
+          "paragraph1": "É importante que você, seus familiares e cuidadores adquiram conhecimento sobre os cuidados básicos associados ao aparelho auditivo, permitindo que, com o tempo, você alcance maior Independência e retome suas atividades diárias.",
+          "paragraph2": "Destacamos também a necessidade de manter um diálogo com os profissionais da saúde que o assistem, pois este guia não substitui essa interação. Não hesite em fazer perguntas se surgirem dúvidas, pois seu bem-estar é a nossa principal meta."
+        }
+      }
     },
-    {
-      "title": "Benefícios do aparelho auditivo",
-      "description": "Descubra como o aparelho auditivo melhora a qualidade de vida.",
-      "button": "Acessar conteúdo"
+    "modulo2": {
+      "title": "Módulo 2",
+      "description": "AASI: introdução, como escolher e benefícios.",
+      "contents": {
+        "introducao-aasi": {
+          "title": "Introdução ao AASI",
+          "description": "Conheça o aparelho de amplificação sonora individual e sua função na audição.",
+          "paragraph1": "Nesse módulo você irá aprender: Para que serve o aparelho auditivo; Benefícios do aparelho auditivo; Como escolher o aparelho auditivo;",
+          "paragraph2": "O aparelho auditivo, também conhecido como aparelho de amplificação sonora individual (AASI), é um dispositivo eletrônico miniaturizado, cuja função é amplificar (aumentar) os sons.",
+          "paragraph3": "O aparelho auditivo ajuda as pessoas a ouvirem melhor, aumentando os sons que existem no ambiente de acordo com a necessidade do paciente. Por exemplo, se a pessoa tem dificuldade em escutar sons agudos, como os sons dos pássaros e campainhas, o aparelho deixará os sons mais altos que os outros sons, sem que seja desconfortável para o usuário. Assim, cada aparelho auditivo é único, seja pelo seu tamanho, seja pelos sons que irá amplificar."
+        },
+        "como-escolher": {
+          "title": "Como escolher o AASI",
+          "description": "Saiba como escolher o aparelho auditivo adequado para suas necessidades auditivas.",
+          "paragraph1": "E como escolher o AASI?",
+          "paragraph2": "Existem vários tipos de aparelho auditivo e cada um é único,  seja pelo seu tamanho, seja pelos sons que irá amplificar. Para se escolher o aparelho auditivo certo para o paciente, avaliam-se vários critérios como: o diagnóstico audiológico, a qualidade de vida e as preferências do paciente.",
+          "paragraph3": "Não menos importante, é analisado também as preferências do paciente, principalmente em relação a estética do aparelho."
+        },
+        "beneficio-aasi": {
+          "title": "Benefícios do AASI",
+          "description": "Entenda os benefícios do uso do aparelho auditivo para a comunicação e qualidade de vida.",
+          "paragraph1": "Melhora na audição: o AASI proporciona uma melhora significativa na capacidade auditiva, auxiliando na percepção de sons e na comunicação.",
+          "paragraph2": "Adaptação personalizada: com ajustes personalizados, o aparelho atende às necessidades auditivas individuais, adaptando-se às preferências e estilo de vida do usuário.",
+          "paragraph3": "Aumento da qualidade de vida: ao restaurar a audição, o AASI contribui para uma melhor qualidade de vida, permitindo a participação ativa em diversas atividades sociais.",
+          "paragraph4": "Redução do esforço auditivo: o AASI alivia o esforço auditivo, proporcionando clareza na audição e reduzindo a fadiga associada à concentração prolongada."
+        }
+      }
     }
-  ],
-
-"audicao": {
-    "title": "Entendendo a audição",
-    "paragraph1": "A Orelha é o órgão responsável pela audição: a capacidade do ser humano de perceber sons. A Orelha é dividida em três partes: orelha externa, orelha média e orelha interna. A Perda Auditiva ocorre quando há uma lesão em algum órgão da orelha, diminuindo nossa capacidade de ouvir os sons. Há três tipos de perda auditiva:",
-    "paragraph2": "A perda auditiva condutiva ocorre quando a orelha média é afetada. A perda auditiva sensorioneural ocorre quando a orelha interna é afetada. A perda auditiva condutiva e mista ocorre quando tanto a orelha média (condução), quanto a interna (sensação), são afetadas. E como saber se eu estou com perda auditiva?",
-    "paragraph3": "Os comportamentos mais comuns em quem tem perda auditiva são: pedir repetição do que foi dito; Reclamar que as pessoas falam rápido ou baixo; Ter dificuldade em compreender a fala quando há muito barulho; Achar difícil entender o que estão falando quando várias pessoas falam ao mesmo tempo; Não responder corretamente às perguntas ou simplesmente não responder. É importante que você, seus familiares e cuidadores adquiram conhecimentos sobre os cuidados básicos associados ao aparelho auditivo, permitindo que, com o tempo, você alcance maior independência e retome suas atividades diárias."
   },
-
-      "beneficios": {
-      "title": "Benefícios do aparelho auditivo",
-      "paragraph1": "O uso do aparelho auditivo melhora significativamente a comunicação no dia a dia, permitindo maior compreensão da fala.",
-      "paragraph2": "Com a amplificação adequada dos sons, o usuário passa a participar mais ativamente de conversas e atividades sociais.",
-      "paragraph3": "Além disso, o uso contínuo do aparelho contribui para a autonomia, qualidade de vida e bem-estar emocional do usuário."
-    },
-
   "back": "Voltar"
 }

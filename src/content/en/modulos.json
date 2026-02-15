@@ -1,0 +1,27 @@
+{
+  "title": "Educational Modules",
+  "subtitle": "Choose a module below to start learning about your hearing aid.",
+
+  "items": [
+    {
+      "title": "Modules",
+      "description": "Educational modules about hearing, hearing aids, and communication.",
+      "button": "Access"
+    },
+    {
+      "title": "Use and handling of the device",
+      "description": "Learn how to properly use, care for, and maintain your hearing aid.",
+      "button": "Access"
+    },
+    {
+      "title": "Communication strategies",
+      "description": "Practical tips to improve communication with hearing aid users.",
+      "button": "Access"
+    },
+    {
+      "title": "Frequently asked questions",
+      "description": "Find answers to the main questions about using hearing aids.",
+      "button": "Access"
+    }
+  ]
+}

@@ -1,57 +1,57 @@
 <script setup>
-import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 
-const { t } = useI18n()
 const router = useRouter()
+const { t, tm } = useI18n()
 
-const items = computed(() => [
-  {
-    title: t('intro.cards.0.title'),
-    description: t('intro.cards.0.description'),
-    route: '/intro/audicao'
-  },
-  {
-    title: t('intro.cards.1.title'),
-    description: t('intro.cards.1.description'),
-    route: '/intro/beneficios'
-  }
-])
+const modules = computed(() => {
+  const raw = tm('intro.modules') || {}
+
+  return Object.entries(raw).map(([key, data]) => ({
+    key,
+    ...data
+  }))
+})
+
+function go(modulo) {
+  router.push(`/intro/${modulo}`)
+}
 </script>
 
 <template>
   <section class="intro-page">
-    <!-- HEADER / HERO -->
+
     <header class="intro-hero">
       <div class="intro-hero-content">
-        <button class="back-btn" @click="router.push('/')">
+        <button class="back-btn" @click="router.push('/modulos')">
           ← {{ t('intro.back') }}
         </button>
 
         <div class="intro-title-row">
-          <img src="/images/lampada-intro.png" alt="" class="hero-icon" />
-
-          <div>
-            <h1>{{ t('intro.title') }}</h1>
-            <p>{{ t('intro.subtitle') }}</p>
-          </div>
+          <h1>{{ t('intro.title') }}</h1>
+          <p>{{ t('intro.subtitle') }}</p>
         </div>
       </div>
     </header>
 
-    <!-- LISTA -->
     <main class="intro-content">
-      <div v-for="item in items" :key="item.route" class="intro-item" role="button" tabindex="0"
-        @click="router.push(item.route)" @keyup.enter="router.push(item.route)">
+      <div
+        v-for="module in modules"
+        :key="module.key"
+        class="intro-item"
+        @click="go(module.key)"
+      >
         <div>
-          <h2>{{ item.title }}</h2>
-          <p>{{ item.description }}</p>
+          <h2>{{ module.title }}</h2>
+          <p>{{ module.description }}</p>
         </div>
 
         <span class="chevron">›</span>
       </div>
     </main>
+
   </section>
 </template>
 

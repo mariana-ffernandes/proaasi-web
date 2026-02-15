@@ -1,9 +1,10 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import { computed } from 'vue'
 import ServiceCard from '@/components/ui/ServiceCard.vue'
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
 const router = useRouter()
 
 const modules = [
@@ -28,26 +29,27 @@ const modules = [
     variant: 'help'
   }
 ]
+
+const items = computed(() => tm('modulos.items') || [])
 </script>
 
+
 <template>
-  <section id="modules" class="modules">
+  <section class="modules">
     <div class="modules-container">
 
       <h2 class="modules-title">
-        {{ t('home.servicesTitle') }}
+        {{ t('modulos.title') }}
       </h2>
 
       <p class="modules-subtitle">
-        {{ t('home.servicesSubtitle') }}
+        {{ t('modulos.subtitle') }}
       </p>
 
       <div class="modules-grid">
         <ServiceCard v-for="(module, index) in modules" :key="module.route" :icon-src="module.iconSrc"
-          :title="t(`home.services.${index}.title`)" :description="t(`home.services.${index}.description`)"
-          :button-text="t(`home.services.${index}.button`)" :onClick="() => router.push(module.route)"
-          :variant="module.variant" />
-
+          :title="items[index]?.title" :description="items[index]?.description" :button-text="items[index]?.button"
+          :onClick="() => router.push(module.route)" :variant="module.variant" />
       </div>
 
     </div>

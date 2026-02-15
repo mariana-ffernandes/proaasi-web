@@ -29,15 +29,15 @@
     }
   ],
   "intra": {
-    "title": "In-the-ear hearing aid",
+    "title": "Intra-aural",
     "subtitle": "Choose below what you would like to learn about using the in-the-ear hearing aid.",
     "contents": {
       "desligar-ligar": {
         "title": "Turning the device on and off",
         "description": "Learn how to properly turn the hearing aid on and off.",
         "button": "View content",
-        "paragraph1": "To turn off the in-the-ear hearing aid, open the battery compartment.",
-        "paragraph2": "To turn it on again, fully close the battery compartment.",
+        "paragraph1": "To turn the device on, close the battery compartment.",
+        "paragraph2": "And to turn it off, open the battery compartment",
         "paragraph3": "Always turn off the hearing aid when not in use to save the battery."
       },
       "limpeza": {

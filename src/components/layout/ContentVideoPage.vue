@@ -1,5 +1,10 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import BackButton from '@/components/ui/BackButton.vue'
+
+const { t } = useI18n()
+const router = useRouter()
 
 defineProps({
   title: {
@@ -32,7 +37,6 @@ defineProps({
   }
 })
 
-const router = useRouter()
 </script>
 
 <template>
@@ -52,11 +56,7 @@ const router = useRouter()
     <main class="content-body">
       <!-- VIDEO -->
       <div class="video-wrapper">
-        <video
-          controls
-          preload="metadata"
-          class="video"
-        >
+        <video controls preload="metadata" class="video">
           <source :src="videoSrc" type="video/mp4" />
           Seu navegador não suporta vídeos.
         </video>
@@ -71,9 +71,9 @@ const router = useRouter()
 
       <!-- CTA -->
       <div class="cta-wrapper">
-        <button class="cta-btn" @click="router.push(ctaRoute)">
-          {{ ctaLabel }}
-        </button>
+        <div class="back-btn" @click="router.push(ctaRoute)">
+          <BackButton :to="ctaRoute" :label="t('common.common.seeOtherContents')" />
+        </div>
       </div>
     </main>
   </section>
@@ -131,7 +131,7 @@ const router = useRouter()
 .video {
   width: 100%;
   border-radius: 16px;
-  box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
 }
 
 /* TEXT */
@@ -157,7 +157,7 @@ const router = useRouter()
   border-radius: 999px;
   font-size: 1rem;
   cursor: pointer;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
 }
 
 .cta-btn:hover {

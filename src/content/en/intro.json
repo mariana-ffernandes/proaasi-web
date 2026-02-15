@@ -1,33 +1,62 @@
 {
   "title": "Introduction",
-  "subtitle": "Choose one of the topics below to get started.",
-
-  "cards": [
-    {
-      "title": "Understanding hearing",
-      "description": "Learn how human hearing works and why it can be affected.",
-      "button": "Access content"
+  "subtitle": "Understand the basic concepts about hearing and hearing aids",
+  "modules": {
+    "modulo1": {
+      "title": "Module 1",
+      "description": "Hearing, hearing loss, and obtaining support.",
+      "contents": {
+        "introducao": {
+          "title": "Introduction to Hearing",
+          "description": "Understand the basic concepts about hearing and hearing loss.",
+          "paragraph1": "In this module you will learn: What is hearing? How do we hear sounds? What is hearing loss? What are the types of hearing loss? What are the most common behaviors of a person with hearing loss?",
+          "paragraph2": "Hearing is the ability that human beings have to perceive sounds. The ear is the organ responsible for this ability. It is divided into three parts: the outer ear, the middle ear, and the inner ear. Sound waves are captured by the outer ear, which consists of the auricle and the external auditory canal, a tube that carries these sound waves to the eardrum.",
+          "paragraph3": "The middle ear begins at the eardrum and contains a cavity with small bones (ossicles) that help transmit sound. The inner ear consists of the cochlea, whose function is to 'recognize' sound, and the auditory nerve, which carries this information to the brain to process it."
+        },
+        "perda-auditiva": {
+          "title": "Hearing Loss",
+          "description": "Understand what hearing loss is, its types, and common behaviors.",
+          "paragraph1": "Hearing loss occurs when there is damage to any part of the ear, reducing our ability to perceive, that is, to hear sounds. There are three types of hearing loss, categorized according to the affected area of the ear.",
+          "paragraph2": "Conductive hearing loss occurs when the outer and/or middle ear is affected. As we have seen, this part of the ear is responsible for conducting sound waves. It occurs due to something blocking the passage of sound, such as earwax buildup or ear infections. As a result, sounds seem 'lower.' Sensorineural hearing loss occurs when the inner ear is affected. In addition to sounds being lower, it becomes more difficult to understand what is being said.",
+          "paragraph3": "Mixed hearing loss occurs when both the outer and/or middle ear (conduction) and the inner ear (sensation) are affected. Sounds become even lower, as there are more blockages within the ear, further impairing speech understanding.",
+          "paragraph4": "How can I know if I have hearing loss? The most common behaviors in people with hearing loss include: asking for repetition of what was said; complaining that people speak too fast and/or too softly; difficulty understanding speech in noisy environments; difficulty understanding when several people speak at the same time; not responding correctly to questions or not responding at all."
+        },
+        "suporte": {
+          "title": "Attention: Obtaining Support",
+          "description": "Understand the importance of seeking professional evaluation and proper follow-up.",
+          "paragraph1": "It is important that you, your family members, and caregivers acquire knowledge about the basic care associated with hearing aids, allowing you, over time, to achieve greater independence and resume your daily activities.",
+          "paragraph2": "We also emphasize the importance of maintaining dialogue with the healthcare professionals assisting you, as this guide does not replace professional interaction. Do not hesitate to ask questions if doubts arise, as your well-being is our main goal."
+        }
+      }
     },
-    {
-      "title": "Benefits of hearing aids",
-      "description": "Discover how hearing aids improve quality of life.",
-      "button": "Access content"
+    "modulo2": {
+      "title": "Module 2",
+      "description": "Hearing Aids: introduction, how to choose, and benefits.",
+      "contents": {
+        "introducao-aasi": {
+          "title": "Introduction to Hearing Aids",
+          "description": "Learn about the hearing aid and its function in hearing.",
+          "paragraph1": "In this module you will learn: What hearing aids are used for; The benefits of hearing aids; How to choose a hearing aid;",
+          "paragraph2": "A hearing aid, also known as a Personal Sound Amplification Device (PSAD), is a miniaturized electronic device whose function is to amplify (increase) sounds.",
+          "paragraph3": "Hearing aids help people hear better by increasing environmental sounds according to the patient’s needs. For example, if a person has difficulty hearing high-frequency sounds, such as birds chirping or doorbells, the device will amplify those sounds more than others, without causing discomfort to the user. Therefore, each hearing aid is unique, whether due to its size or the sounds it is designed to amplify."
+        },
+        "como-escolher": {
+          "title": "How to Choose a Hearing Aid",
+          "description": "Learn how to choose the hearing aid that best fits your hearing needs.",
+          "paragraph1": "How do you choose a hearing aid?",
+          "paragraph2": "There are several types of hearing aids, and each one is unique, whether in size or in the sounds it amplifies. To choose the right hearing aid for the patient, several criteria are evaluated, such as the audiological diagnosis, quality of life, and the patient’s preferences.",
+          "paragraph3": "Equally important are the patient’s preferences, especially regarding the aesthetics of the device."
+        },
+        "beneficio-aasi": {
+          "title": "Benefits of Hearing Aids",
+          "description": "Understand the benefits of using hearing aids for communication and quality of life.",
+          "paragraph1": "Improved hearing: Hearing aids provide significant improvement in hearing ability, assisting in sound perception and communication.",
+          "paragraph2": "Personalized adaptation: With customized adjustments, the device meets individual hearing needs, adapting to the user’s preferences and lifestyle.",
+          "paragraph3": "Improved quality of life: By restoring hearing, hearing aids contribute to a better quality of life, allowing active participation in various social activities.",
+          "paragraph4": "Reduced listening effort: Hearing aids reduce listening effort, providing clarity in hearing and decreasing fatigue associated with prolonged concentration."
+        }
+      }
     }
-  ],
-
-"audicao": {
-    "title": "Understanding hearing",
-    "paragraph1": "The Ear is the organ responsible for hearing: the human being's ability to perceive sounds. The Ear is divided into three parts: the outer ear, the middle ear, and the inner ear.",
-    "paragraph2": "Hearing Loss occurs when there is an injury to an organ of the ear, reducing our ability to hear sounds. There are three types of hearing loss: Conductive hearing loss occurs when the outer and/or middle ear is affected, Sensorineural hearing loss occurs when the inner ear is affected, Mixed hearing loss occurs when both the outer and/or middle ear (conduction) and the inner ear (sensation) are affected.  ",
-    "paragraph3": "And how do I know if I have hearing loss? The most common behaviors in those with hearing loss are: Asking for repetition of what was said; Complaining that people speak fast or quietly; Having difficulty understanding speech when there is a lot of noise; Finding it difficult to understand what they are talking about when several people are talking at the same time; Not answering questions correctly or not answering at all. It is important that you, your family members, and caregivers acquire knowledge about the basic care associated with hearing aids, allowing you, over time, to achieve greater independence and resume your daily activities."
   },
-
- "beneficios": {
-      "title": "Benefits of hearing aids",
-      "paragraph1": "A hearing aid, also known as an individual sound amplification device (ISAD), is a miniaturized electronic device whose function is to amplify and magnify sounds. Hearing aids help people to hear better by enhancing the sounds in the environment according to the patient's needs.",
-      "paragraph2": "Benefits of ISAD: Significant improvement in sound perception and communication; Personalized adjustments, the device meets individual hearing needs, adapting to the user's preferences and lifestyle; Increased Quality of Life by restoring hearing; Reduced Listening Effort, providing clarity in hearing and reducing fatigue associated with prolonged concentration.",
-      "paragraph3": "In order to choose the right hearing aid for the patient, several criteria are assessed, such as audiological diagnosis, quality of life, and the patient's preferences. It is important that you, your family, and your caregivers learn about the basic care associated with hearing aids so that over time you can achieve greater independence and resume your daily activities."
-    },
-
   "back": "Back"
 }

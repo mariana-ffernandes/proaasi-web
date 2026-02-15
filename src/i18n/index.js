@@ -14,6 +14,8 @@ import ptComunicacao from '../content/pt/comunicacao.json'
 import enComunicacao from '../content/en/comunicacao.json'
 import ptCommon from '../content/pt/pt.json'
 import enCommon from '../content/en/en.json'
+import ptModulos from '../content/pt/modulos.json'
+import enModulos from '../content/en/modulos.json'
 
 const savedLocale = localStorage.getItem('locale') || 'pt'
 
@@ -30,7 +32,8 @@ export default createI18n({
       duvidas: ptDuvidas,
       comoFunciona: ptComoFunciona,
       comunicacao: ptComunicacao,
-      common: ptCommon
+      common: ptCommon,
+      modulos: ptModulos
     },
     en: {
       home: enHome,
@@ -39,7 +42,8 @@ export default createI18n({
       duvidas: enDuvidas,
       comoFunciona: enComoFunciona,
       comunicacao: enComunicacao,
-      common: enCommon
+      common: enCommon,
+      modulos: enModulos
     }
   }
 })

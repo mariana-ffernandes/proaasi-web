@@ -1,0 +1,27 @@
+{
+  "title": "Módulos Explicativos",
+  "subtitle": "Escolha um módulo abaixo para começar a aprender sobre seu aparelho auditivo.",
+
+  "items": [
+    {
+      "title": "Módulos",
+      "description": "Módulos explicativos sobre audição, aparelhos auditivos e comunicação.",
+      "button": "Acessar"
+    },
+    {
+      "title": "Uso e manuseio do aparelho",
+      "description": "Aprenda como utilizar, cuidar e manter corretamente seu aparelho auditivo.",
+      "button": "Acessar"
+    },
+    {
+      "title": "Estratégias de comunicação",
+      "description": "Dicas práticas para melhorar a comunicação com usuários de aparelhos auditivos.",
+      "button": "Acessar"
+    },
+    {
+      "title": "Dúvidas frequentes",
+      "description": "Encontre respostas para as principais dúvidas sobre o uso do aparelho auditivo.",
+      "button": "Acessar"
+    }
+  ]
+}

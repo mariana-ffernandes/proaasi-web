@@ -30,26 +30,27 @@ const routes = [
     component: () => import('../pages/Sobre.vue')
   },
 
-  /* ================= INTRODUÇÃO ================= */
+  /* ================= INTRO ================= */
 
   {
     path: '/intro',
     name: 'intro',
     component: () => import('../pages/Intro.vue')
   },
+
   {
-    path: '/intro/audicao',
-    name: 'intro-audicao',
-    component: () => import('../pages/intro/Audicao.vue')
+    path: '/intro/:modulo',
+    name: 'intro-modulo',
+    component: () => import('../pages/intro/Modulo.vue')
   },
+
   {
-    path: '/intro/beneficios',
-    name: 'intro-beneficios',
-    component: () => import('../pages/intro/Beneficios.vue')
+    path: '/intro/:modulo/:slug',
+    name: 'intro-conteudo',
+    component: () => import('../pages/intro/Conteudo.vue')
   },
 
   /* ================= APARELHOS ================= */
-
   {
     path: '/aparelhos',
     name: 'aparelhos',
