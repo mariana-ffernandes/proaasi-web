@@ -32,7 +32,7 @@
     "title": "Aparelho intra-aural",
     "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho intra-aural.",
     "contents": {
-      "desligar-ligar": {
+      "como-desligar-ligar-aparelho": {
         "title": "Desligar e ligar o aparelho",
         "description": "Aprenda como desligar e ligar corretamente o aparelho.",
         "button": "Ver conteúdo",
@@ -40,7 +40,7 @@
         "paragraph2": "Para ligar novamente, feche completamente o compartimento da pilha.",
         "paragraph3": "Sempre desligue o aparelho quando não estiver em uso para economizar a pilha."
       },
-      "limpeza": {
+      "como-limpar-o-aparelho": {
         "title": "Limpar o aparelho",
         "description": "Como fazer a limpeza correta do aparelho.",
         "button": "Ver conteúdo",
@@ -48,14 +48,14 @@
         "paragraph2": "Utilize apenas pano seco ou as ferramentas recomendadas pelo fonoaudiólogo.",
         "paragraph3": "Nunca utilize água ou produtos químicos diretamente no aparelho."
       },
-      "retirar-colocar-pilha": {
+      "como-retirar-colocar-pilhas": {
         "title": "Retirar e colocar pilhas",
         "description": "Quando e como trocar a pilha do aparelho.",
         "button": "Ver conteúdo",
         "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
         "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha"
       },
-      "onde-guardar": {
+      "onde-guardar-aparelho": {
         "title": "Onde guardar o aparelho",
         "description": "Dicas para armazenar corretamente o aparelho.",
         "button": "Ver conteúdo",
@@ -63,7 +63,7 @@
         "paragraph2": "Evite exposição ao calor excessivo e à umidade.",
         "paragraph3": "Utilizar uma caixa própria ajuda a prolongar a vida útil do aparelho."
       },
-      "tamanho-pilha": {
+      "tamanho-pilha-e-onde-comprar": {
         "title": "Pilha: tamanho e onde comprar",
         "description": "Onde comprar as pilhas e qual o tamanho correto.",
         "button": "Ver conteúdo",
@@ -71,7 +71,7 @@
         "paragraph2": "Você também pode comprar as pilhas pela internet.",
         "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
       },
-      "trocar-filtro": {
+      "como-trocar-filtro-cera": {
         "title": "Trocar o filtro de cera",
         "description": "Aprenda quando e como trocar o filtro de cera.",
         "button": "Ver conteúdo",
@@ -79,7 +79,7 @@
         "paragraph2": "Ele deve ser trocado sempre que estiver obstruído.",
         "paragraph3": "Caso tenha dúvidas, procure orientação profissional."
       },
-      "colocar-retirar": {
+      "como-colocar-retirar-aparelho": {
         "title": "Como colocar e retirar o aparelho",
         "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
         "button": "Ver conteúdo",
@@ -87,14 +87,14 @@
         "paragraph2": "Largue a haste usada para inserção e remoção e empurre suavemente o aparelho até que ele esteja confortavelmente dentro da orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o aparelho.",
         "paragraph3": "Como retirar: para remover o aparelho, puxe a haste suavemente e cuidadosamente."
       },
-      "orelha": {
+      "como-identificar-cada-orelha": {
         "title": "Identificar qual aparelho é de cada orelha",
         "description": "Como identificar o aparelho correto para cada orelha.",
         "button": "Ver conteúdo",
         "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul. ",
         "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
       },
-        "pilha-fraca": {
+        "como-saber-pilhas-acabando": {
         "title": "Como saber que a pilha está acabando",
         "description": "Como identificar quando a pilha do aparelho está fraca.",
         "button": "Ver conteúdo",

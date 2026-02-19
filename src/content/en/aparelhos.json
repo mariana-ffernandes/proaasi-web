@@ -32,7 +32,7 @@
     "title": "Intra-aural",
     "subtitle": "Choose below what you would like to learn about using the in-the-ear hearing aid.",
     "contents": {
-      "desligar-ligar": {
+      "como-desligar-ligar-aparelho": {
         "title": "Turning the device on and off",
         "description": "Learn how to properly turn the hearing aid on and off.",
         "button": "View content",
@@ -40,7 +40,7 @@
         "paragraph2": "And to turn it off, open the battery compartment",
         "paragraph3": "Always turn off the hearing aid when not in use to save the battery."
       },
-      "limpeza": {
+      "como-limpar-o-aparelho": {
         "title": "How to clean the device",
         "description": "How to properly clean the hearing aid.",
         "button": "View content",
@@ -48,14 +48,14 @@
         "paragraph2": "Under no circumstances should you get the hearing aid wet.",
         "paragraph3": "Ordinary alcohol, oils, and cleaning materials must not be used."
       },
-      "retirar-colocar-pilha": {
+      "como-retirar-colocar-pilhas": {
         "title": "Inserting and removing batteries",
         "description": "When and how to change the hearing aid battery.",
         "button": "View content",
         "paragraph1": "Remove the seal from the battery and wait a minute, then open the battery compartment by placing your fingernail under the edge of the movable cover and gently pulling it out.",
         "paragraph2": "Place the battery in the compartment, remember that the side with the + sign (flat side) of the battery must be facing upwards, or on the most open side of the battery compartment, then close the battery compartment."
       },
-      "onde-guardar": {
+      "onde-guardar-aparelho": {
         "title": "Where to store the device",
         "description": "Tips for properly storing the device.",
         "button": "View content",
@@ -63,7 +63,7 @@
         "paragraph2": "Always keep the room clean and free of moisture, you can also use a dehumidifier or silica.",
         "paragraph3": "It is important to always keep it out of the reach of small children and animals, and never get it wet or sleep with it."
       },
-      "tamanho-pilha": {
+      "tamanho-pilha-e-onde-comprar": {
         "title": "Battery size and where to buy it",
         "description": "Where to buy the batteries and what the correct size is.",
         "button": "View content",
@@ -71,7 +71,7 @@
         "paragraph2": "The batteries are sold in hearing aid stores, your hearing care professional can give you the address of one. You can also buy batteries online.",
         "paragraph3": "If possible, pick them up at the health center, because in some cities they are provided free of charge, check if this service is available in your city."
       },
-      "trocar-filtro": {
+      "como-trocar-filtro-cera": {
         "title": "How to change the wax filter",
         "description": "Learn when and how to replace the wax filter.",
         "button": "View content",
@@ -79,7 +79,7 @@
         "paragraph2": "On the other side of the stem is the clean filter.",
         "paragraph3": "Insert the clean filter into the outlet."
       },
-      "colocar-retirar": {
+      "como-colocar-retirar-aparelho": {
         "title": "How to insert and remove the device",
         "description": "How to properly insert and remove the hearing aid from the ear.",
         "button": "View content",
@@ -87,12 +87,19 @@
         "paragraph2": "Let go of the rod used for insertion and removal and gently push the device in until it is comfortably inside your ear. To make insertion easier, you can use your other hand to pull the pinna (opening the ear) away from the ear as you push the device in.",
         "paragraph3": "How to remove: to remove the device, pull the stem gently and carefully."
       },
-      "orelha": {
+      "como-identificar-cada-orelha": {
         "title": "Identifying which device belongs to each ear",
         "description": "How to identify the correct hearing aid for each ear.",
         "button": "View content",
         "paragraph1": "The device in the right ear has a red mark. The device in the left ear has a blue mark.",
         "paragraph2": "If observation is difficult, ask the hearing care professional to make a larger mark."
+      },
+      "como-saber-pilhas-acabando": {
+        "title": "How to tell when the battery is running out?",
+        "description": "How to identify when the hearing aid battery is low.",
+        "button": "View content",
+        "paragraph1": "When the battery is running low, you will hear a signal (beep or whistle). When the battery is completely drained, you will notice that the hearing aid stops working.",
+        "paragraph2": "Batteries are toxic and must be disposed of in special waste."
       }
     }
   },
