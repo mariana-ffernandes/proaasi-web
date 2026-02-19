@@ -93,6 +93,13 @@
         "button": "Ver conteúdo",
         "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul. ",
         "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
+      },
+        "pilha-fraca": {
+        "title": "Como saber que a pilha está acabando",
+        "description": "Como identificar quando a pilha do aparelho está fraca.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando a pilha estiver fraca você ouvirá um sinal (bip ou apito).  Quando a pilha acabar, você vai perceber que o aparelho parou de funcionar.",
+        "paragraph2": "As pilhas são tóxicas e devem ser descartadas em lixo especial."
       }
     }
   },
@@ -149,6 +156,13 @@
         "paragraph1": "Como inserir: antes de inserir o aparelho na orelha, certifique-se que a pilha está corretamente inserida e a tampa fechada corretamente. Para inserir, segure o tubo fino e oliva com seu polegar e dedo indicador.",
         "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o tubo fino levemente.",
         "paragraph3": "Como retirar: Para remover, tire o aparelho de trás da sua orelha e puxe suavemente o tubo fino, segurando o mais próximo a parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o tubo fino quando removido."
+      },
+        "pilha-fraca": {
+        "title": "Como saber que a pilha está acabando",
+        "description": "Como identificar quando a pilha do aparelho está fraca.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando a pilha estiver fraca você ouvirá um sinal (bip ou apito).  Quando a pilha acabar, você vai perceber que o aparelho parou de funcionar.",
+        "paragraph2": "As pilhas são tóxicas e devem ser descartadas em lixo especial."
       }
     }
   },
@@ -212,6 +226,13 @@
         "paragraph1": "Como colocar: antes de inserir o aparelho na orelha, certifique-se que a pilha está corretamente inserida e a tampa fechada corretamente. Para inserir, segure o receptor e oliva com seu polegar e dedo indicador.",
         "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o receptor levemente.",
         "paragraph3": "Como retirar: para remover, tire o aparelho de trás da sua orelha e puxe suavemente o receptor, segurando o mais próximo à parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o receptor quando removido."
+      },
+        "pilha-fraca": {
+        "title": "Como saber que a pilha está acabando",
+        "description": "Como identificar quando a pilha do aparelho está fraca.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando a pilha estiver fraca você ouvirá um sinal (bip ou apito).  Quando a pilha acabar, você vai perceber que o aparelho parou de funcionar.",
+        "paragraph2": "As pilhas são tóxicas e devem ser descartadas em lixo especial."
       }
     }
   },
@@ -284,6 +305,13 @@
         "paragraph1": "Com uma pinça ou alicate, remova o tubo de silicone do molde. Após isso, faça um corte na diagonal em uma das pontas do tubo. Após isso, encaixe a menor extremidade do tubo no molde.",
         "paragraph2": "Utilize a pinça ou alicate para ajudar a puxar o tubo. Puxe até ajustar com o ângulo do tubo.",
         "paragraph3": "Corte o excesso de tubo com a tesoura. Utilize o tubo anterior para nivelar a altura do tubo novo. Encaixe o tubo no gancho do aparelho."
+      },
+        "pilha-fraca": {
+        "title": "Como saber que a pilha está acabando",
+        "description": "Como identificar quando a pilha do aparelho está fraca.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando a pilha estiver fraca você ouvirá um sinal (bip ou apito).  Quando a pilha acabar, você vai perceber que o aparelho parou de funcionar.",
+        "paragraph2": "As pilhas são tóxicas e devem ser descartadas em lixo especial."
       }
     }
   }
