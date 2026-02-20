@@ -47,11 +47,15 @@
             },
             "processo-adaptacao": {
                 "title": "Processo de adaptação",
-                "description": "Saiba como é o processo de adaptação ao aparelho auditivo."
+                "description": "Saiba como é o processo de adaptação ao aparelho auditivo.",
+                "paragraph1": "O processo de adaptação não é fácil. E os idosos, por muitas vezes, esquecerão de colocar os aparelhos ou acharão que não precisam do mesmo.",
+                "paragraph2": "Por isso, é necessária paciência. Mas aqui vai uma dica: Espalhe lembretes pela casa."
             },
             "como-comunicar": {
                 "title": "Estratégias de Comunicação",
-                "description": "Estratégias para facilitar a comunicação"
+                "description": "Estratégias para facilitar a comunicação",
+                "paragraph1": "A comunicação é uma via de mão dupla. É necessário se conectar com quem você está falando e abrir espaço para que ele também fale. Portanto, ao se comunicar, é importante olhar diretamente para o rosto da pessoa com quem estiver conversando.",
+                "paragraph2": "Quando você fala olhando para a pessoa, consegue dar mais pistas para que ela compreenda o que você está falando e sentindo. Principalmente quando você conversa com deficientes auditivos, que muitas vezes fazem a leitura labial. Imagine que você está vendo um filme em um idioma que você não é fluente, fica muito mais fácil com as legendas. O mesmo acontece com o deficiente auditivo, só que seu rosto é a legenda da comunicação dele."
             },
             "outros-cuidados-aasi": {
                 "title": "Outros cuidados com o AASI",
@@ -61,7 +65,9 @@
             },
             "tempo-de-uso": {
                 "title": "Tempo de uso do aparelho auditivo",
-                "description": "Saiba qual é o tempo recomendado para o uso do aparelho auditivo."
+                "description": "Saiba qual é o tempo recomendado para o uso do aparelho auditivo.",
+                "paragraph1": "O tempo recomendado para o uso do aparelho auditivo é de 8 a 10 horas por dia. Mas nos primeiros dias de uso, podem acontecer situações em que ele ou ela precise retirar o aparelho ou iniciar o uso com um tempo menor durante o dia para ir se acostumando ao aparelho e aos novos sons com mais facilidade.",
+                "paragraph2": "Usar o aparelho é como usar um óculos: a dificuldade existe e a adaptação é difícil. Mas com o uso, torna-se melhor, para o dia ser melhor aproveitado!"
             }
         }
     },
@@ -82,11 +88,16 @@
                 "paragraph1": "Há ambientes que fazem eco como cozinhas, banheiros, salas com azulejos, igrejas, que dificultam a compreensão. Locais com muitas pessoas, com muito barulho e até mesmo lugares com pouca iluminação acabam dificultando a atenção e a compreensão do que está sendo dito, prejudicando o entendimento e a conversa.",
                 "paragraph2": "Procure conversar em ambientes iluminados e silenciosos sempre que possível. Caso não seja, tente manter a atenção ao que está sendo dito e sempre pergunte quando não compreender bem."
             },
-            "como-comunicar-parc": {
+            "como-comunicar": {
                 "title": "Estratégias de Comunicação com o interlocutor",
                 "description": "Estratégias para facilitar a comunicação",
                 "paragraph1": "A comunicação é uma via de mão dupla. É necessário se conectar com quem você está falando e abrir espaço para que ele também fale. Portanto, ao se comunicar, é importante olhar diretamente para o rosto da pessoa com quem estiver conversando.",
                 "paragraph2": "Quando você fala olhando para a pessoa, consegue dar mais pistas para que ela compreenda o que você está falando e sentindo. Principalmente quando você conversa com deficientes auditivos, que muitas vezes fazem a leitura labial. Imagine que você está vendo um filme em um idioma que você não é fluente, fica muito mais fácil com as legendas. O mesmo acontece com o deficiente auditivo, só que seu rosto é a legenda da comunicação dele."
+            },
+            "e-se-houver-desconforto": {
+                "title": "E se houver desconforto?",
+                "description": "O que fazer quando o aparelho auditivo causar desconforto?",
+                "paragraph1": "No primeiro período de uso, pode haver situações em que o idoso precise tirar o aparelho ou iniciar o uso com um tempo menor durante o dia para ir se acostumando ao aparelho e aos novos sons com mais facilidade. Usar o aparelho é como usar um óculos: a dificuldade existe e a adaptação é difícil. Mas com o uso, torna-se melhor, para o dia ser melhor aproveitado!"
             },
             "uso-aparelho": {
                 "title": "Uso do aparelho auditivo",
@@ -97,7 +108,12 @@
                 "title": "Ainda estou com dúvidas",
                 "description": "Se ainda tiver dúvidas sobre comunicação com idosos, entre em contato com o fonoaudiólogo."
             },
-            "parceiro": {
+            "estou-com-duvidas": {
+                "title": "Ainda estou com dúvidas",
+                "description": "Se ainda tiver dúvidas sobre comunicação com idosos, entre em contato com o fonoaudiólogo.",
+                "paragraph1": "Procure o fonoaudiólogo sempre que houver dúvidas ou problemas. Sempre que surgirem dúvidas ou problemas no aparelho ou no processo adaptativo do idoso, procure o fonoaudiólogo para que ele possa ajudar."
+            },
+            "parceiros": {
                 "title": "Importância dos parceiros de comunicação",
                 "description": "é importante entender o papel dos parceiros de comunicação.",
                 "paragraph1": "E na maioria das vezes ajudam no uso e manuseio do aparelho.",
@@ -105,7 +121,33 @@
             },
             "incentivo": {
                 "title": "Incentivo ao uso do aparelho auditivo",
-                "description": "Saiba como incentivar o uso do aparelho auditivo."
+                "description": "Saiba como incentivar o uso do aparelho auditivo.",
+                "paragraph1": "O processo de adaptação não é fácil. E os idosos, por muitas vezes, esquecerão de colocar os aparelhos ou acharão que não precisam do mesmo. Por isso é necessário paciência. Mas aqui vai uma dica: Espalhe lembretes pela casa."
+            },
+            "estrategias-interlocutor": {
+                "title": "Estratégias para o interlocutor",
+                "description": "Saiba como ajudar o idoso a usar o aparelho auditivo.",
+                "paragraph1": "Para facilitar a compreensão do que está sendo dito, temos algumas estratégias. São elas: Não gritar, Gritar ou elevar a voz distorce os sons da fala, prejudicando a compreensão do deficiente auditivo. Não exagere nem reduza os movimentos da boca ao falar, isso prejudica a “leitura labial”. Busque sempre falar mais devagar que o normal, com voz e volumes adequados.",
+                "paragraph2": "Evite tampar o rosto com gestos, óculos escuros, barba cheia, falar enquanto come ou fuma. Principalmente em locais mal iluminados, pois tudo isso também pode prejudicar a “leitura labial”. Fale o mais próximo possível da pessoa que puder, quanto mais longe, mais difícil a conversa. Explique melhor quando perceber que o usuário de AASI não entende, usando frases mais curtas e/ou trocando as palavras mais complicadas por palavras mais simples."
+            },
+            "outros-cuidados-aasi": {
+                "title": "Outros cuidados com o AASI",
+                "description": "Saiba quais são os outros cuidados necessários com o aparelho auditivo.",
+                "paragraph1": "É importante lembrar que o aparelho auditivo é sensível às altas temperaturas. Portanto, sempre que presenciar o uso do secador de cabelo ou idas ao salão de beleza, faça a orientação para o idoso lembrar de retirar o aparelho auditivo.",
+                "paragraph2": "Assim como altas temperaturas são perigosas, a umidade e a chuva também são. Auxilie o idoso a se lembrar de proteger o aparelho auditivo nesses momentos.   "
+            },
+            "possiveis-problemas": {
+                "title": "Possíveis problemas",
+                "description": "Saiba quais são os possíveis problemas que podem ocorrer com o aparelho auditivo.",
+                "paragraph1": "É preciso se manter atento a algumas questões que podem indicar que está na hora de agendar um retorno no fonoaudiólogo: Caso o idoso esteja incomodado com o encaixe ou molde do aparelho auditivo;",
+                "paragraph2": "Ou tenha comentado que alguma peça está torta ou muito suja por dentro; Além disso, o idoso pode perceber que o aparelho auditivo está fazendo um chiado, mesmo quando não tem nada por perto.",
+                "paragraph3": "Não hesite em sugerir ou até mesmo levar o idoso até o fonoaudiólogo responsável por sua adaptação. Os aparelhos são frágeis e precisamos cuidar de seu bom funcionamento, para melhorar a qualidade de vida daqueles que são importantes."
+            },
+            "tempo-de-uso": {
+                "title": "Tempo de uso do aparelho auditivo",
+                "description": "Saiba qual é o tempo recomendado para o uso do aparelho auditivo.",
+                "paragraph1": "O tempo recomendado para o uso do aparelho auditivo é de 8 a 10 horas por dia. Mas nos primeiros dias de uso, podem acontecer situações em que ele ou ela precise retirar o aparelho ou iniciar o uso com um tempo menor durante o dia para ir se acostumando ao aparelho e aos novos sons com mais facilidade.",
+                "paragraph2": "Usar o aparelho é como usar um óculos: a dificuldade existe e a adaptação é difícil. Mas com o uso, torna-se melhor, para o dia ser melhor aproveitado!"
             }
         }
     }
