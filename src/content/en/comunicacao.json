@@ -4,34 +4,64 @@
   "back": "Back",
   "usuario": {
     "title": "Hearing Aid User",
-    "description": "Tips to improve your daily communication.",
+    "description": "Tips to improve your communication in daily life.",
     "subtitle": "Choose a topic below.",
     "contents": {
       "ambientes": {
-        "title": "Environments for communication",
+        "title": "Communication Environments",
         "description": "Environments for communication",
-        "paragraph1": "Some environments create echo, such as kitchens, bathrooms, tiled rooms, and churches, which can make understanding difficult. Places with many people, excessive noise, or even poor lighting can reduce attention and comprehension, making conversation harder.",
-        "paragraph2": "Whenever possible, try to communicate in well-lit and quiet environments. If that is not possible, focus on what is being said and always ask when you do not fully understand."
+        "paragraph1": "Some environments create echo, such as kitchens, bathrooms, tiled rooms, and churches, which can make understanding more difficult. Places with many people, excessive noise, or even low lighting can reduce attention and comprehension of what is being said, affecting understanding and conversation.",
+        "paragraph2": "Whenever possible, try to have conversations in well-lit and quiet environments. If that is not possible, try to stay focused on what is being said and always ask when you do not fully understand."
       },
       "desconforto": {
-        "title": "What if it's uncomfortable?",
-        "description": "In the first few days of use, there may be situations where you need to remove the device or start using it with a shorter time during the day to get used to the device and the new sounds more easily. Wearing the device is like wearing glasses...",
-        "paragraph1": "The difficulty exists and the adaptation is difficult. But with use, it becomes better for, so the day is better enjoyed!"
+        "title": "What if there is discomfort?",
+        "description": "What should you do if the hearing aid causes discomfort?",
+        "paragraph1": "During the first days of use, situations may arise in which you need to remove the device or start using it for shorter periods during the day to gradually get used to the hearing aid and new sounds more comfortably. Wearing a hearing aid is like wearing glasses.",
+        "paragraph2": "The difficulty exists and adaptation can be challenging. However, with consistent use, it improves and allows for a better and more productive day."
       },
       "duvidas": {
-        "title": "I still have doubts, what should I do?",
-        "description": "Always consult the audiologist whenever questions or problems arise. If there are any doubts or issues with the hearing aid or the adaptation process, seek professional help so proper guidance can be provided."
+        "title": "I Still Have Questions",
+        "description": "If you still have questions about communication, contact your audiologist.",
+        "paragraph1": "Always consult your audiologist if you have questions or problems. Whenever doubts or issues arise regarding the hearing aid or the adaptation process, seek professional guidance so they can assist you."
       },
       "entender": {
-        "title": "I couldn't understand it",
-        "description": "Attention is extremely important in the communication process. If we are talking to someone but thinking about other tasks, such as errands or chores, we may not understand what is being said.",
-        "paragraph1": "Attention is extremely important in the communication process. If we're talking to someone but thinking about what I need to do later, go to the market, tidy up the house, I won't be able to understand. Not because I didn't listen, but because my attention was elsewhere.",
-        "paragraph2": "You can ask questions or give cues that show you did not understand. For example:  What if I paid attention and didn't understand? It is important to ask them to repeat the information you do not understand, as they will not always be sure whether you understood or not. You can ask or give hints that show you don't understand. How about saying: “I don't understand, please speak more slowly” or “Could you repeat, please, a little louder!” or “Hmmmm, what? Please look at me!”"
+        "title": "I Couldn't Understand, What Now?",
+        "description": "What should you do when you cannot understand what is being said?",
+        "paragraph1": "Attention is extremely important in the communication process. If we are talking to someone but thinking about something else—like going to the market or cleaning the house—we may not understand what is being said.",
+        "paragraph2": "Not because we did not hear it, but because our attention was elsewhere. And if you were paying attention but still did not understand? It is important to ask for repetition of the information you did not understand, since others may not always realize whether you understood or not.",
+        "paragraph3": "You can ask questions or give hints to show that you did not understand. For example: “I didn’t understand, could you please speak more slowly?” or “Could you repeat that a little louder, please?” or “Sorry, what? Please speak while looking at me!”"
       },
       "uso": {
-        "title": "Hearing aid use",
-        "description": "It is important to use the hearing aid for as long as possible throughout the day. Using hearing aids should be like wearing prescription glasses: all day long, to reduce a difficulty — in this case, hearing.",
-        "paragraph1": "It is necessary to use the individual sound amplification device for as long as possible. Wearing hearing aids should be like wearing glasses. Throughout your day, to reduce a difficulty. In the case of hearing aids, hearing."
+        "title": "Use of the Hearing Aid",
+        "description": "The importance of wearing the device.",
+        "paragraph1": "It is important to use the hearing aid for as many hours as possible during the day. However, in the first days of use, there may be situations where the person needs to remove the device or start with shorter usage periods to gradually adapt to the hearing aid and new sounds.",
+        "paragraph2": "Using a hearing aid is like wearing glasses: there may be difficulty at first and adaptation can be challenging. But with continued use, it becomes easier and allows for a better and more productive day.",
+        "paragraph3": "Therefore, it is essential that family members and caregivers encourage and remind older adults to use the device and create situations that facilitate listening and understanding."
+      },
+      "possiveis-problemas": {
+        "title": "Possible Problems",
+        "description": "Learn about potential issues that may occur with the hearing aid.",
+        "paragraph1": "It is important to pay attention to certain signs that may indicate it is time to schedule a follow-up appointment with the audiologist. For example, if the older adult feels discomfort with the fit or earmold of the hearing aid;",
+        "paragraph2": "Or if they mention that a part is crooked or very dirty inside; Additionally, they may notice a whistling or feedback sound coming from the device even when nothing is nearby.",
+        "paragraph3": "Do not hesitate to suggest or even take the older adult to the audiologist responsible for their fitting. Hearing aids are delicate devices and require proper care to ensure they function well and improve quality of life."
+      },
+      "processo-adaptacao": {
+        "title": "Adaptation Process",
+        "description": "Learn how the hearing aid adaptation process works."
+      },
+      "como-comunicar": {
+        "title": "Communication Strategies",
+        "description": "Strategies to facilitate communication"
+      },
+      "outros-cuidados-aasi": {
+        "title": "Other Hearing Aid Care Tips",
+        "description": "Learn about other necessary care measures for hearing aids.",
+        "paragraph1": "It is important to remember that hearing aids are sensitive to high temperatures. Therefore, when using a hair dryer or visiting a beauty salon, remind the older adult to remove the hearing aid.",
+        "paragraph2": "Just as high temperatures can be harmful, humidity and rain can also damage the device. Help the older adult remember to protect the hearing aid in these situations."
+      },
+      "tempo-de-uso": {
+        "title": "Hearing Aid Usage Time",
+        "description": "Learn about the recommended daily usage time for hearing aids."
       }
     }
   },

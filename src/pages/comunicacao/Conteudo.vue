@@ -2,77 +2,53 @@
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-
 import ContentVideoPage from '@/components/layout/ContentVideoPage.vue'
 
 const route = useRoute()
 const { t, locale } = useI18n()
 
-/**
- * /aparelhos/:tipo/:slug
- */
-const tipo = computed(() => route.params.tipo)
+/*
+  /comunicacao/:tipo/:slug
+*/
+const tipo = computed(() => route.params.tipo)       // usuario | parceiro
 const slug = computed(() => route.params.slug)
 
-/**
- * Base i18n
- * aparelhos.intra.contents.desligar-ligar
- */
+/*
+  comunicacao.usuario.contents.ambientes
+*/
 const baseKey = computed(
-  () => `aparelhos.${tipo.value}.contents.${slug.value}`
+  () => `comunicacao.${tipo.value}.contents.${slug.value}`
 )
 
-/**
- * Texto seguro (não renderiza a key)
- */
 function text(key) {
   const value = t(key)
   return value !== key ? value : ''
 }
 
-/**
- * Parágrafos dinâmicos
- */
+/* Parágrafos dinâmicos */
 const paragraphs = computed(() => {
   return [
     text(`${baseKey.value}.paragraph1`),
     text(`${baseKey.value}.paragraph2`),
-    text(`${baseKey.value}.paragraph3`)
+    text(`${baseKey.value}.paragraph3`),
+    text(`${baseKey.value}.paragraph4`)
   ].filter(Boolean)
 })
 
-/**
- * Mapeamento de pasta + sufixo por tipo de aparelho
- */
-const videoConfig = {
-  intra: {
-    folder: 'intraaural',
-    suffix: 'intra'
-  },
-  'tubo-fino': {
-    folder: 'tubo-fino',
-    suffix: 'tubo-fino'
-  },
-  receptor: {
-    folder: 'receptor',
-    suffix: 'receptor'
-  },
-  molde: {
-    folder: 'molde',
-    suffix: 'molde'
-  }
-}
+/*
+  Seus vídeos estão organizados assim:
 
-/**
- * Caminho do vídeo
- */
+  /videos/comunicacao/usuario/
+  /videos/comunicacao/parceiro/
+
+  E o nome do arquivo é:
+  slug-comunicacao-usuario-pt.mp4
+*/
+
 const videoSrc = computed(() => {
-  const config = videoConfig[tipo.value]
-  if (!config) return ''
-
   const lang = locale.value
 
-  return `/videos/${config.folder}/${slug.value}-${config.suffix}-${lang}.mp4`
+  return `/videos/comunicacao/${tipo.value}/${slug.value}-comunicacao-${tipo.value}-${lang}.mp4`
 })
 
 const videoKey = computed(() => {
@@ -81,7 +57,14 @@ const videoKey = computed(() => {
 </script>
 
 <template>
-  <ContentVideoPage :key="videoKey" :title="text(`${baseKey}.title`)" :video-src="videoSrc" :paragraphs="paragraphs"
-    :back-route="`/aparelhos/${tipo}`" :back-label="t('aparelhos.back')" cta-label="← Ver outros conteúdos"
-    :cta-route="`/aparelhos/${tipo}`" />
+  <ContentVideoPage
+    :key="videoKey"
+    :title="text(`${baseKey}.title`)"
+    :video-src="videoSrc"
+    :paragraphs="paragraphs"
+    :back-route="`/comunicacao/${tipo}`"
+    :back-label="t('comunicacao.back')"
+    cta-label="← Ver outros temas"
+    :cta-route="`/comunicacao/${tipo}`"
+  />
 </template>
