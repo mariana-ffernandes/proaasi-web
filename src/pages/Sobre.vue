@@ -21,6 +21,9 @@ const { t } = useI18n()
 
       <div class="about-card">
         <p>{{ t('home.about.paragraph1') }}</p>
+        <p>{{ t('home.about.paragraph2') }}</p>
+        <p>{{ t('home.about.paragraph3') }}</p>
+        <p>{{ t('home.about.paragraph4') }}</p>
       </div>
        <!-- Voltar inicio -->
         <div class="back-btn" to="/modulos">
