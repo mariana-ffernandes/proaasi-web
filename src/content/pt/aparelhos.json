@@ -94,7 +94,7 @@
         "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul. ",
         "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
       },
-        "como-saber-pilhas-acabando": {
+      "como-saber-pilhas-acabando": {
         "title": "Como saber que a pilha está acabando",
         "description": "Como identificar quando a pilha do aparelho está fraca.",
         "button": "Ver conteúdo",
@@ -107,19 +107,19 @@
     "title": "Miniretroauricular com tubo fino",
     "subtitle": "Escolha abaixo o que você deseja aprender sobre o uso do aparelho com tubo fino.",
     "contents": {
-      "desligar-ligar": {
+      "como-desligar-ligar": {
         "title": "Desligar e ligar o aparelho",
         "description": "Aprenda como desligar e ligar corretamente o aparelho.",
         "button": "Ver conteúdo",
         "paragraph1": "Para ligar o aparelho feche o compartimento de pilha e para desligar o aparelho abra o compartimento de pilha. "
       },
-      "limpeza-oliva": {
+      "como-limpar-oliva": {
         "title": "Limpar a oliva",
         "description": "Como realizar a limpeza correta da oliva do aparelho.",
         "button": "Ver conteúdo",
         "paragraph1": "Com um pano úmido limpe a oliva cuidadosamente. Verifique se não há cera ou qualquer outro tipo de obstrução na oliva. "
       },
-      "limpeza-aparelho": {
+      "como-limpar-aparelho": {
         "title": "Limpar o aparelho",
         "description": "Como fazer a limpeza correta do corpo do aparelho.",
         "button": "Ver conteúdo",
@@ -127,21 +127,21 @@
         "paragraph2": "Utilize apenas pano seco ou as ferramentas recomendadas pelo fonoaudiólogo.",
         "paragraph3": "Evite o contato do aparelho com água ou umidade excessiva."
       },
-      "limpeza-tubo-fino": {
+      "como-limpar": {
         "title": "Limpar o tubo fino",
         "description": "Como limpar corretamente o tubo fino do aparelho.",
         "button": "Ver conteúdo",
         "paragraph1": "A limpeza do tubo deve ser realizada com um fio de limpeza. Primeiro, retire o tubo fino do aparelho auditivo.",
         "paragraph2": "Em seguida, empurre o fio de limpeza através de todo o tubo fino. Após verificar que o tubo fino não tem nenhuma obstrução, encaixar novamente o tubo fino no aparelho auditivo."
       },
-      "retirar-pilhas": {
+      "como-retirar-colocar-pilhas": {
         "title": "Retirar e colocar pilhas",
         "description": "Quando e como trocar a pilha do aparelho.",
         "button": "Ver conteúdo",
         "paragraph1": "Retirar o lacre da pilha e esperar um minuto, abra o compartimento da pilha posicionando sua unha abaixo da borda da tampa móvel e puxe-a para a fora com cuidado.",
         "paragraph2": "Coloque a pilha no compartimento, lembre-se que o lado com o sinal + (lado liso) da pilha deve estar para cima, ou do lado mais aberto do compartimento de pilha, logo em seguida feche o compartimento de pilha."
       },
-      "tamanho-pilha": {
+      "tamanho-pilha-e-onde-comprar": {
         "title": "Pilha: tamanho e onde comprar",
         "description": "Onde comprar as pilhas e qual o tamanho correto.",
         "button": "Ver conteúdo",
@@ -149,7 +149,7 @@
         "paragraph2": "Você também pode comprar as pilhas pela internet.",
         "paragraph3": "Quando possível retirar no posto de saúde, pois em algumas cidades é fornecido gratuitamente, verifique se na sua cidade esse serviço encontra-se disponível."
       },
-      "colocar-retirar": {
+      "inserir-remover-aparelho": {
         "title": "Como colocar e retirar o aparelho",
         "description": "Como colocar e retirar corretamente o aparelho do ouvido.",
         "button": "Ver conteúdo",
@@ -157,12 +157,27 @@
         "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o tubo fino levemente.",
         "paragraph3": "Como retirar: Para remover, tire o aparelho de trás da sua orelha e puxe suavemente o tubo fino, segurando o mais próximo a parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o tubo fino quando removido."
       },
-        "pilha-fraca": {
+      "como-saber-pilhas-acabando": {
         "title": "Como saber que a pilha está acabando",
         "description": "Como identificar quando a pilha do aparelho está fraca.",
         "button": "Ver conteúdo",
         "paragraph1": "Quando a pilha estiver fraca você ouvirá um sinal (bip ou apito).  Quando a pilha acabar, você vai perceber que o aparelho parou de funcionar.",
         "paragraph2": "As pilhas são tóxicas e devem ser descartadas em lixo especial."
+      },
+      "qual-aparelho-e-cada-orelha": {
+        "title": "Identificar qual aparelho é de cada orelha",
+        "description": "Como identificar o aparelho correto para cada orelha.",
+        "button": "Ver conteúdo",
+        "paragraph1": "O aparelho da orelha direita tem um sinal vermelho. O aparelho da orelha esquerda tem um sinal azul.",
+        "paragraph2": "Se a observação for difícil, peça ao fonoaudiólogo para fazer um sinal maior de marcação."
+      },
+      "onde-guardar": {
+        "title": "Onde guardar o aparelho",
+        "description": "Dicas para armazenar corretamente o aparelho.",
+        "button": "Ver conteúdo",
+        "paragraph1": "Quando não estiver usando, é importante guardar dentro da caixa do aparelho com o compartimento de pilha aberto.",
+        "paragraph2": "Manter o local sempre limpo e livre de qualquer umidade, você também pode utilizar um desumidificador ou sílica.",
+        "paragraph3": "Importante manter sempre longe do alcance de crianças pequenas e animais, nunca molhar o aparelho e nem dormir com ele."
       }
     }
   },
@@ -227,7 +242,7 @@
         "paragraph2": "Insira com cuidado no conduto auditivo. Em seguida, aperte suavemente com a ponta do seu dedo. Coloque cuidadosamente o aparelho atrás da sua orelha. Para facilitar a inserção, você pode usar a outra mão para puxar o pavilhão (abrindo a orelha) da orelha enquanto você empurra o receptor levemente.",
         "paragraph3": "Como retirar: para remover, tire o aparelho de trás da sua orelha e puxe suavemente o receptor, segurando o mais próximo à parte rígida. Puxar para cima o pavilhão da orelha para abrir o conduto, ajudando a soltar o receptor quando removido."
       },
-        "pilha-fraca": {
+      "pilha-fraca": {
         "title": "Como saber que a pilha está acabando",
         "description": "Como identificar quando a pilha do aparelho está fraca.",
         "button": "Ver conteúdo",
@@ -298,7 +313,7 @@
         "paragraph1": "Como colocar: primeiramente certifique-se se o molde e aparelho estão de acordo com as orelhas (direita e esquerda), depois segure o aparelho sem girar na sua mão, posicionando o aparelho e o molde no mesmo sentido, coloque o molde na orelha e encaixe-o, posteriormente coloque o aparelho atrás da orelha, caso o molde não encaixe ele pode estar trocado com o da outra orelha.",
         "paragraph2": "Como retirar: retire o aparelho da parte de trás da orelha, desencaixe o molde da orelha retirando a parte superior primeiramente e girando sempre para frente até que o molde esteja removido por completo da orelha. Evite puxar o tubo plástico para retirar o molde da orelha, senão ele pode desencaixar."
       },
-        "trocar-tubo": {
+      "trocar-tubo": {
         "title": "Trocar o tubo do molde",
         "description": "Como colocar e retirar corretamente o tubo do molde.",
         "button": "Ver conteúdo",
@@ -306,7 +321,7 @@
         "paragraph2": "Utilize a pinça ou alicate para ajudar a puxar o tubo. Puxe até ajustar com o ângulo do tubo.",
         "paragraph3": "Corte o excesso de tubo com a tesoura. Utilize o tubo anterior para nivelar a altura do tubo novo. Encaixe o tubo no gancho do aparelho."
       },
-        "pilha-fraca": {
+      "pilha-fraca": {
         "title": "Como saber que a pilha está acabando",
         "description": "Como identificar quando a pilha do aparelho está fraca.",
         "button": "Ver conteúdo",
