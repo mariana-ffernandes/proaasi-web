@@ -26,7 +26,6 @@ function go(slug) {
 
 <template>
   <section class="module-page">
-    <!-- HERO -->
     <header class="module-hero">
       <div class="module-hero-content">
         <button class="back-btn" @click="router.push('/intro')">
@@ -40,7 +39,6 @@ function go(slug) {
       </div>
     </header>
 
-    <!-- LISTA -->
     <main class="module-content">
       <div
         v-for="item in contents"
@@ -63,9 +61,6 @@ function go(slug) {
 </template>
 
 <style scoped>
-
-/* ================= HERO ================= */
-
 .module-hero {
   background: linear-gradient(90deg, #4a90d9, #1e3a5f);
   color: white;
@@ -100,8 +95,6 @@ function go(slug) {
   font-size: 1.2rem;
   opacity: 0.9;
 }
-
-/* ================= LISTA ================= */
 
 .module-content {
   max-width: 900px;
@@ -139,8 +132,6 @@ function go(slug) {
   font-size: 2rem;
   color: #94a3b8;
 }
-
-/* ================= RESPONSIVO ================= */
 
 @media (max-width: 640px) {
   .module-item {

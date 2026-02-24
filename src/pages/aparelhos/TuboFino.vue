@@ -6,9 +6,6 @@ import { useRouter } from 'vue-router'
 const { tm, t } = useI18n()
 const router = useRouter()
 
-/**
- * Conteúdos do tubo fino
- */
 const itens = computed(() => {
   const raw = tm('aparelhos.tubo-fino.contents') || {}
   return Object.entries(raw).map(([slug, data]) => ({
@@ -24,7 +21,7 @@ function goToContent(slug) {
 
 <template>
   <section class="tubo-page">
-    <!-- HERO -->
+
     <header class="tubo-hero">
       <div class="tubo-hero-content">
         <button class="back-btn" @click="router.push('/aparelhos')">
@@ -36,7 +33,6 @@ function goToContent(slug) {
       </div>
     </header>
 
-    <!-- LISTA -->
     <main class="tubo-content">
       <div
         v-for="item in itens"
@@ -59,9 +55,6 @@ function goToContent(slug) {
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
 
 .tubo-hero {
   background: linear-gradient(90deg, #8b5cf6, #4a1a6b);
@@ -98,11 +91,6 @@ function goToContent(slug) {
   opacity: 0.9;
   max-width: 700px;
 }
-
-/* =========================
-   LISTA
-========================= */
-
 .tubo-content {
   max-width: 900px;
   margin: 0 auto;
@@ -145,10 +133,6 @@ function goToContent(slug) {
   font-size: 2rem;
   color: #94a3b8;
 }
-
-/* =========================
-   RESPONSIVO
-========================= */
 
 @media (max-width: 640px) {
   .tubo-hero h1 {

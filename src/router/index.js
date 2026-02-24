@@ -4,7 +4,6 @@ import Home from '../pages/Home.vue'
 import Modulos from '../pages/Modulos.vue'
 
 const routes = [
-  /* ================= HOME ================= */
 
   {
     path: '/',
@@ -30,8 +29,6 @@ const routes = [
     component: () => import('../pages/Sobre.vue')
   },
 
-  /* ================= INTRO ================= */
-
   {
     path: '/intro',
     name: 'intro',
@@ -50,7 +47,6 @@ const routes = [
     component: () => import('../pages/intro/Conteudo.vue')
   },
 
-  /* ================= APARELHOS ================= */
   {
     path: '/aparelhos',
     name: 'aparelhos',
@@ -84,8 +80,6 @@ const routes = [
     component: () => import('../pages/aparelhos/Conteudo.vue')
   },
 
-  /* ================= COMUNICAÇÃO ================= */
-
   {
     path: '/comunicacao',
     name: 'comunicacao',
@@ -109,8 +103,6 @@ const routes = [
     name: 'comunicacao-conteudo',
     component: () => import('../pages/comunicacao/Conteudo.vue')
   },
-
-  /* ================= DÚVIDAS ================= */
 
   {
     path: '/duvidas',

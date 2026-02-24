@@ -32,7 +32,7 @@ const router = useRouter()
   align-items: center;
   gap: 10px;
 
-  background-color: #1e3a8a; /* azul forte */
+  background-color: #1e3a8a;
   color: #ffffff;
 
   border: none;

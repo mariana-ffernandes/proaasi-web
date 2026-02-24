@@ -24,7 +24,6 @@ function go(route) {
 
 <template>
   <section class="page">
-    <!-- HERO -->
     <header class="hero">
       <div class="hero-inner">
         <button class="back-btn" @click="router.push('/modulos')">
@@ -46,9 +45,7 @@ function go(route) {
         </div>
       </div>
     </header>
-
-
-    <!-- LISTA -->
+    
     <div class="content">
       <div class="list">
         <button v-for="item in items" :key="item.key" class="list-item" type="button" @click="go(item.route)">
@@ -65,13 +62,11 @@ function go(route) {
 </template>
 
 <style scoped>
-/* ====== PAGE BASE ====== */
 .page {
   width: 100%;
   background: #f3f4f6;
 }
 
-/* ====== HERO (igual Introdução) ====== */
 .hero {
   background: linear-gradient(180deg, #14b8a6, #0d7377);
   color: white;
@@ -90,7 +85,6 @@ function go(route) {
   margin-top: 16px;
 }
 
-/* ícone */
 .hero-icon {
   width: 60px;
   height: 60px;
@@ -98,7 +92,6 @@ function go(route) {
   filter: brightness(0) invert(1);
 }
 
-/* texto */
 .hero-text {
   display: flex;
   flex-direction: column;
@@ -128,14 +121,12 @@ function go(route) {
   opacity: 0.9;
 }
 
-/* ====== CONTENT ====== */
 .content {
   max-width: 1100px;
   margin: 0 auto;
   padding: 56px 32px 88px;
 }
 
-/* ====== LIST (cards brancos) ====== */
 .list {
   max-width: 760px;
   margin: 0 auto;
@@ -198,7 +189,6 @@ function go(route) {
   flex-shrink: 0;
 }
 
-/* ====== RESPONSIVO ====== */
 @media (max-width: 768px) {
   .hero-inner {
     padding: 64px 24px 56px;

@@ -29,7 +29,6 @@ const paragraphs = computed(() => {
   ].filter(Boolean)
 })
 
-/* Ajuste o caminho do vídeo conforme sua pasta */
 const videoSrc = computed(() => {
   return `/videos/modulos/${slug.value}-${locale.value}.mp4`
 })

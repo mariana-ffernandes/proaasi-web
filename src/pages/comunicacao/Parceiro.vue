@@ -22,7 +22,6 @@ function go(slug) {
 
 <template>
   <section class="page">
-    <!-- HERO -->
     <header class="hero">
       <div class="hero-inner">
         <button class="back-btn" @click="router.push('/comunicacao')">
@@ -34,7 +33,6 @@ function go(slug) {
       </div>
     </header>
 
-    <!-- LISTA -->
     <div class="content">
       <div class="list">
         <button v-for="item in itens" :key="item.slug" class="list-item" @click="go(item.slug)">
@@ -51,13 +49,10 @@ function go(slug) {
 </template>
 
 <style scoped>
-/* ===== BASE ===== */
 .page {
   background: #f3f4f6;
   min-height: 100vh;
 }
-
-/* ===== BACK ===== */
 .back-btn {
   background: none;
   border: none;
@@ -68,7 +63,6 @@ function go(slug) {
   opacity: 0.9;
 }
 
-/* ===== HERO ===== */
 .hero {
   background: linear-gradient(135deg, #4a90d9, #1e3a5f);
   color: white;
@@ -91,14 +85,12 @@ function go(slug) {
   opacity: 0.95;
 }
 
-/* ===== CONTENT ===== */
 .content {
   max-width: 1100px;
   margin: 0 auto;
   padding: 56px 32px 88px;
 }
 
-/* ===== LIST ===== */
 .list {
   max-width: 760px;
   margin: 0 auto;
@@ -107,7 +99,6 @@ function go(slug) {
   gap: 22px;
 }
 
-/* ===== CARD ===== */
 .list-item {
   background: #ffffff;
   border-radius: 16px;
@@ -119,7 +110,6 @@ function go(slug) {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -142,13 +132,11 @@ function go(slug) {
   line-height: 1.6;
 }
 
-/* ===== ARROW ===== */
 .arrow {
   font-size: 2.2rem;
   color: #94a3b8;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 768px) {
   .hero-inner {
     padding: 64px 24px;

@@ -6,8 +6,6 @@ import ServiceCard from '../components/ui/ServiceCard.vue'
 
 const { t, tm } = useI18n()
 const router = useRouter()
-
-/* cards de módulos */
 const services = [
   {
     iconSrc: '/images/lampada-intro.png',
@@ -30,15 +28,16 @@ const services = [
     color: 'help'
   }
 ]
-/* FAQ vindo do duvidas.json */
+
 const faqItems = computed(() => {
   return tm('duvidas.items') || []
 })
 </script>
 
 <template>
-  <!-- HERO -->
-  <section class="hero">
+  <div>
+
+    <section class="hero">
     <div class="hero-bg">
       <div class="blob blob-1"></div>
       <div class="blob blob-2"></div>
@@ -65,7 +64,6 @@ const faqItems = computed(() => {
     </div>
   </section>
 
-  <!-- MÓDULOS -->
   <section class="services" id="modules">
     <div class="services-container">
       <h2 class="services-title">
@@ -86,7 +84,6 @@ const faqItems = computed(() => {
     </div>
   </section>
 
-  <!-- FAQ -->
   <section class="faq">
     <div class="faq-container">
       <h2 class="faq-title">
@@ -113,12 +110,10 @@ const faqItems = computed(() => {
       </div>
     </div>
   </section>
+  </div>
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
 
 .hero {
   position: relative;
@@ -130,7 +125,6 @@ const faqItems = computed(() => {
   color: white;
 }
 
-/* blobs */
 .hero-bg {
   position: absolute;
   inset: 0;
@@ -160,7 +154,6 @@ const faqItems = computed(() => {
   right: 60px;
 }
 
-/* conteúdo */
 .hero-content {
   position: relative;
   max-width: 900px;
@@ -169,7 +162,6 @@ const faqItems = computed(() => {
   text-align: center;
 }
 
-/* badge */
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -189,7 +181,6 @@ const faqItems = computed(() => {
   display: block;
 }
 
-/* título */
 .hero-title {
   font-size: clamp(2.2rem, 5vw, 3.6rem);
   font-weight: 700;
@@ -197,7 +188,6 @@ const faqItems = computed(() => {
   margin-bottom: 28px;
 }
 
-/* subtítulo */
 .hero-subtitle {
   font-size: 1.25rem;
   line-height: 1.6;
@@ -205,7 +195,6 @@ const faqItems = computed(() => {
   margin-bottom: 48px;
 }
 
-/* CTA */
 .hero-cta {
   display: inline-flex;
   align-items: center;
@@ -242,7 +231,6 @@ const faqItems = computed(() => {
   }
 }
 
-/* Botão principal */
 .hero-button {
   background-color: #6589E9;
   color: #ffffff;
@@ -257,15 +245,10 @@ const faqItems = computed(() => {
   opacity: 0.9;
 }
 
-/* Imagem */
 .hero-image img {
   width: 100%;
   max-width: 480px;
 }
-
-/* =========================
-   MÓDULOS
-========================= */
 
 .services {
   width: 100%;
@@ -298,7 +281,6 @@ const faqItems = computed(() => {
   display: flex;
 }
 
-/* Grid */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -306,10 +288,6 @@ const faqItems = computed(() => {
   grid-auto-rows: 1fr;
   align-items: stretch;
 }
-
-/* =========================
-   FAQ
-========================= */
 
 .faq {
   background-color: #ffffff;
@@ -335,14 +313,12 @@ const faqItems = computed(() => {
   color: #475569;
 }
 
-/* Lista */
 .faq-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* Item */
 .faq-item {
   background: #ffffff;
   border-radius: 14px;
@@ -374,7 +350,6 @@ const faqItems = computed(() => {
   color: #334155;
 }
 
-/* Chevron */
 .chevron {
   display: flex;
   align-items: center;
@@ -386,14 +361,9 @@ const faqItems = computed(() => {
   height: 20px;
 }
 
-/* gira o ícone quando abrir */
 .faq-item[open] .chevron {
   transform: rotate(180deg);
 }
-
-/* =========================
-   Responsivo
-========================= */
 
 @media (max-width: 1024px) {
   .services-grid {

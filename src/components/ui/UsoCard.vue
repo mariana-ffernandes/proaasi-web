@@ -40,7 +40,6 @@ defineProps({
   box-shadow: 0 20px 40px rgba(0,0,0,0.25);
 }
 
-/* Bolinha decorativa */
 .uso-dot {
   width: 34px;
   height: 34px;
@@ -48,9 +47,6 @@ defineProps({
   background: rgba(255,255,255,0.35);
 }
 
-
-
-/* Texto */
 .uso-title {
   font-size: 1.35rem;
   font-weight: 600;

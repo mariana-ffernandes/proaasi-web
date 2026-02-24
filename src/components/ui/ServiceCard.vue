@@ -20,7 +20,7 @@ defineProps({
 <template>
   <div class="service-card" :class="`variant-${variant}`" role="button" tabindex="0" @click="onClick"
     @keyup.enter="onClick">
-    <!-- Ícone -->
+
     <div class="service-icon">
       <img v-if="iconSrc" :src="iconSrc" alt="" class="service-icon-img" />
       <span v-else>
@@ -28,7 +28,7 @@ defineProps({
       </span>
     </div>
 
-    <!-- Conteúdo -->
+
     <h3 class="service-title">
       {{ title }}
     </h3>
@@ -37,7 +37,6 @@ defineProps({
       {{ description }}
     </p>
 
-    <!-- CTA -->
     <div class="service-cta">
       {{ buttonText }} →
     </div>
@@ -45,9 +44,6 @@ defineProps({
 </template>
 
 <style scoped>
-/* =========================
-   Card base (FULL gradient)
-========================= */
 
 .service-card {
   height: 100%;
@@ -70,10 +66,6 @@ defineProps({
   box-shadow: 0 22px 44px rgba(0, 0, 0, 0.25);
 }
 
-/* =========================
-   Ícone
-========================= */
-
 .service-icon {
   width: 56px;
   height: 56px;
@@ -90,48 +82,28 @@ defineProps({
   object-fit: contain;
 }
 
-/* deixa o ícone branco em cards escuros */
 .variant-intro .service-icon-img,
 .variant-device .service-icon-img,
 .variant-communication .service-icon-img,
 .variant-help .service-icon-img {
   filter: brightness(0) invert(1);
 }
-
-
-/* =========================
-   Título
-========================= */
-
 .service-title {
   font-size: 1.45rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 10px;
   text-align: left;
-
-  /* garante equilíbrio visual entre cards */
   min-height: 3.4rem;
 }
-
-/* =========================
-   Texto
-========================= */
 
 .service-description {
   font-size: 1rem;
   line-height: 1.55;
   opacity: 0.95;
   text-align: left;
-
-  /* empurra o CTA para o fundo */
   flex-grow: 1;
 }
-
-/* =========================
-   CTA
-========================= */
-
 .service-cta {
   margin-top: 16px;
   font-weight: 600;
@@ -139,10 +111,6 @@ defineProps({
   align-items: center;
   gap: 6px;
 }
-
-/* =========================
-   Variantes (gradientes)
-========================= */
 
 .variant-intro {
   background: linear-gradient(180deg, #4a90d9, #1e3a5f);
@@ -159,10 +127,6 @@ defineProps({
 .variant-help {
   background: linear-gradient(180deg, #6366f1, #4338ca);
 }
-
-/* =========================
-   Alto contraste
-========================= */
 
 .theme-contrast .service-card {
   box-shadow: none;

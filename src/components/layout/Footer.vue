@@ -3,33 +3,33 @@ import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 
 const { t } = useI18n()
-
 const currentYear = new Date().getFullYear()
 </script>
 
 <template>
   <footer class="footer">
     <div class="footer-container">
-      <!-- GRID PRINCIPAL -->
+
       <div class="footer-grid">
 
-        <!-- LOGO + DESCRIÇÃO -->
         <div class="footer-brand">
           <div class="brand-header">
-            <div class="brand-icon">
-              <img src="/images/proaasi-icon.png" alt="Ícone do ProAASI" class="brand-img" />
-            </div>
+            <img src="/images/proaasi-icon.png" alt="Ícone do ProAASI" class="brand-img" />
             <span class="brand-title">ProAASI</span>
           </div>
 
-          <!-- LOGO USP -->
-          <div class="brand-usp">
+          <p class="brand-description">
+            Programa de Orientação e Adaptação do Aparelho de Amplificação Sonora Individual.
+          </p>
+        </div>
+
+        <div class="footer-institutional">
+          <div class="institutional-logos">
             <img src="/images/usp-logo.png" alt="Universidade de São Paulo" class="usp-logo" />
-            <span class="usp-text">Fonoaudiologia Bauru</span>
+            <img src="/images/CNPq-logo.png" alt="CNPq" class="cnpq-logo" />
           </div>
         </div>
 
-        <!-- LINKS RÁPIDOS -->
         <div class="footer-links">
           <h3 class="footer-heading">
             {{ t('home.footer.quickLinks') }}
@@ -54,7 +54,6 @@ const currentYear = new Date().getFullYear()
           </nav>
         </div>
 
-        <!-- ACESSIBILIDADE -->
         <div class="footer-accessibility">
           <h3 class="footer-heading">
             {{ t('home.footer.accessibility.title') }}
@@ -75,17 +74,17 @@ const currentYear = new Date().getFullYear()
             </li>
           </ul>
         </div>
+
       </div>
 
-      <!-- DIVISÓRIA -->
-      <div class="footer-divider" />
+      <div class="footer-divider"></div>
 
-      <!-- BOTTOM -->
       <div class="footer-bottom">
         <p>
-          © {{ currentYear }} ProAASI. {{ t('home.footer.rights') }}
+          © {{ currentYear }} ProAASI — {{ t('home.footer.rights') }}
         </p>
       </div>
+
     </div>
   </footer>
 </template>
@@ -93,146 +92,141 @@ const currentYear = new Date().getFullYear()
 <style scoped>
 .footer {
   width: 100%;
-  background: linear-gradient(90deg, #1e3a5f, #4a1a6b);
+  background: linear-gradient(135deg, #1e3a5f, #4a1a6b);
   color: white;
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 64px 24px 32px;
+  padding: 72px 24px 32px;
 }
 
-/* GRID */
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr;
-  gap: 48px;
-}
-
-/* BRAND */
-.footer-brand {
-  max-width: 420px;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 56px;
 }
 
 .brand-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.brand-icon {
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 14px;
+  margin-bottom: 18px;
 }
 
 .brand-img {
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
-  display: block;
-}
-
-.brand-text {
-  font-size: 1.6rem;
-  font-weight: 700;
 }
 
 .brand-title {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
-.brand-text {
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.6;
+.brand-description {
   font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 8px;
+  max-width: 360px;
 }
 
-/* =========================
-   USP BRAND
-========================= */
-
-.brand-usp {
-  margin-top: 20px;
+.footer-institutional {
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
-.usp-logo {
-  width: 140px;
+.institutional-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 12px;
+}
+
+.usp-logo,
+.cnpq-logo {
+  width: 180px;
   max-width: 100%;
   object-fit: contain;
+  opacity: 0.9;
 }
 
-.usp-text {
-  font-size: 0.95rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.85);
+.footer-heading {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 18px;
   letter-spacing: 0.3px;
 }
 
-/* HEADINGS */
-.footer-heading {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-/* LINKS */
 .footer-links nav {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .footer-link {
+  position: relative;
+  width: fit-content;
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
+}
+
+.footer-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 1px;
+  background: white;
+  transition: width 0.3s ease;
 }
 
 .footer-link:hover {
   color: white;
 }
 
-/* ACESSIBILIDADE */
+.footer-link:hover::after {
+  width: 100%;
+}
+
 .accessibility-list {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .accessibility-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.85);
 }
 
 .icon {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  opacity: 0.85;
 }
 
-/* DIVIDER */
 .footer-divider {
-  margin: 40px 0 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 56px 0 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-/* BOTTOM */
 .footer-bottom {
   text-align: center;
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.3px;
 }
 
 .footer-dev {
@@ -240,15 +234,20 @@ const currentYear = new Date().getFullYear()
   font-size: 0.8rem;
 }
 
-/* RESPONSIVO */
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
   }
 
   .footer-container {
-    padding: 48px 24px 32px;
+    padding: 56px 24px 32px;
   }
 }
 </style>

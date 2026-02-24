@@ -11,7 +11,7 @@ const router = useRouter()
   <section class="tutorial">
     <div class="tutorial-container">
 
-      <!-- Título -->
+
       <h1 class="title">
         {{ t('comoFunciona.title') }}
       </h1>
@@ -20,7 +20,6 @@ const router = useRouter()
         {{ t('comoFunciona.subtitle') }}
       </p>
 
-      <!-- Passos -->
       <div class="steps-grid">
         <div class="step-card">
           <div class="icon">📘</div>
@@ -47,7 +46,6 @@ const router = useRouter()
         </div>
       </div>
 
-      <!-- Tranquilização -->
       <div class="calm-box">
         <p>{{ t('comoFunciona.calm') }}</p>
       </div>
@@ -71,7 +69,6 @@ const router = useRouter()
   text-align: center;
 }
 
-/* TÍTULOS */
 .title {
   font-size: 2.6rem;
   color: #000000;
@@ -87,7 +84,6 @@ const router = useRouter()
   margin-right: auto;
 }
 
-/* PASSOS */
 .steps-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -136,7 +132,6 @@ const router = useRouter()
   color: #334155;
 }
 
-/* TRANQUILIZAÇÃO */
 .calm-box {
   background: #eef2ff;
   border-left: 6px solid #1f3a8a;
@@ -148,12 +143,10 @@ const router = useRouter()
   border-radius: 12px;
 }
 
-/* AÇÃO */
 .action {
   text-align: center;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
   .steps-grid {
     grid-template-columns: 1fr;

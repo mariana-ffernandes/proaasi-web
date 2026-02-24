@@ -41,7 +41,6 @@ defineProps({
 
 <template>
   <section class="content-page">
-    <!-- HERO -->
     <header class="content-hero">
       <div class="content-hero-inner">
         <button class="back-btn" @click="router.push(backRoute)">
@@ -51,25 +50,18 @@ defineProps({
         <h1>{{ title }}</h1>
       </div>
     </header>
-
-    <!-- BODY -->
     <main class="content-body">
-      <!-- VIDEO -->
       <div class="video-wrapper">
         <video controls preload="metadata" class="video">
           <source :src="videoSrc" type="video/mp4" />
           Seu navegador não suporta vídeos.
         </video>
       </div>
-
-      <!-- TEXT -->
       <div class="text-wrapper">
         <p v-for="(p, index) in paragraphs" :key="index">
           {{ p }}
         </p>
       </div>
-
-      <!-- CTA -->
       <div class="cta-wrapper">
         <div class="back-btn" @click="router.push(ctaRoute)">
           <BackButton :to="ctaRoute" :label="t('common.common.seeOtherContents')" />
@@ -80,9 +72,6 @@ defineProps({
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
 
 .content-hero {
   background: linear-gradient(90deg, #1e3a5f, #4a1a6b);
@@ -113,17 +102,12 @@ defineProps({
   font-size: 2.6rem;
 }
 
-/* =========================
-   BODY
-========================= */
-
 .content-body {
   max-width: 900px;
   margin: 0 auto;
   padding: 64px 32px;
 }
 
-/* VIDEO */
 .video-wrapper {
   margin-bottom: 48px;
 }
@@ -134,7 +118,6 @@ defineProps({
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
 }
 
-/* TEXT */
 .text-wrapper p {
   font-size: 1.1rem;
   line-height: 1.7;
@@ -142,7 +125,6 @@ defineProps({
   color: #1f2937;
 }
 
-/* CTA */
 .cta-wrapper {
   margin-top: 48px;
   display: flex;
@@ -163,10 +145,6 @@ defineProps({
 .cta-btn:hover {
   opacity: 0.9;
 }
-
-/* =========================
-   RESPONSIVO
-========================= */
 
 @media (max-width: 640px) {
   .content-hero h1 {

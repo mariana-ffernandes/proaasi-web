@@ -5,26 +5,17 @@ import { RouterLink } from 'vue-router'
 
 const { locale } = useI18n()
 
-/* =========================
-   Navegação
-========================= */
 const navItems = computed(() => [
   { label: locale.value === 'pt' ? 'Início' : 'Home', to: '/' },
   { label: locale.value === 'pt' ? 'Módulos' : 'Modules', to: '/modulos' },
   { label: locale.value === 'pt' ? 'Sobre' : 'About', to: '/sobre' }
 ])
 
-/* =========================
-   Menu mobile
-========================= */
 const isMenuOpen = ref(false)
 function closeMenu() {
   isMenuOpen.value = false
 }
 
-/* =========================
-   Fonte
-========================= */
 const MIN_FONT = 20
 const MAX_FONT = 26
 const STEP = 2
@@ -44,9 +35,6 @@ function decreaseFont() {
   if (fontSize.value > MIN_FONT) applyFont(fontSize.value - STEP)
 }
 
-/* =========================
-   Idioma
-========================= */
 const isLangOpen = ref(false)
 
 function setLanguage(lang) {
@@ -55,9 +43,6 @@ function setLanguage(lang) {
   isLangOpen.value = false
 }
 
-/* =========================
-   Restore
-========================= */
 onMounted(() => {
   const savedFont = localStorage.getItem('font-size')
   applyFont(savedFont ? Number(savedFont) : MIN_FONT)
@@ -71,20 +56,17 @@ onMounted(() => {
   <header class="header">
     <div class="container">
 
-      <!-- Logo -->
       <RouterLink to="/" class="brand">
         <img src="/images/proaasi-icon.png" alt="ProAASI" class="brand-img" />
         <span class="brand-text">ProAASI</span>
       </RouterLink>
 
-      <!-- Navegação Desktop -->
       <nav class="nav">
         <RouterLink v-for="item in navItems" :key="item.label" :to="item.to" class="nav-link">
           {{ item.label }}
         </RouterLink>
       </nav>
 
-      <!-- Ações (sempre visíveis) -->
       <div class="actions">
         <button class="action-btn" @click="decreaseFont" aria-label="Diminuir fonte">
           A-
@@ -105,14 +87,12 @@ onMounted(() => {
           </div>
         </div>
 
-        <!-- Botão menu mobile -->
         <button class="menu-btn" @click="isMenuOpen = true" aria-label="Abrir menu">
           ☰
         </button>
       </div>
     </div>
 
-    <!-- Menu Mobile -->
     <div v-if="isMenuOpen" class="mobile-menu">
       <button class="close-btn" @click="closeMenu">✕</button>
 
@@ -143,7 +123,6 @@ onMounted(() => {
   justify-content: space-between;
 }
 
-/* Logo */
 .brand {
   display: flex;
   align-items: center;
@@ -162,19 +141,38 @@ onMounted(() => {
   font-weight: 700;
 }
 
-/* Nav desktop */
 .nav {
   display: none;
   gap: 28px;
 }
 
 .nav-link {
+  position: relative;
   color: rgba(255, 255, 255, .85);
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-/* Actions */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
 .actions {
   display: flex;
   align-items: center;
@@ -191,7 +189,6 @@ onMounted(() => {
   cursor: pointer;
 }
 
-/* Idioma */
 .lang-wrapper {
   position: relative;
 }
@@ -217,7 +214,6 @@ onMounted(() => {
   cursor: pointer;
 }
 
-/* Menu mobile */
 .menu-btn {
   background: rgba(255, 255, 255, .2);
   border: none;
@@ -257,7 +253,6 @@ onMounted(() => {
   text-decoration: none;
 }
 
-/* Desktop */
 @media (min-width: 768px) {
   .nav {
     display: flex;

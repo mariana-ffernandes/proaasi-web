@@ -18,7 +18,7 @@ function goToTopic(slug) {
 
 <template>
   <section class="duvidas-page">
-    <!-- HERO -->
+
     <header class="duvidas-hero">
       <div class="duvidas-hero-content">
         <button class="back-btn" @click="router.push('/')">
@@ -36,7 +36,6 @@ function goToTopic(slug) {
       </div>
     </header>
 
-    <!-- LISTA -->
     <main class="duvidas-content">
       <div v-for="topic in topics" :key="topic.slug" class="duvidas-item" role="button" tabindex="0"
         @click="goToTopic(topic.slug)" @keyup.enter="goToTopic(topic.slug)">

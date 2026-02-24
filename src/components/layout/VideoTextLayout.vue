@@ -15,18 +15,15 @@ defineProps({
     <h1 class="title">{{ title }}</h1>
 
     <div class="top" :class="{ reverse }">
-      <!-- Vídeo -->
       <div class="video">
         <video controls :src="videoSrc" :poster="poster" />
       </div>
 
-      <!-- Texto lateral -->
       <div class="side-text">
         <slot name="side" />
       </div>
     </div>
 
-    <!-- Texto abaixo -->
     <div class="below-text">
       <slot name="below" />
     </div>
@@ -77,8 +74,6 @@ defineProps({
 .top.reverse>* {
   direction: ltr;
 }
-
-/* Responsivo */
 @media (max-width: 900px) {
   .top {
     grid-template-columns: 1fr;

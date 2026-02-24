@@ -7,15 +7,11 @@ import ContentVideoPage from '@/components/layout/ContentVideoPage.vue'
 const route = useRoute()
 const { t, locale } = useI18n()
 
-/*
-  /comunicacao/:tipo/:slug
-*/
-const tipo = computed(() => route.params.tipo)       // usuario | parceiro
+
+const tipo = computed(() => route.params.tipo)   
 const slug = computed(() => route.params.slug)
 
-/*
-  comunicacao.usuario.contents.ambientes
-*/
+
 const baseKey = computed(
   () => `comunicacao.${tipo.value}.contents.${slug.value}`
 )
@@ -25,7 +21,6 @@ function text(key) {
   return value !== key ? value : ''
 }
 
-/* Parágrafos dinâmicos */
 const paragraphs = computed(() => {
   return [
     text(`${baseKey.value}.paragraph1`),
@@ -34,16 +29,6 @@ const paragraphs = computed(() => {
     text(`${baseKey.value}.paragraph4`)
   ].filter(Boolean)
 })
-
-/*
-  Seus vídeos estão organizados assim:
-
-  /videos/comunicacao/usuario/
-  /videos/comunicacao/parceiro/
-
-  E o nome do arquivo é:
-  slug-comunicacao-usuario-pt.mp4
-*/
 
 const videoSrc = computed(() => {
   const lang = locale.value

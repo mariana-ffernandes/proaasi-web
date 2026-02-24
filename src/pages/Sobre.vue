@@ -25,7 +25,7 @@ const { t } = useI18n()
         <p>{{ t('home.about.paragraph3') }}</p>
         <p>{{ t('home.about.paragraph4') }}</p>
       </div>
-       <!-- Voltar inicio -->
+
         <div class="back-btn" to="/modulos">
         <BackButton :to="'/modulos'" :label="t('common.common.seeOtherContents')" />
       </div>
@@ -53,7 +53,6 @@ const { t } = useI18n()
   justify-content: center;
 }
 
-/* Cabeçalho */
 .about-header {
   margin-bottom: 40px;
 }
@@ -70,7 +69,6 @@ const { t } = useI18n()
   line-height: 1.6;
 }
 
-/* Card de conteúdo */
 .about-card {
   background: #ffffff;
   border-radius: 16px;
@@ -90,7 +88,6 @@ const { t } = useI18n()
   margin-bottom: 0;
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
   .about-card {
     padding: 28px 24px;

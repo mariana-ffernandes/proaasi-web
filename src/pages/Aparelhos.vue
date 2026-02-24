@@ -34,13 +34,11 @@ const devices = [
   }
 ]
 
-/* 🔥 Torna os cards reativos ao idioma */
 const cards = computed(() => tm('aparelhos.cards'))
 </script>
 
 <template>
   <section class="aparelhos-page">
-    <!-- HERO -->
     <header class="aparelhos-hero">
       <div class="aparelhos-hero-inner">
         <button class="back-btn" @click="router.push('/')">
@@ -62,7 +60,7 @@ const cards = computed(() => tm('aparelhos.cards'))
       </div>
     </header>
 
-    <!-- CONTEÚDO -->
+
     <main class="aparelhos-content">
       <div class="devices-grid">
         <UsoCard
@@ -80,10 +78,6 @@ const cards = computed(() => tm('aparelhos.cards'))
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
-
 .aparelhos-hero {
   background: linear-gradient(180deg, #8b5cf6, #5b21b6);
   color: white;
@@ -95,7 +89,6 @@ const cards = computed(() => tm('aparelhos.cards'))
   padding: 56px 32px 64px;
 }
 
-/* botão voltar */
 .back-btn {
   background: none;
   border: none;
@@ -110,14 +103,12 @@ const cards = computed(() => tm('aparelhos.cards'))
   text-decoration: underline;
 }
 
-/* bloco do hero */
 .hero-header {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* ícone */
 .hero-icon {
   width: 60px;
   height: 60px;
@@ -125,7 +116,6 @@ const cards = computed(() => tm('aparelhos.cards'))
   filter: brightness(0) invert(1);
 }
 
-/* texto */
 .hero-text h1 {
   font-size: clamp(2.2rem, 4vw, 3rem);
   font-weight: 800;
@@ -140,21 +130,12 @@ const cards = computed(() => tm('aparelhos.cards'))
   max-width: 520px;
   line-height: 1.6;
 }
-
-/* =========================
-   CONTENT
-========================= */
-
 .aparelhos-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 72px 32px;
   text-align: center;
 }
-
-/* =========================
-   GRID
-========================= */
 
 .devices-grid {
   display: grid;

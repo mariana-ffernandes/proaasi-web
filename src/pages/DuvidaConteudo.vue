@@ -9,8 +9,6 @@ const route = useRoute()
 const { t, locale } = useI18n()
 
 const slug = computed(() => route.params.slug)
-
-/** base i18n: duvidas.module.contents.adaptacao */
 const baseKey = computed(() => `duvidas.module.contents.${slug.value}`)
 
 const videoKey = computed(() => {
@@ -30,9 +28,6 @@ const paragraphs = computed(() => {
   ].filter(Boolean)
 })
 
-/**
- * Vídeo
- */
 const videoSrc = computed(() => {
   const lang = locale.value
   return `/videos/duvidas/${slug.value}-duvidas-${lang}.mp4`

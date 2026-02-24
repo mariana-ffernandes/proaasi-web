@@ -6,9 +6,6 @@ import { useRouter } from 'vue-router'
 const { t, tm } = useI18n()
 const router = useRouter()
 
-/**
- * Converte contents (objeto) em lista
- */
 const items = computed(() => {
   const raw = tm('aparelhos.intra.contents') || {}
   return Object.entries(raw).map(([slug, data]) => ({
@@ -25,7 +22,7 @@ function goTo(slug) {
 
 <template>
   <section class="content-page">
-    <!-- HERO -->
+
     <header class="content-hero">
       <div class="content-hero-inner">
         <button class="back-btn" @click="router.push('/aparelhos')">
@@ -37,7 +34,6 @@ function goTo(slug) {
       </div>
     </header>
 
-    <!-- LISTA -->
     <main class="content-list">
       <div
         v-for="item in items"
@@ -60,10 +56,6 @@ function goTo(slug) {
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
-
 .content-hero {
   background: linear-gradient(90deg, #3b82f6, #1e40af);
   color: white;
@@ -98,10 +90,6 @@ function goTo(slug) {
   font-size: 1.15rem;
   opacity: 0.9;
 }
-
-/* =========================
-   LISTA
-========================= */
 
 .content-list {
   max-width: 900px;
@@ -146,9 +134,6 @@ function goTo(slug) {
   color: #fbbf24;
 }
 
-/* =========================
-   RESPONSIVO
-========================= */
 
 @media (max-width: 640px) {
   .content-item {

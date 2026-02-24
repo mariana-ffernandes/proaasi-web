@@ -56,9 +56,6 @@ function go(modulo) {
 </template>
 
 <style scoped>
-/* =========================
-   HERO
-========================= */
 
 .intro-hero {
   background: linear-gradient(90deg, #4a90d9, #1e3a5f);
@@ -94,8 +91,9 @@ function go(modulo) {
 
 .intro-title-row {
   display: flex;
-  align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .intro-icon {
@@ -112,10 +110,6 @@ function go(modulo) {
   font-size: 1.2rem;
   opacity: 0.9;
 }
-
-/* =========================
-   CONTENT
-========================= */
 
 .intro-content {
   max-width: 900px;
@@ -159,10 +153,6 @@ function go(modulo) {
   font-size: 2rem;
   color: #94a3b8;
 }
-
-/* =========================
-   RESPONSIVO
-========================= */
 
 @media (max-width: 640px) {
   .intro-title-row {
