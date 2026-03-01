@@ -34,28 +34,27 @@
     "back": "Voltar ao início",
     "topics": {
       "aparelho-auditivo-e-audicao": {
-        "title": "A perda auditiva pode ser corrigida totalmente com aparelhos auditivos?",
-        "description": "Saiba o tempo médio de adaptação ao aparelho."
+        "title": "A perda auditiva pode ser corrigida totalmente com aparelhos auditivos?"
       },
       "aparelho-auditivo-em-ambientes-barulhentos": {
-        "title": "Os aparelhos auditivos podem ser usados em diferentes ambientes, incluindo locais barulhentos?",
-        "description": "Entenda os cuidados com água e umidade."
+        "title": "Os aparelhos auditivos podem ser usados em diferentes ambientes, incluindo locais barulhentos?"
+        
       },
       "realizar-atividades-fisicas": {
-        "title": "Posso participar de atividades físicas e usar aparelhos auditivos ao mesmo tempo?",
-        "description": "Entenda os cuidados com água e umidade."
+        "title": "Posso participar de atividades físicas e usar aparelhos auditivos ao mesmo tempo?"
+        
       },
       "manutencao-aparelho": {
-        "title": "Como faço para manter e cuidar dos meus aparelhos auditivos?",
-        "description": "Entenda os cuidados com água e umidade."
+        "title": "Como faço para manter e cuidar dos meus aparelhos auditivos?"
+        
       },
       "como-saber-se-tem-perda-auditiva": {
-        "title": "Como saber se você tem perda auditiva e precisa de um aparelho?",
-        "description": "Entenda os cuidados com água e umidade."
+        "title": "Como saber se você tem perda auditiva e precisa de um aparelho?"
+       
       },
       "processo-adaptacao": {
-        "title": "Como é o processo de adaptação aos aparelhos auditivos?",
-        "description": "Entenda os cuidados com água e umidade."
+        "title": "Como é o processo de adaptação aos aparelhos auditivos?"
+        
       }
     },
     "contents": {

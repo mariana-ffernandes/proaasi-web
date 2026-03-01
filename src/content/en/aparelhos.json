@@ -67,7 +67,7 @@
         "title": "Battery size and where to buy it",
         "description": "Where to buy the batteries and what the correct size is.",
         "button": "View content",
-        "paragraph1": "The battery size of your hearing aid is (battery number for each type of hearing aid).",
+        "paragraph1": "The battery size of your hearing aid is 10.",
         "paragraph2": "The batteries are sold in hearing aid stores, your hearing care professional can give you the address of one. You can also buy batteries online.",
         "paragraph3": "If possible, pick them up at the health center, because in some cities they are provided free of charge, check if this service is available in your city."
       },
@@ -135,7 +135,7 @@
         "paragraph2": "Then, push the cleaning wire all the way through the thin tube. After confirming that there is no obstruction, reconnect the thin tube to the hearing aid."
       },
       "como-retirar-colocar-pilhas": {
-        "title": "Removing and Replacing Batteries",
+        "title": "Insert and remove batteries",
         "description": "When and how to change the hearing aid battery.",
         "button": "View content",
         "paragraph1": "Remove the battery seal and wait one minute. Open the battery compartment by placing your fingernail under the edge of the movable cover and gently pull it outward.",
@@ -145,7 +145,7 @@
         "title": "Battery: Size and Where to Buy",
         "description": "Where to buy batteries and the correct size.",
         "button": "View content",
-        "paragraph1": "The battery size for your device is (battery number for each type of device). Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
+        "paragraph1": "The battery size for your device is 312. Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
         "paragraph2": "You can also purchase batteries online.",
         "paragraph3": "When possible, you may obtain them from a public health clinic, as in some cities they are provided free of charge. Check whether this service is available in your city."
       },
@@ -204,6 +204,14 @@
         "paragraph1": "Clean your device at least once every two days. Use a dry cloth. You may use a small brush/wax remover and/or a soft, dry cloth to remove any earwax or dirt accumulated around the sound outlet and the battery compartment.",
         "paragraph2": "Under no circumstances should the hearing aid be exposed to water. Do not use regular alcohol, oils, or cleaning agents."
       },
+      "como-trocar-filtro-cera": {
+        "title": "How to change the wax filter",
+        "description": "Learn when and how to replace the wax filter.",
+        "button": "View content",
+        "paragraph1": "With the appropriate tool, remove the used wax protector.",
+        "paragraph2": "On the other side of the stem is the clean filter.",
+        "paragraph3": "Insert the clean filter into the outlet."
+      },
       "como-retirar-colocar-pilhas": {
         "title": "Removing and Replacing Batteries",
         "description": "When and how to change the hearing aid battery.",
@@ -215,7 +223,7 @@
         "title": "Battery: Size and Where to Buy",
         "description": "Where to buy batteries and the correct size.",
         "button": "View content",
-        "paragraph1": "The battery size for your device is (battery number for each type of device). Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
+        "paragraph1": "The battery size for your device is 312. Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
         "paragraph2": "You can also purchase batteries online.",
         "paragraph3": "When possible, you may obtain them from a public health clinic, as in some cities they are provided free of charge. Check whether this service is available in your city."
       },
@@ -287,7 +295,7 @@
         "title": "Battery: Size and Where to Buy",
         "description": "Where to buy batteries and the correct size.",
         "button": "View content",
-        "paragraph1": "The battery size for your device is (battery number for each type of device). Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
+        "paragraph1": "The battery size for your device is 13. Batteries are sold at hearing aid stores, and your speech-language pathologist can provide the address of one of these locations.",
         "paragraph2": "You can also purchase batteries online.",
         "paragraph3": "When possible, you may obtain them from a public health clinic, as in some cities they are provided free of charge. Check whether this service is available in your city."
       },

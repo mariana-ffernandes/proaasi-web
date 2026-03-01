@@ -45,14 +45,8 @@
         "paragraph2": "Or mentions that a part is crooked or very dirty inside; in addition, the elderly person may notice that the hearing aid is producing a whistling sound even when nothing is nearby.",
         "paragraph3": "Do not hesitate to suggest or even take the elderly person to the speech-language pathologist responsible for their fitting. Hearing aids are delicate and must be well cared for to improve the quality of life of those who matter to us."
       },
-      "processo-adaptacao": {
-        "title": "Adaptation Process",
-        "description": "Learn how the adaptation process to the hearing aid works.",
-        "paragraph1": "The adaptation process is not easy. Elderly individuals may often forget to put on their hearing aids or believe they do not need them.",
-        "paragraph2": "That is why patience is necessary. Here is a tip: place reminders around the house."
-      },
       "como-comunicar": {
-        "title": "Communication Strategies",
+        "title": "How to communicate",
         "description": "Strategies to facilitate communication",
         "paragraph1": "Communication is a two-way process. It is necessary to connect with the person you are speaking to and give them space to speak as well. Therefore, when communicating, it is important to look directly at the face of the person you are talking to.",
         "paragraph2": "When you speak while looking at the person, you provide more cues to help them understand what you are saying and feeling. This is especially important when communicating with people with hearing loss, who often rely on lip reading. Imagine watching a movie in a language you are not fluent in—it becomes much easier with subtitles. The same happens with a person with hearing loss, but your face becomes the subtitle of their communication."
@@ -62,12 +56,6 @@
         "description": "Learn about other necessary care for the hearing aid.",
         "paragraph1": "It is important to remember that hearing aids are sensitive to high temperatures. Therefore, when using a hair dryer or going to a beauty salon, remind the elderly person to remove the hearing aid.",
         "paragraph2": "Just as high temperatures are harmful, moisture and rain can also be damaging. Help the elderly person remember to protect the hearing aid in these situations."
-      },
-      "tempo-de-uso": {
-        "title": "Hearing Aid Usage Time",
-        "description": "Learn the recommended daily usage time for the hearing aid.",
-        "paragraph1": "The recommended usage time for a hearing aid is 8 to 10 hours per day. However, in the first few days of use, there may be situations in which he or she needs to remove the device or start using it for a shorter time during the day to gradually get used to it and to the new sounds more easily.",
-        "paragraph2": "Wearing a hearing aid is like wearing glasses: the difficulty exists and adaptation can be challenging. But with use, it gets better and the day can be enjoyed more fully!"
       }
     }
   },
@@ -97,16 +85,13 @@
       "e-se-houver-desconforto": {
         "title": "What if There Is Discomfort?",
         "description": "What to do when the hearing aid causes discomfort?",
-        "paragraph1": "In the first period of use, there may be situations in which the elderly person needs to remove the device or start by using it for a shorter time during the day to gradually get used to it and to the new sounds more easily. Wearing a hearing aid is like wearing glasses: the difficulty exists and adaptation can be challenging. But with use, it gets better and the day can be enjoyed more fully!"
+        "paragraph1": "It's important to use the hearing aid for as long as possible, but initially you can start by using it for shorter periods during the day to get used to the device and new sounds more easily.",
+        "paragraph2": " During the initial period of use, there may be situations where the elderly person needs to remove the device or start using it for shorter periods during the day to get used to the device and new sounds more easily. Using a hearing aid is like using glasses: there are difficulties and adaptation is challenging. But with use, it gets better, allowing for a more enjoyable day!"
       },
       "uso-aparelho": {
         "title": "Hearing Aid Use",
         "description": "The importance of using the hearing aid.",
         "paragraph1": "They may start using it for a shorter time during the day to gradually get used to it and to the new sounds more easily. Wearing a hearing aid is like wearing glasses: the difficulty exists and adaptation can be challenging. But with use, it gets better and the day can be enjoyed more fully! That is why it is essential that those who live with elderly individuals encourage and remind them to use the device and create situations that make listening and understanding easier."
-      },
-      "ainda-duvidas": {
-        "title": "I Still Have Questions",
-        "description": "If you still have questions about communication with elderly individuals, contact your speech-language pathologist."
       },
       "estou-com-duvidas": {
         "title": "I Still Have Questions",
@@ -116,8 +101,8 @@
       "parceiros": {
         "title": "Importance of Communication Partners",
         "description": "It is important to understand the role of communication partners.",
-        "paragraph1": "In most cases, they help with the use and handling of the hearing aid.",
-        "paragraph2": "Therefore, for effective use and improved communication, in addition to the elderly person wearing the hearing aid, it is necessary for the communication partner to use strategies that facilitate communication."
+        "paragraph1": "Communication partners, that is, people who live and talk to the elderly, are fundamental in the day-to-day life and in the rehabilitation process. They are often the ones who notice hearing difficulties, seek medical and speech therapy. And they are the people who live with the elderly and talk to them. And most of the time they help in the use and handling of the device. ",
+        "paragraph2": "Therefore, in order for there to be effective use and improvement in communication, In addition to the elderly person using the device, it is necessary for the communicative partner to use strategies that facilitate communication."
       },
       "incentivo": {
         "title": "Encouraging Hearing Aid Use",
@@ -125,10 +110,16 @@
         "paragraph1": "The adaptation process is not easy. Elderly individuals may often forget to put on their hearing aids or believe they do not need them. That is why patience is necessary. Here is a tip: place reminders around the house."
       },
       "estrategias-interlocutor": {
-        "title": "Strategies for the Interlocutor",
+        "title": "How to communicate",
         "description": "Learn how to help the elderly person use the hearing aid.",
-        "paragraph1": "To make understanding easier, there are some strategies: Do not shout. Shouting or raising your voice distorts speech sounds and makes it harder for a person with hearing loss to understand. Do not exaggerate or minimize mouth movements when speaking, as this can interfere with lip reading. Try to speak more slowly than usual, with an appropriate tone and volume.",
-        "paragraph2": "Avoid covering your face with gestures, wearing dark sunglasses, having a very full beard, or speaking while eating or smoking. Especially in poorly lit places, as all of this can interfere with lip reading. Speak as close to the person as possible—the farther away you are, the harder the conversation becomes. If you notice that the hearing aid user does not understand, try to explain again using shorter sentences and/or replacing more complex words with simpler ones."
+        "paragraph1": "To make it easier to understand what is being said, we have some strategies. They are: Not screaming, Shouting or raising the voice distorts the sounds of speech, impairing the understanding of the hearing impaired. Do not exaggerate or reduce mouth movements when speaking, this impairs 'lip reading'. Always try to speak slower than normal, with an adequate voice and volumes. ",
+        "paragraph2": "Avoid covering your face with gestures, sunglasses, a full beard, talking while eating or smoking. Especially in poorly lit areas, as this can also impair lip-reading. Speak as close to the person as possible as you can, the farther away, the more difficult the conversation. Explain better when you notice that the user of hearing aids they don't understand, using shorter sentences and/or replacing more complicated words with simpler words."
+      },
+      "processo-adaptacao": {
+        "title": "Adaptation Process",
+        "description": "Understand the adaptation process to the hearing aid.",
+        "paragraph1": "The process of fitting hearing aids is a long one. It can take time for the patient to get used to new habits related to fitting and to get used to the presence of the hearing aids in their ears. You have to adapt to the weight and fit of the devices, as well as the hygiene routine. New connections will be re-established in the brain, just like downloading a file onto a computer.",
+        "paragraph2": "The more motivated the patient, the faster the hearing aid will become a part of them. Point out improvements, offer help, encourage use!"
       },
       "outros-cuidados-aasi": {
         "title": "Other Hearing Aid Care",
@@ -144,7 +135,7 @@
         "paragraph3": "Do not hesitate to suggest or even take the elderly person to the speech-language pathologist responsible for their fitting. Hearing aids are delicate and must be well cared for to improve the quality of life of those who matter to us."
       },
       "tempo-de-uso": {
-        "title": "Hearing Aid Usage Time",
+        "title": "Hearing Aid Use",
         "description": "Learn the recommended daily usage time for the hearing aid.",
         "paragraph1": "Usage time. It is important to encourage the use of hearing aids for as long as possible each day. Being able to communicate with the world promotes self-esteem and stimulates brain activity.",
         "paragraph2": "Therefore, encourage the elderly person to wear their hearing aids for as long as possible throughout the day."
