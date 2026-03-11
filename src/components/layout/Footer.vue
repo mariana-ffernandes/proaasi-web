@@ -19,7 +19,7 @@ const currentYear = new Date().getFullYear()
           </div>
 
           <p class="brand-description">
-            Programa de Orientação e Adaptação do Aparelho de Amplificação Sonora Individual.
+            {{ t('home.footer.description') }}
           </p>
         </div>
 
